@@ -1,0 +1,1 @@
+/root/catkin_ws/build/composition_interfaces/ament_cmake_environment_hooks/local_setup.bash

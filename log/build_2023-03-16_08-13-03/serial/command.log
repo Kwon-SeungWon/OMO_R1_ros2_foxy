@@ -1,0 +1,2 @@
+Invoking command in '/root/catkin_ws/build/serial': /usr/bin/cmake /root/catkin_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/serial
+Invoked command in '/root/catkin_ws/build/serial' returned '1': /usr/bin/cmake /root/catkin_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/serial

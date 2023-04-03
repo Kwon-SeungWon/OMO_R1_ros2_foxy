@@ -1,0 +1,39 @@
+[ 14%] Built target string_publisher
+[ 28%] Built target complex_msg_publisher
+[ 42%] Built target int32_publisher
+[ 57%] Built target complex_msg_subscriber
+[ 71%] Built target int32_subscriber
+[ 85%] Built target RAD0_control
+[100%] Built target string_subscriber
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclcpp
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclcpp
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/path.sh
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/path.dsv
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.bash
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.sh
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.zsh
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.dsv
+-- Symlinking: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/package.dsv
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/packages/micro_ros_demos_rclcpp
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/cmake/micro_ros_demos_rclcppConfig.cmake
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/cmake/micro_ros_demos_rclcppConfig-version.cmake
+-- Up-to-date symlink: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/package.xml
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_publisher
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_publisher/string_publisher
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_subscriber
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_subscriber/complex_msg_subscriber
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_publisher
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_publisher/int32_publisher
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/rad0_control
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/rad0_control/rad0_control
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_subscriber
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_subscriber/string_subscriber
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_publisher
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_publisher/complex_msg_publisher
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_subscriber
+-- Up-to-date: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_subscriber/int32_subscriber

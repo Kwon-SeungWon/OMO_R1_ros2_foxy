@@ -1,0 +1,5 @@
+omo_r1mini_imu_node:
+  ros__parameters:
+    port: /dev/ttyIMU
+    baudrate: 115200
+    frame_id: base_imu

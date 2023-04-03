@@ -1,0 +1,13 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:msg/Path.msg",
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/root/catkin_ws/src/ros2/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

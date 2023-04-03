@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/CMakeFiles/fragmented_publication"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/CMakeFiles/fragmented_publication.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/CMakeFiles/fragmented_publication-complete.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-install.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-mkdir.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-download.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-update.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-patch.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-configure.rule"
+		},
+		{
+			"file" : "/root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-stamp/fragmented_publication-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fragmented_publication"
+		],
+		"name" : "fragmented_publication"
+	}
+}

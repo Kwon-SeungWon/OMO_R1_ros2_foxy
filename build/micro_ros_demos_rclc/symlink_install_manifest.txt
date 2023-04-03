@@ -1,0 +1,15 @@
+/root/catkin_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+/root/catkin_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+/root/catkin_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+/root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml

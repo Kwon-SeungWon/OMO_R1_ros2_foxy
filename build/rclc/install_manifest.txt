@@ -1,0 +1,3 @@
+/root/catkin_ws/install/rclc/lib/librclc.so
+/root/catkin_ws/install/rclc/share/rclc/cmake/rclcExport.cmake
+/root/catkin_ws/install/rclc/share/rclc/cmake/rclcExport-noconfig.cmake

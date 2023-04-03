@@ -1,0 +1,4 @@
+/root/catkin_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
+/root/catkin_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
+/root/catkin_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
+/root/catkin_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

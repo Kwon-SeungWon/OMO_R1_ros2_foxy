@@ -1,0 +1,49 @@
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcutils: 1.1.5 (/opt/ros/foxy/share/rcutils/cmake)
+-- Found rosidl_runtime_c: 1.3.0 (/opt/ros/foxy/share/rosidl_runtime_c/cmake)
+-- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+-- Found rosidl_typesupport_microxrcedds_c: 1.1.0 (/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake)
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/catkin_ws/build/rmw_microxrcedds
+[  2%] [32m[1mLinking C shared library librmw_microxrcedds.so[0m
+[100%] Built target rmw_microxrcedds
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/library_path.sh
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/library_path.dsv
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/ament_index/resource_index/rmw_typesupport_c/rmw_microxrcedds
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/ament_index/resource_index/rmw_typesupport/rmw_microxrcedds
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/ament_index/resource_index/package_run_dependencies/rmw_microxrcedds
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/ament_index/resource_index/parent_prefix_path/rmw_microxrcedds
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/ament_prefix_path.sh
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/ament_prefix_path.dsv
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/path.sh
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/path.dsv
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.bash
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.sh
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.zsh
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.dsv
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/package.dsv
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/ament_index/resource_index/packages/rmw_microxrcedds
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig.cmake
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig-version.cmake
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/package.xml
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/continous_serialization.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/custom_transport.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/discovery.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/error_handling.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/init_options.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/ping.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/rmw_microros.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/time_sync.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microros/timing.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c/rmw_c_macros.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c/config.h
+-- Symlinking: /root/catkin_ws/install/rmw_microxrcedds/lib/librmw_microxrcedds.so

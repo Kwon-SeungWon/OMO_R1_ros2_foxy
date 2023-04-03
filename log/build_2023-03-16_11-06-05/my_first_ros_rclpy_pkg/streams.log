@@ -1,0 +1,18 @@
+[1.283s] Invoking command in '/root/catkin_ws/build/my_first_ros_rclpy_pkg': PYTHONPATH=/root/catkin_ws/build/my_first_ros_rclpy_pkg/prefix_override:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/my_first_ros_rclpy_pkg/build --no-deps install_data
+[1.536s] running develop
+[1.635s] running egg_info
+[1.635s] writing my_first_ros_rclpy_pkg.egg-info/PKG-INFO
+[1.635s] writing dependency_links to my_first_ros_rclpy_pkg.egg-info/dependency_links.txt
+[1.635s] writing entry points to my_first_ros_rclpy_pkg.egg-info/entry_points.txt
+[1.636s] writing requirements to my_first_ros_rclpy_pkg.egg-info/requires.txt
+[1.636s] writing top-level names to my_first_ros_rclpy_pkg.egg-info/top_level.txt
+[1.664s] reading manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[1.665s] writing manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[1.698s] running build_ext
+[1.698s] Creating /root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages/my-first-ros-rclpy-pkg.egg-link (link to .)
+[1.699s] Installing helloworld_publisher script to /root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/my_first_ros_rclpy_pkg
+[1.699s] Installing helloworld_subscriber script to /root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/my_first_ros_rclpy_pkg
+[1.699s] 
+[1.699s] Installed /root/catkin_ws/build/my_first_ros_rclpy_pkg
+[1.699s] running install_data
+[1.802s] Invoked command in '/root/catkin_ws/build/my_first_ros_rclpy_pkg' returned '0': PYTHONPATH=/root/catkin_ws/build/my_first_ros_rclpy_pkg/prefix_override:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/my_first_ros_rclpy_pkg/build --no-deps install_data

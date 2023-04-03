@@ -1,0 +1,29 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/catkin_ws/build/rosidl_typesupport_microxrcedds_c_tests
+-- Install configuration: ""
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.sh
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.dsv
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.sh
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.dsv
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.bash
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.sh
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.zsh
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.dsv
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.dsv
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c_tests
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig.cmake
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig-version.cmake
+-- Installing: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.xml

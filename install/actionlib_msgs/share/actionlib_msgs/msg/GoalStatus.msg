@@ -1,0 +1,1 @@
+/root/catkin_ws/src/ros2/common_interfaces/actionlib_msgs/msg/GoalStatus.msg

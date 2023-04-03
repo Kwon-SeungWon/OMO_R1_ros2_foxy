@@ -1,0 +1,49 @@
+[0.036s] Invoking command in '/root/catkin_ws/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/omo_r1mini_cartographer
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.139s] -- The CXX compiler identification is GNU 9.4.0
+[0.143s] -- Check for working C compiler: /usr/bin/cc
+[0.195s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.196s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.268s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++
+[0.339s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.341s] -- Detecting CXX compiler ABI info
+[0.410s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.435s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.469s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.674s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.768s] -- Configuring done
+[0.769s] -- Generating done
+[0.769s] -- Build files have been written to: /root/catkin_ws/build/omo_r1mini_cartographer
+[0.773s] Invoked command in '/root/catkin_ws/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/omo_r1mini_cartographer
+[0.775s] Invoking command in '/root/catkin_ws/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_cartographer -- -j12 -l12
+[0.806s] Invoked command in '/root/catkin_ws/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_cartographer -- -j12 -l12
+[0.833s] Invoking command in '/root/catkin_ws/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_cartographer
+[0.842s] -- Install configuration: ""
+[0.843s] -- Execute custom install script
+[0.843s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/config/omo_r1mini_lidar.lua
+[0.855s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer.launch.py
+[0.877s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer_rviz.launch.py
+[0.888s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/occupancy_grid.launch.py
+[0.901s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/rviz/omo_r1mini_cartographer.rviz
+[0.925s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_cartographer
+[0.938s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_cartographer
+[0.950s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.sh
+[0.983s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.dsv
+[1.015s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.sh
+[1.029s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.dsv
+[1.043s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.bash
+[1.059s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.sh
+[1.085s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.zsh
+[1.111s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.dsv
+[1.137s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.dsv
+[1.169s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/ament_index/resource_index/packages/omo_r1mini_cartographer
+[1.195s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig.cmake
+[1.220s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig-version.cmake
+[1.269s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.xml
+[1.285s] Invoked command in '/root/catkin_ws/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_cartographer

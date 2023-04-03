@@ -1,0 +1,50 @@
+running develop
+Removing /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+running egg_info
+writing ../../../build/ros2env/ros2env.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros2env/ros2env.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros2env/ros2env.egg-info/entry_points.txt
+writing requirements to ../../../build/ros2env/ros2env.egg-info/requires.txt
+writing top-level names to ../../../build/ros2env/ros2env.egg-info/top_level.txt
+reading manifest file '../../../build/ros2env/ros2env.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros2env/ros2env.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/catkin_ws/build/ros2env/build
+creating /root/catkin_ws/build/ros2env/build/lib
+creating /root/catkin_ws/build/ros2env/build/lib/ros2env
+copying ros2env/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env
+creating /root/catkin_ws/build/ros2env/build/lib/ros2env/api
+copying ros2env/api/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/api
+creating /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+copying ros2env/verb/set.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+copying ros2env/verb/list.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+copying ros2env/verb/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+creating /root/catkin_ws/build/ros2env/build/lib/ros2env/command
+copying ros2env/command/env.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/command
+copying ros2env/command/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/command
+running install
+running install_lib
+creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env
+creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/api
+copying /root/catkin_ws/build/ros2env/build/lib/ros2env/api/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/api
+creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+copying /root/catkin_ws/build/ros2env/build/lib/ros2env/verb/set.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+copying /root/catkin_ws/build/ros2env/build/lib/ros2env/verb/list.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+copying /root/catkin_ws/build/ros2env/build/lib/ros2env/verb/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command
+copying /root/catkin_ws/build/ros2env/build/lib/ros2env/command/env.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command
+copying /root/catkin_ws/build/ros2env/build/lib/ros2env/command/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command
+copying /root/catkin_ws/build/ros2env/build/lib/ros2env/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env
+byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb/set.py to set.cpython-38.pyc
+byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb/list.py to list.cpython-38.pyc
+byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command/env.py to env.cpython-38.pyc
+byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/ros2env/ros2env.egg-info to /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env-0.6.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/root/catkin_ws/build/ros2env/install.log'

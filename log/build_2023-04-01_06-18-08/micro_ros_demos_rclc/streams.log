@@ -1,0 +1,1313 @@
+[0.843s] Invoking command in '/root/catkin_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/microxrcedds_client:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/rmw_microxrcedds/lib:/root/catkin_ws/install/rclc/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/example_interfaces/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib:/root/catkin_ws/install/rcl_interfaces/lib:/root/catkin_ws/install/microxrcedds_client/lib:/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/action_msgs/lib:/root/catkin_ws/install/unique_identifier_msgs/lib:/root/catkin_ws/install/microcdr/lib:/root/catkin_ws/install/micro_ros_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:/root/catkin_ws/install/udp_driver/lib:/root/catkin_ws/install/serial_driver/lib:/root/catkin_ws/install/omo_r1mini_interfaces/lib:/root/catkin_ws/install/msg_srv_action_interface_example/lib:/root/catkin_ws/install/micro_ros_agent/lib:/root/catkin_ws/install/io_context/lib:/root/catkin_ws/install/iahrs_driver_interface/lib:/root/catkin_ws/install/drive_base_msgs/lib:/root/install/udp_driver/lib:/root/install/serial_driver/lib:/root/install/omo_r1mini_interfaces/lib:/root/install/msg_srv_action_interface_example/lib:/root/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/example_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/root/catkin_ws/install/rcl_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/action_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/topic_service_action_rclpy_example:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/time_rclpy_example:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/tf2_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/rqt_example/lib/python3.8/site-packages:/root/catkin_ws/build/ros2env:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_bringup:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/my_first_ros_rclpy_pkg:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/catkin_ws/build/logging_rclpy_example:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages:/root/catkin_ws/build/iahrs_driver:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:/root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages:/root/build/topic_service_action_rclpy_example:/root/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/build/time_rclpy_example:/root/install/time_rclpy_example/lib/python3.8/site-packages:/root/build/tf2_rclpy_example:/root/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/install/rqt_example/lib/python3.8/site-packages:/root/build/ros2env:/root/install/ros2env/lib/python3.8/site-packages:/root/build/omo_r1mini_teleop:/root/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/build/omo_r1mini_bringup:/root/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/build/my_first_ros_rclpy_pkg:/root/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/build/logging_rclpy_example:/root/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /root/catkin_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/micro_ros_demos_rclc
+[3.435s] -- The C compiler identification is GNU 9.4.0
+[3.438s] -- The CXX compiler identification is GNU 9.4.0
+[3.439s] -- Check for working C compiler: /usr/bin/cc
+[3.439s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.439s] -- Detecting C compiler ABI info
+[3.439s] -- Detecting C compiler ABI info - done
+[3.439s] -- Detecting C compile features
+[3.439s] -- Detecting C compile features - done
+[3.439s] -- Check for working CXX compiler: /usr/bin/c++
+[3.440s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.441s] -- Detecting CXX compiler ABI info
+[3.441s] -- Detecting CXX compiler ABI info - done
+[3.441s] -- Detecting CXX compile features
+[3.441s] -- Detecting CXX compile features - done
+[3.441s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.441s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.441s] -- Configuring done
+[3.466s] -- Generating done
+[3.468s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc
+[3.476s] Invoked command in '/root/catkin_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/microxrcedds_client:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/rmw_microxrcedds/lib:/root/catkin_ws/install/rclc/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/example_interfaces/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib:/root/catkin_ws/install/rcl_interfaces/lib:/root/catkin_ws/install/microxrcedds_client/lib:/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/action_msgs/lib:/root/catkin_ws/install/unique_identifier_msgs/lib:/root/catkin_ws/install/microcdr/lib:/root/catkin_ws/install/micro_ros_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:/root/catkin_ws/install/udp_driver/lib:/root/catkin_ws/install/serial_driver/lib:/root/catkin_ws/install/omo_r1mini_interfaces/lib:/root/catkin_ws/install/msg_srv_action_interface_example/lib:/root/catkin_ws/install/micro_ros_agent/lib:/root/catkin_ws/install/io_context/lib:/root/catkin_ws/install/iahrs_driver_interface/lib:/root/catkin_ws/install/drive_base_msgs/lib:/root/install/udp_driver/lib:/root/install/serial_driver/lib:/root/install/omo_r1mini_interfaces/lib:/root/install/msg_srv_action_interface_example/lib:/root/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/example_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/root/catkin_ws/install/rcl_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/action_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/topic_service_action_rclpy_example:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/time_rclpy_example:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/tf2_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/rqt_example/lib/python3.8/site-packages:/root/catkin_ws/build/ros2env:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_bringup:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/my_first_ros_rclpy_pkg:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/catkin_ws/build/logging_rclpy_example:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages:/root/catkin_ws/build/iahrs_driver:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:/root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages:/root/build/topic_service_action_rclpy_example:/root/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/build/time_rclpy_example:/root/install/time_rclpy_example/lib/python3.8/site-packages:/root/build/tf2_rclpy_example:/root/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/install/rqt_example/lib/python3.8/site-packages:/root/build/ros2env:/root/install/ros2env/lib/python3.8/site-packages:/root/build/omo_r1mini_teleop:/root/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/build/omo_r1mini_bringup:/root/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/build/my_first_ros_rclpy_pkg:/root/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/build/logging_rclpy_example:/root/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /root/catkin_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/micro_ros_demos_rclc
+[3.478s] Invoking command in '/root/catkin_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/microxrcedds_client:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/rmw_microxrcedds/lib:/root/catkin_ws/install/rclc/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/example_interfaces/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib:/root/catkin_ws/install/rcl_interfaces/lib:/root/catkin_ws/install/microxrcedds_client/lib:/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/action_msgs/lib:/root/catkin_ws/install/unique_identifier_msgs/lib:/root/catkin_ws/install/microcdr/lib:/root/catkin_ws/install/micro_ros_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:/root/catkin_ws/install/udp_driver/lib:/root/catkin_ws/install/serial_driver/lib:/root/catkin_ws/install/omo_r1mini_interfaces/lib:/root/catkin_ws/install/msg_srv_action_interface_example/lib:/root/catkin_ws/install/micro_ros_agent/lib:/root/catkin_ws/install/io_context/lib:/root/catkin_ws/install/iahrs_driver_interface/lib:/root/catkin_ws/install/drive_base_msgs/lib:/root/install/udp_driver/lib:/root/install/serial_driver/lib:/root/install/omo_r1mini_interfaces/lib:/root/install/msg_srv_action_interface_example/lib:/root/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/example_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/root/catkin_ws/install/rcl_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/action_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/topic_service_action_rclpy_example:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/time_rclpy_example:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/tf2_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/rqt_example/lib/python3.8/site-packages:/root/catkin_ws/build/ros2env:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_bringup:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/my_first_ros_rclpy_pkg:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/catkin_ws/build/logging_rclpy_example:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages:/root/catkin_ws/build/iahrs_driver:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:/root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages:/root/build/topic_service_action_rclpy_example:/root/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/build/time_rclpy_example:/root/install/time_rclpy_example/lib/python3.8/site-packages:/root/build/tf2_rclpy_example:/root/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/install/rqt_example/lib/python3.8/site-packages:/root/build/ros2env:/root/install/ros2env/lib/python3.8/site-packages:/root/build/omo_r1mini_teleop:/root/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/build/omo_r1mini_bringup:/root/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/build/my_first_ros_rclpy_pkg:/root/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/build/logging_rclpy_example:/root/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_demos_rclc -- -j12 -l12
+[3.698s] [35m[1mScanning dependencies of target fibonacci_action_server[0m
+[3.698s] [35m[1mScanning dependencies of target fibonacci_action_client[0m
+[3.699s] [35m[1mScanning dependencies of target configured_subscriber[0m
+[3.699s] [  1%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[3.699s] [35m[1mScanning dependencies of target configured_publisher[0m
+[3.699s] [35m[1mScanning dependencies of target graph_visualizer[0m
+[3.699s] [35m[1mScanning dependencies of target subscription_count[0m
+[3.699s] [  2%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[3.699s] [  2%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[3.716s] [  2%] [34m[1mCreating directories for 'subscription_count'[0m
+[3.718s] [  3%] [34m[1mCreating directories for 'configured_publisher'[0m
+[3.725s] [  4%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[3.993s] [  4%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[3.993s] [  5%] [34m[1mNo download step for 'configured_subscriber'[0m
+[4.003s] [  5%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[4.058s] [  6%] [34m[1mNo download step for 'graph_visualizer'[0m
+[4.067s] [  7%] [34m[1mNo download step for 'subscription_count'[0m
+[4.088s] [  8%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[4.088s] [  8%] [34m[1mNo download step for 'configured_publisher'[0m
+[4.095s] [  9%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[4.133s] [  9%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[4.150s] [ 10%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[4.181s] [ 11%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[4.191s] [ 12%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[4.216s] [ 12%] [34m[1mNo patch step for 'subscription_count'[0m
+[4.220s] [ 13%] [34m[1mNo patch step for 'configured_publisher'[0m
+[4.223s] [ 13%] [34m[1mNo update step for 'configured_subscriber'[0m
+[4.241s] [ 13%] [34m[1mNo update step for 'graph_visualizer'[0m
+[4.245s] [ 14%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[4.258s] [ 14%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[4.274s] [ 15%] [34m[1mNo update step for 'subscription_count'[0m
+[4.277s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[4.296s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[4.305s] [ 15%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[4.319s] [ 15%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[4.323s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[4.338s] [ 16%] [34m[1mNo update step for 'configured_publisher'[0m
+[4.340s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[4.358s] [ 17%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[4.387s] -- The C compiler identification is GNU 9.4.0
+[4.393s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[4.413s] -- Check for working C compiler: /usr/bin/cc
+[4.414s] [ 17%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[4.440s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[4.450s] -- The C compiler identification is GNU 9.4.0
+[4.460s] -- The C compiler identification is GNU 9.4.0
+[4.463s] -- The C compiler identification is GNU 9.4.0
+[4.477s] -- Check for working C compiler: /usr/bin/cc
+[4.488s] -- Check for working C compiler: /usr/bin/cc
+[4.489s] -- Check for working C compiler: /usr/bin/cc
+[4.540s] -- The C compiler identification is GNU 9.4.0
+[4.567s] -- Check for working C compiler: /usr/bin/cc
+[4.582s] -- The C compiler identification is GNU 9.4.0
+[4.590s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.592s] -- Detecting C compiler ABI info
+[4.620s] -- Check for working C compiler: /usr/bin/cc
+[4.638s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.641s] -- Detecting C compiler ABI info
+[4.681s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.683s] -- Detecting C compiler ABI info
+[4.701s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.702s] -- Detecting C compiler ABI info
+[4.711s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.712s] -- Detecting C compiler ABI info
+[4.745s] [35m[1mScanning dependencies of target publisher_count[0m
+[4.755s] [35m[1mScanning dependencies of target addtwoints_server[0m
+[4.768s] [35m[1mScanning dependencies of target fragmented_publication[0m
+[4.775s] [ 17%] [34m[1mCreating directories for 'publisher_count'[0m
+[4.779s] [35m[1mScanning dependencies of target int32_publisher[0m
+[4.800s] -- Detecting C compiler ABI info - done
+[4.816s] [ 17%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[4.817s] [ 17%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[4.848s] [ 18%] [34m[1mCreating directories for 'int32_publisher'[0m
+[4.853s] -- Detecting C compile features
+[4.853s] -- Detecting C compile features - done
+[4.890s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.890s] -- Detecting C compiler ABI info
+[4.890s] -- Detecting C compiler ABI info - done
+[4.913s] -- Detecting C compile features
+[4.916s] -- Detecting C compile features - done
+[4.934s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.947s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.953s] -- Detecting C compiler ABI info - done
+[4.981s] -- Detecting C compile features
+[4.982s] -- Detecting C compile features - done
+[4.990s] -- Detecting C compiler ABI info - done
+[5.001s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.023s] -- Detecting C compile features
+[5.024s] -- Detecting C compile features - done
+[5.052s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.088s] [ 19%] [34m[1mNo download step for 'publisher_count'[0m
+[5.110s] -- Detecting C compiler ABI info - done
+[5.133s] -- Detecting C compile features
+[5.134s] -- Detecting C compile features - done
+[5.182s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.186s] [ 20%] [34m[1mNo download step for 'addtwoints_server'[0m
+[5.210s] [ 21%] [34m[1mNo download step for 'fragmented_publication'[0m
+[5.225s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.226s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.232s] [ 21%] [34m[1mNo download step for 'int32_publisher'[0m
+[5.254s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.254s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.299s] [ 21%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[5.302s] [ 22%] [34m[1mNo patch step for 'publisher_count'[0m
+[5.302s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.303s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.303s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.304s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.305s] -- Detecting C compiler ABI info - done
+[5.350s] [ 22%] [34m[1mNo patch step for 'int32_publisher'[0m
+[5.358s] -- Detecting C compile features
+[5.358s] -- Detecting C compile features - done
+[5.382s] [ 23%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[5.395s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.452s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.459s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.477s] [ 24%] [34m[1mNo update step for 'addtwoints_server'[0m
+[5.526s] [ 25%] [34m[1mNo update step for 'int32_publisher'[0m
+[5.546s] [ 25%] [34m[1mNo update step for 'publisher_count'[0m
+[5.549s] [ 25%] [34m[1mNo update step for 'fragmented_publication'[0m
+[5.600s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.601s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.641s] [ 26%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[5.662s] [ 27%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[5.711s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[5.712s] [ 28%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[5.713s] [ 28%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[5.722s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[5.773s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[5.782s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[5.969s] -- The C compiler identification is GNU 9.4.0
+[5.994s] -- The C compiler identification is GNU 9.4.0
+[5.998s] -- The C compiler identification is GNU 9.4.0
+[6.015s] -- The C compiler identification is GNU 9.4.0
+[6.017s] -- Check for working C compiler: /usr/bin/cc
+[6.036s] -- Check for working C compiler: /usr/bin/cc
+[6.066s] -- Check for working C compiler: /usr/bin/cc
+[6.066s] -- Check for working C compiler: /usr/bin/cc
+[6.170s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[6.297s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[6.395s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.396s] -- Detecting C compiler ABI info
+[6.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.450s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.451s] -- Detecting C compiler ABI info
+[6.459s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.461s] -- Detecting C compiler ABI info
+[6.465s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.466s] -- Detecting C compiler ABI info
+[6.490s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.525s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[6.586s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[6.614s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[6.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.700s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[6.708s] -- Detecting C compiler ABI info - done
+[6.722s] -- Detecting C compile features
+[6.729s] -- Detecting C compile features - done
+[6.735s] -- Detecting C compiler ABI info - done
+[6.742s] -- Detecting C compiler ABI info - done
+[6.757s] -- Detecting C compile features
+[6.757s] -- Detecting C compile features - done
+[6.762s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.773s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.781s] -- Detecting C compiler ABI info - done
+[6.809s] -- Detecting C compile features
+[6.809s] -- Detecting C compile features
+[6.810s] -- Detecting C compile features - done
+[6.816s] -- Detecting C compile features - done
+[6.828s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.855s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.862s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.968s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.001s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.001s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.062s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.073s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.073s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.119s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.119s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.128s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.236s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.254s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.263s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.264s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.434s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.469s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.600s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.611s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.812s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.854s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.907s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.975s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.019s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.066s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.068s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.109s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.229s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.241s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.244s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.360s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.373s] -- Looking for pthread.h
+[8.412s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.423s] -- Looking for pthread.h
+[8.427s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.517s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.577s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.609s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.630s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.663s] -- Looking for pthread.h
+[8.683s] -- Looking for pthread.h - found
+[8.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.705s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.788s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.802s] -- Looking for pthread.h
+[8.804s] -- Looking for pthread.h - found
+[8.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.834s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.919s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.919s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.940s] -- Looking for pthread.h
+[8.941s] -- Looking for pthread.h - found
+[8.949s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.056s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.069s] -- Looking for pthread.h
+[9.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.076s] -- Looking for pthread_create in pthreads
+[9.123s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.123s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.123s] -- Looking for pthread_create in pthreads
+[9.142s] -- Looking for pthread.h - found
+[9.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.200s] -- Looking for pthread_create in pthreads
+[9.218s] -- Looking for pthread.h - found
+[9.218s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.237s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.304s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.326s] -- Looking for pthread_create in pthreads - not found
+[9.326s] -- Looking for pthread_create in pthread
+[9.327s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.332s] -- Looking for pthread_create in pthreads - not found
+[9.332s] -- Looking for pthread_create in pthread
+[9.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.423s] -- Looking for pthread_create in pthreads
+[9.425s] -- Looking for pthread.h - found
+[9.426s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.496s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.534s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.535s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.535s] -- Looking for pthread_create in pthreads
+[9.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.580s] -- Looking for pthread_create in pthreads - not found
+[9.580s] -- Looking for pthread_create in pthread
+[9.597s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.692s] -- Looking for pthread_create in pthreads
+[9.702s] -- Looking for pthread_create in pthread - found
+[9.702s] -- Looking for pthread_create in pthread - found
+[9.704s] -- Found Threads: TRUE  
+[9.705s] -- Found Threads: TRUE  
+[9.763s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.771s] -- Looking for pthread_create in pthreads - not found
+[9.771s] -- Looking for pthread_create in pthread
+[9.831s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.845s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.862s] -- Looking for pthread.h
+[9.886s] -- Found rcl_action: 1.1.14 (/opt/ros/foxy/share/rcl_action/cmake)
+[9.907s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[9.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.908s] -- Looking for pthread_create in pthread - found
+[9.909s] -- Found Threads: TRUE  
+[9.926s] -- Looking for pthread_create in pthreads - not found
+[9.926s] -- Looking for pthread_create in pthread
+[9.959s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[10.004s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.014s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.014s] -- Looking for pthread_create in pthreads - not found
+[10.022s] -- Looking for pthread_create in pthread
+[10.039s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[10.049s] -- Configuring done
+[10.052s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[10.062s] -- Generating done
+[10.065s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[10.083s] -- Looking for pthread_create in pthread - found
+[10.086s] -- Found Threads: TRUE  
+[10.106s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.108s] -- Found example_interfaces: 0.9.1 (/root/catkin_ws/install/example_interfaces/share/example_interfaces/cmake)
+[10.159s] -- Configuring done
+[10.166s] -- Looking for pthread.h - found
+[10.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.178s] -- Generating done
+[10.198s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[10.198s] [ 29%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[10.238s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[10.251s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.287s] -- Configuring done
+[10.306s] -- Generating done
+[10.306s] -- Looking for pthread_create in pthread - found
+[10.306s] -- Found Threads: TRUE  
+[10.306s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[10.341s] [ 30%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[10.344s] [35m[1mScanning dependencies of target graph_visualizer[0m
+[10.362s] -- Configuring done
+[10.384s] -- Generating done
+[10.388s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.406s] -- Looking for pthread_create in pthread - found
+[10.406s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.406s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.406s] -- Found Threads: TRUE  
+[10.406s] -- Looking for pthread.h
+[10.406s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[10.407s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.408s] -- Looking for pthread.h
+[10.416s] [ 31%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[10.437s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[10.471s] -- Found rcl_action: 1.1.14 (/opt/ros/foxy/share/rcl_action/cmake)
+[10.526s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.526s] -- Looking for pthread_create in pthreads
+[10.531s] [ 31%] [34m[1mPerforming build step for 'subscription_count'[0m
+[10.543s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[10.554s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[10.558s] [35m[1mScanning dependencies of target configured_publisher[0m
+[10.589s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.619s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[10.634s] -- Configuring done
+[10.644s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[10.645s] [35m[1mScanning dependencies of target fibonacci_action_server[0m
+[10.656s] -- Found example_interfaces: 0.9.1 (/root/catkin_ws/install/example_interfaces/share/example_interfaces/cmake)
+[10.659s] -- Generating done
+[10.665s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[10.676s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.685s] [35m[1mScanning dependencies of target subscription_count[0m
+[10.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.692s] -- Looking for pthread.h
+[10.780s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[10.794s] [ 32%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[10.806s] -- Looking for pthread.h - found
+[10.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.810s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[10.818s] -- Looking for pthread.h - found
+[10.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.823s] -- Configuring done
+[10.836s] -- Generating done
+[10.840s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[10.841s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[10.924s] [01m[K/root/catkin_ws/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[10.925s] [01m[K/root/catkin_ws/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:87:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[10.925s]    87 |     [01;35m[Krcl_wait(&wait_set, RCL_MS_TO_NS(200))[m[K;
+[10.925s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.927s] [100%] Built target graph_visualizer
+[10.942s] -- Looking for pthread_create in pthreads - not found
+[10.942s] -- Looking for pthread_create in pthread
+[10.982s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[10.982s] [35m[1mScanning dependencies of target configured_subscriber[0m
+[11.018s] [100%] [32m[1mLinking C executable subscription_count[0m
+[11.021s] [ 32%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[11.075s] -- Looking for pthread.h - found
+[11.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.090s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[11.091s] [ 32%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[11.113s] [100%] Built target configured_publisher
+[11.199s] [ 32%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[11.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.218s] [35m[1mScanning dependencies of target fibonacci_action_client[0m
+[11.218s] -- Looking for pthread_create in pthreads
+[11.232s] -- Looking for pthread_create in pthread - found
+[11.233s] -- Found Threads: TRUE  
+[11.234s] [100%] Built target fibonacci_action_server
+[11.241s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[11.246s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.246s] -- Looking for pthread_create in pthreads
+[11.274s] [100%] Built target subscription_count
+[11.309s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[11.341s] [100%] Built target graph_visualizer
+[11.342s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[11.351s] [ 33%] [34m[1mPerforming install step for 'subscription_count'[0m
+[11.351s] [ 33%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[11.355s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[11.405s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[11.413s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.418s] -- Looking for pthread_create in pthreads
+[11.431s] [100%] Built target configured_publisher
+[11.453s] [36mInstall the project...[0m
+[11.463s] -- Configuring done
+[11.478s] -- Generating done
+[11.481s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[11.481s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[11.488s] -- Install configuration: ""
+[11.489s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[11.489s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[11.502s] -- Looking for pthread_create in pthreads - not found
+[11.502s] -- Looking for pthread_create in pthread
+[11.506s] [100%] Built target configured_subscriber
+[11.524s] [36mInstall the project...[0m
+[11.545s] -- Looking for pthread_create in pthreads - not found
+[11.546s] -- Looking for pthread_create in pthread
+[11.546s] -- Install configuration: ""
+[11.546s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[11.547s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[11.555s] [ 34%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[11.560s] [ 35%] [34m[1mCompleted 'graph_visualizer'[0m
+[11.574s] [100%] Built target fibonacci_action_server
+[11.606s] [ 36%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[11.637s] [100%] Built target subscription_count
+[11.646s] -- Looking for pthread_create in pthreads - not found
+[11.646s] -- Looking for pthread_create in pthread
+[11.665s] [ 37%] [34m[1mCompleted 'configured_publisher'[0m
+[11.667s] [36mInstall the project...[0m
+[11.692s] -- Install configuration: ""
+[11.693s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[11.693s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[11.704s] [36mInstall the project...[0m
+[11.706s] [ 37%] Built target graph_visualizer
+[11.744s] [ 38%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[11.745s] -- Install configuration: ""
+[11.745s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[11.746s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[11.752s] [100%] Built target fibonacci_action_client
+[11.758s] -- Looking for pthread_create in pthread - found
+[11.760s] -- Found Threads: TRUE  
+[11.763s] [35m[1mScanning dependencies of target fragmented_publication[0m
+[11.787s] [100%] Built target configured_subscriber
+[11.797s] [ 38%] [34m[1mCompleted 'subscription_count'[0m
+[11.803s] [ 39%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[11.824s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[11.844s] [ 39%] Built target configured_publisher
+[11.868s] -- Looking for pthread_create in pthread - found
+[11.868s] -- Found Threads: TRUE  
+[11.884s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[11.890s] [36mInstall the project...[0m
+[11.904s] [ 39%] Built target fibonacci_action_server
+[11.911s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[11.935s] -- Install configuration: ""
+[11.935s] [ 39%] Built target subscription_count
+[11.935s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[11.935s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[11.941s] -- Looking for pthread_create in pthread - found
+[11.943s] -- Found Threads: TRUE  
+[11.946s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[11.956s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[11.966s] -- Configuring done
+[11.977s] -- Generating done
+[11.979s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[11.991s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[12.005s] [ 39%] [34m[1mCompleted 'configured_subscriber'[0m
+[12.006s] [100%] Built target fibonacci_action_client
+[12.014s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[12.025s] -- Configuring done
+[12.036s] -- Generating done
+[12.039s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[12.057s] [ 39%] [34m[1mPerforming build step for 'publisher_count'[0m
+[12.063s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[12.084s] -- Found example_interfaces: 0.9.1 (/root/catkin_ws/install/example_interfaces/share/example_interfaces/cmake)
+[12.101s] [ 39%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[12.113s] [36mInstall the project...[0m
+[12.118s] [ 39%] Built target configured_subscriber
+[12.140s] -- Install configuration: ""
+[12.140s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[12.140s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[12.168s] [35m[1mScanning dependencies of target publisher_count[0m
+[12.201s] [ 39%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[12.221s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[12.240s] [35m[1mScanning dependencies of target int32_publisher[0m
+[12.272s] [100%] Built target fragmented_publication
+[12.301s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[12.305s] [ 39%] Built target fibonacci_action_client
+[12.318s] -- Configuring done
+[12.331s] [ 40%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[12.332s] -- Generating done
+[12.336s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[12.343s] [100%] [32m[1mLinking C executable publisher_count[0m
+[12.405s] [ 40%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[12.405s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[12.479s] [100%] Built target fragmented_publication
+[12.518s] [100%] Built target publisher_count
+[12.535s] [35m[1mScanning dependencies of target addtwoints_server[0m
+[12.570s] [100%] Built target int32_publisher
+[12.582s] [36mInstall the project...[0m
+[12.585s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[12.594s] -- Install configuration: ""
+[12.595s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[12.596s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[12.618s] [ 41%] [34m[1mPerforming install step for 'publisher_count'[0m
+[12.640s] [ 41%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[12.697s] [ 41%] [34m[1mCompleted 'fragmented_publication'[0m
+[12.700s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[12.789s] [100%] Built target int32_publisher
+[12.794s] [ 41%] Built target fragmented_publication
+[12.814s] [100%] Built target publisher_count
+[12.898s] [36mInstall the project...[0m
+[12.921s] [36mInstall the project...[0m
+[12.928s] -- Install configuration: ""
+[12.928s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[12.928s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[12.941s] -- Install configuration: ""
+[12.941s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[12.942s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[12.946s] [100%] Built target addtwoints_server
+[12.988s] [ 41%] [34m[1mCompleted 'publisher_count'[0m
+[12.997s] [ 42%] [34m[1mCompleted 'int32_publisher'[0m
+[13.027s] [ 43%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[13.081s] [ 43%] Built target publisher_count
+[13.089s] [ 43%] Built target int32_publisher
+[13.132s] [100%] Built target addtwoints_server
+[13.199s] [36mInstall the project...[0m
+[13.217s] -- Install configuration: ""
+[13.218s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[13.218s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[13.255s] [ 43%] [34m[1mCompleted 'addtwoints_server'[0m
+[13.322s] [ 43%] Built target addtwoints_server
+[13.341s] [35m[1mScanning dependencies of target string_subscriber[0m
+[13.356s] [ 43%] [34m[1mCreating directories for 'string_subscriber'[0m
+[13.495s] [ 44%] [34m[1mNo download step for 'string_subscriber'[0m
+[13.548s] [ 45%] [34m[1mNo patch step for 'string_subscriber'[0m
+[13.599s] [ 45%] [34m[1mNo update step for 'string_subscriber'[0m
+[13.648s] [ 45%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[13.666s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[13.790s] -- The C compiler identification is GNU 9.4.0
+[13.813s] -- Check for working C compiler: /usr/bin/cc
+[13.923s] -- Check for working C compiler: /usr/bin/cc -- works
+[13.924s] -- Detecting C compiler ABI info
+[14.018s] -- Detecting C compiler ABI info - done
+[14.028s] -- Detecting C compile features
+[14.029s] -- Detecting C compile features - done
+[14.040s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[14.173s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[14.173s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.827s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[14.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.053s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.380s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.476s] -- Found FastRTPS: /opt/ros/foxy/include  
+[15.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.964s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.975s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.976s] -- Looking for pthread.h
+[16.103s] -- Looking for pthread.h - found
+[16.103s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.233s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[16.234s] -- Looking for pthread_create in pthreads
+[16.361s] -- Looking for pthread_create in pthreads - not found
+[16.361s] -- Looking for pthread_create in pthread
+[16.473s] -- Looking for pthread_create in pthread - found
+[16.474s] -- Found Threads: TRUE  
+[16.548s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[16.556s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[16.583s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[16.607s] -- Configuring done
+[16.616s] -- Generating done
+[16.619s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[16.665s] [ 46%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[16.732s] [35m[1mScanning dependencies of target string_subscriber[0m
+[16.769s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[16.858s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[16.994s] [100%] Built target string_subscriber
+[17.029s] [ 47%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[17.121s] [100%] Built target string_subscriber
+[17.158s] [36mInstall the project...[0m
+[17.175s] -- Install configuration: ""
+[17.175s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[17.176s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[17.214s] [ 48%] [34m[1mCompleted 'string_subscriber'[0m
+[17.291s] [ 48%] Built target string_subscriber
+[17.314s] [35m[1mScanning dependencies of target autodiscover_agent[0m
+[17.336s] [ 49%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[17.480s] [ 49%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[17.515s] [ 49%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[17.564s] [ 50%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[17.604s] [ 51%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[17.616s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[17.673s] -- The C compiler identification is GNU 9.4.0
+[17.690s] -- Check for working C compiler: /usr/bin/cc
+[17.786s] -- Check for working C compiler: /usr/bin/cc -- works
+[17.786s] -- Detecting C compiler ABI info
+[17.875s] -- Detecting C compiler ABI info - done
+[17.898s] -- Detecting C compile features
+[17.899s] -- Detecting C compile features - done
+[17.916s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[18.052s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[18.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.731s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[18.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.946s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[19.310s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[19.404s] -- Found FastRTPS: /opt/ros/foxy/include  
+[19.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.806s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[19.815s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.816s] -- Looking for pthread.h
+[19.942s] -- Looking for pthread.h - found
+[19.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[20.067s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[20.067s] -- Looking for pthread_create in pthreads
+[20.171s] -- Looking for pthread_create in pthreads - not found
+[20.171s] -- Looking for pthread_create in pthread
+[20.268s] -- Looking for pthread_create in pthread - found
+[20.270s] -- Found Threads: TRUE  
+[20.349s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[20.360s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[20.393s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[20.432s] -- Configuring done
+[20.444s] -- Generating done
+[20.447s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[20.494s] [ 52%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[20.560s] [35m[1mScanning dependencies of target autodiscover_agent[0m
+[20.597s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[20.703s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[20.845s] [100%] Built target autodiscover_agent
+[20.886s] [ 52%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[20.980s] [100%] Built target autodiscover_agent
+[21.017s] [36mInstall the project...[0m
+[21.035s] -- Install configuration: ""
+[21.035s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[21.036s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[21.073s] [ 53%] [34m[1mCompleted 'autodiscover_agent'[0m
+[21.147s] [ 53%] Built target autodiscover_agent
+[21.169s] [35m[1mScanning dependencies of target int32_publisher_subscriber[0m
+[21.192s] [ 54%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[21.336s] [ 55%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[21.389s] [ 56%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[21.443s] [ 56%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[21.497s] [ 56%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[21.515s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[21.594s] -- The C compiler identification is GNU 9.4.0
+[21.616s] -- Check for working C compiler: /usr/bin/cc
+[21.726s] -- Check for working C compiler: /usr/bin/cc -- works
+[21.726s] -- Detecting C compiler ABI info
+[21.815s] -- Detecting C compiler ABI info - done
+[21.836s] -- Detecting C compile features
+[21.836s] -- Detecting C compile features - done
+[21.854s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[21.984s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[21.984s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.627s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[22.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.862s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[23.179s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[23.265s] -- Found FastRTPS: /opt/ros/foxy/include  
+[23.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.722s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[23.732s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.733s] -- Looking for pthread.h
+[23.885s] -- Looking for pthread.h - found
+[23.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[24.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[24.042s] -- Looking for pthread_create in pthreads
+[24.184s] -- Looking for pthread_create in pthreads - not found
+[24.194s] -- Looking for pthread_create in pthread
+[24.306s] -- Looking for pthread_create in pthread - found
+[24.308s] -- Found Threads: TRUE  
+[24.401s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[24.411s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[24.465s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[24.481s] -- Configuring done
+[24.491s] -- Generating done
+[24.494s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[24.538s] [ 57%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[24.602s] [35m[1mScanning dependencies of target int32_publisher_subscriber[0m
+[24.638s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[24.730s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[24.894s] [100%] Built target int32_publisher_subscriber
+[24.951s] [ 57%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[25.044s] [100%] Built target int32_publisher_subscriber
+[25.082s] [36mInstall the project...[0m
+[25.100s] -- Install configuration: ""
+[25.100s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[25.100s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[25.141s] [ 58%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[25.211s] [ 58%] Built target int32_publisher_subscriber
+[25.230s] [35m[1mScanning dependencies of target string_publisher[0m
+[25.244s] [ 59%] [34m[1mCreating directories for 'string_publisher'[0m
+[25.378s] [ 59%] [34m[1mNo download step for 'string_publisher'[0m
+[25.432s] [ 59%] [34m[1mNo patch step for 'string_publisher'[0m
+[25.486s] [ 60%] [34m[1mNo update step for 'string_publisher'[0m
+[25.542s] [ 61%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[25.561s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[25.627s] -- The C compiler identification is GNU 9.4.0
+[25.649s] -- Check for working C compiler: /usr/bin/cc
+[25.756s] -- Check for working C compiler: /usr/bin/cc -- works
+[25.757s] -- Detecting C compiler ABI info
+[25.878s] -- Detecting C compiler ABI info - done
+[25.902s] -- Detecting C compile features
+[25.903s] -- Detecting C compile features - done
+[25.925s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[26.080s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[26.080s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[26.729s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[26.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[26.899s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[27.213s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[27.298s] -- Found FastRTPS: /opt/ros/foxy/include  
+[27.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[27.764s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[27.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.776s] -- Looking for pthread.h
+[27.902s] -- Looking for pthread.h - found
+[27.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[27.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[27.998s] -- Looking for pthread_create in pthreads
+[28.075s] -- Looking for pthread_create in pthreads - not found
+[28.075s] -- Looking for pthread_create in pthread
+[28.194s] -- Looking for pthread_create in pthread - found
+[28.196s] -- Found Threads: TRUE  
+[28.275s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[28.285s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[28.318s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[28.353s] -- Configuring done
+[28.364s] -- Generating done
+[28.366s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[28.406s] [ 61%] [34m[1mPerforming build step for 'string_publisher'[0m
+[28.459s] [35m[1mScanning dependencies of target string_publisher[0m
+[28.489s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[28.582s] [100%] [32m[1mLinking C executable string_publisher[0m
+[28.714s] [100%] Built target string_publisher
+[28.749s] [ 61%] [34m[1mPerforming install step for 'string_publisher'[0m
+[28.839s] [100%] Built target string_publisher
+[28.874s] [36mInstall the project...[0m
+[28.890s] -- Install configuration: ""
+[28.890s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[28.891s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[28.925s] [ 62%] [34m[1mCompleted 'string_publisher'[0m
+[28.987s] [ 62%] Built target string_publisher
+[29.008s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[29.023s] [ 63%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[29.194s] [ 63%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[29.240s] [ 63%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[29.275s] [ 64%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[29.315s] [ 65%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[29.333s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[29.412s] -- The C compiler identification is GNU 9.4.0
+[29.437s] -- Check for working C compiler: /usr/bin/cc
+[29.522s] -- Check for working C compiler: /usr/bin/cc -- works
+[29.523s] -- Detecting C compiler ABI info
+[29.617s] -- Detecting C compiler ABI info - done
+[29.639s] -- Detecting C compile features
+[29.640s] -- Detecting C compile features - done
+[29.658s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[29.809s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[29.809s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[30.399s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[30.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[30.621s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[30.935s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[31.026s] -- Found FastRTPS: /opt/ros/foxy/include  
+[31.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31.415s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[31.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31.421s] -- Looking for pthread.h
+[31.517s] -- Looking for pthread.h - found
+[31.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[31.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[31.627s] -- Looking for pthread_create in pthreads
+[31.733s] -- Looking for pthread_create in pthreads - not found
+[31.734s] -- Looking for pthread_create in pthread
+[31.863s] -- Looking for pthread_create in pthread - found
+[31.864s] -- Found Threads: TRUE  
+[31.947s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[31.958s] -- Found complex_msgs: 1.0.0 (/root/catkin_ws/install/complex_msgs/share/complex_msgs/cmake)
+[31.986s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[32.008s] -- Configuring done
+[32.019s] -- Generating done
+[32.019s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[32.052s] [ 65%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[32.109s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[32.142s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[32.257s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[32.394s] [100%] Built target complex_msg_subscriber
+[32.433s] [ 66%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[32.518s] [100%] Built target complex_msg_subscriber
+[32.553s] [36mInstall the project...[0m
+[32.568s] -- Install configuration: ""
+[32.569s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[32.569s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[32.604s] [ 66%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[32.674s] [ 66%] Built target complex_msg_subscriber
+[32.695s] [35m[1mScanning dependencies of target ping_pong[0m
+[32.717s] [ 67%] [34m[1mCreating directories for 'ping_pong'[0m
+[32.861s] [ 67%] [34m[1mNo download step for 'ping_pong'[0m
+[32.908s] [ 67%] [34m[1mNo patch step for 'ping_pong'[0m
+[32.957s] [ 68%] [34m[1mNo update step for 'ping_pong'[0m
+[33.010s] [ 69%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[33.023s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[33.094s] -- The C compiler identification is GNU 9.4.0
+[33.119s] -- Check for working C compiler: /usr/bin/cc
+[33.222s] -- Check for working C compiler: /usr/bin/cc -- works
+[33.223s] -- Detecting C compiler ABI info
+[33.377s] -- Detecting C compiler ABI info - done
+[33.418s] -- Detecting C compile features
+[33.419s] -- Detecting C compile features - done
+[33.438s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[33.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[33.582s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[34.217s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[34.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.421s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[34.719s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[34.797s] -- Found FastRTPS: /opt/ros/foxy/include  
+[34.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[35.166s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[35.174s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[35.175s] -- Looking for pthread.h
+[35.290s] -- Looking for pthread.h - found
+[35.290s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[35.428s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[35.428s] -- Looking for pthread_create in pthreads
+[35.546s] -- Looking for pthread_create in pthreads - not found
+[35.546s] -- Looking for pthread_create in pthread
+[35.675s] -- Looking for pthread_create in pthread - found
+[35.675s] -- Found Threads: TRUE  
+[35.760s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[35.771s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[35.800s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[35.839s] -- Configuring done
+[35.849s] -- Generating done
+[35.852s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[35.891s] [ 69%] [34m[1mPerforming build step for 'ping_pong'[0m
+[35.954s] [35m[1mScanning dependencies of target ping_pong[0m
+[35.988s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[36.027s] [01m[K/root/catkin_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_timer_callback[m[K’:
+[36.027s] [01m[K/root/catkin_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:48:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[36.027s]    48 |   [01;35m[Krcl_publish(&ping_publisher, (const void*)&outcoming_ping, NULL)[m[K;
+[36.028s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.028s] [01m[K/root/catkin_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_subscription_callback[m[K’:
+[36.028s] [01m[K/root/catkin_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:60:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[36.028s]    60 |   [01;35m[Krcl_publish(&pong_publisher, (const void*)msg, NULL)[m[K;
+[36.028s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.064s] [100%] [32m[1mLinking C executable ping_pong[0m
+[36.197s] [100%] Built target ping_pong
+[36.234s] [ 69%] [34m[1mPerforming install step for 'ping_pong'[0m
+[36.313s] [100%] Built target ping_pong
+[36.352s] [36mInstall the project...[0m
+[36.370s] -- Install configuration: ""
+[36.370s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[36.371s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[36.409s] [ 70%] [34m[1mCompleted 'ping_pong'[0m
+[36.476s] [ 70%] Built target ping_pong
+[36.498s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[36.517s] [ 70%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[36.648s] [ 71%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[36.694s] [ 72%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[36.736s] [ 72%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[36.781s] [ 72%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[36.798s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[36.880s] -- The C compiler identification is GNU 9.4.0
+[36.907s] -- Check for working C compiler: /usr/bin/cc
+[37.026s] -- Check for working C compiler: /usr/bin/cc -- works
+[37.027s] -- Detecting C compiler ABI info
+[37.175s] -- Detecting C compiler ABI info - done
+[37.208s] -- Detecting C compile features
+[37.208s] -- Detecting C compile features - done
+[37.228s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[37.379s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[37.379s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[38.054s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[38.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.275s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[38.574s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[38.661s] -- Found FastRTPS: /opt/ros/foxy/include  
+[38.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[39.031s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[39.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[39.037s] -- Looking for pthread.h
+[39.116s] -- Looking for pthread.h - found
+[39.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[39.197s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[39.198s] -- Looking for pthread_create in pthreads
+[39.268s] -- Looking for pthread_create in pthreads - not found
+[39.269s] -- Looking for pthread_create in pthread
+[39.349s] -- Looking for pthread_create in pthread - found
+[39.351s] -- Found Threads: TRUE  
+[39.427s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[39.437s] -- Found complex_msgs: 1.0.0 (/root/catkin_ws/install/complex_msgs/share/complex_msgs/cmake)
+[39.468s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[39.504s] -- Configuring done
+[39.513s] -- Generating done
+[39.516s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[39.547s] [ 73%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[39.588s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[39.616s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[39.680s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[39.801s] [100%] Built target complex_msg_publisher
+[39.825s] [ 74%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[39.889s] [100%] Built target complex_msg_publisher
+[39.913s] [36mInstall the project...[0m
+[39.924s] -- Install configuration: ""
+[39.924s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[39.925s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[39.949s] [ 74%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[39.995s] [ 74%] Built target complex_msg_publisher
+[40.009s] [35m[1mScanning dependencies of target fragmented_subscription[0m
+[40.023s] [ 75%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[40.131s] [ 75%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[40.164s] [ 75%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[40.198s] [ 76%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[40.236s] [ 77%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[40.248s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[40.309s] -- The C compiler identification is GNU 9.4.0
+[40.331s] -- Check for working C compiler: /usr/bin/cc
+[40.419s] -- Check for working C compiler: /usr/bin/cc -- works
+[40.421s] -- Detecting C compiler ABI info
+[40.508s] -- Detecting C compiler ABI info - done
+[40.528s] -- Detecting C compile features
+[40.528s] -- Detecting C compile features - done
+[40.545s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[40.657s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[40.657s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[41.142s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[41.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[41.273s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[41.474s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[41.554s] -- Found FastRTPS: /opt/ros/foxy/include  
+[41.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[41.829s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[41.834s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.835s] -- Looking for pthread.h
+[41.914s] -- Looking for pthread.h - found
+[41.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[41.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[41.996s] -- Looking for pthread_create in pthreads
+[42.064s] -- Looking for pthread_create in pthreads - not found
+[42.064s] -- Looking for pthread_create in pthread
+[42.144s] -- Looking for pthread_create in pthread - found
+[42.145s] -- Found Threads: TRUE  
+[42.192s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[42.198s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[42.224s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[42.257s] -- Configuring done
+[42.268s] -- Generating done
+[42.270s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[42.301s] [ 77%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[42.342s] [35m[1mScanning dependencies of target fragmented_subscription[0m
+[42.366s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[42.420s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[42.500s] [100%] Built target fragmented_subscription
+[42.521s] [ 77%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[42.579s] [100%] Built target fragmented_subscription
+[42.602s] [36mInstall the project...[0m
+[42.613s] -- Install configuration: ""
+[42.613s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[42.614s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[42.637s] [ 78%] [34m[1mCompleted 'fragmented_subscription'[0m
+[42.679s] [ 78%] Built target fragmented_subscription
+[42.692s] [35m[1mScanning dependencies of target ping_uros_agent[0m
+[42.705s] [ 78%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[42.801s] [ 79%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[42.833s] [ 80%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[42.865s] [ 80%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[42.897s] [ 80%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[42.908s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[42.959s] -- The C compiler identification is GNU 9.4.0
+[42.973s] -- Check for working C compiler: /usr/bin/cc
+[43.051s] -- Check for working C compiler: /usr/bin/cc -- works
+[43.051s] -- Detecting C compiler ABI info
+[43.129s] -- Detecting C compiler ABI info - done
+[43.142s] -- Detecting C compile features
+[43.143s] -- Detecting C compile features - done
+[43.154s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[43.240s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[43.240s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[43.630s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[43.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[43.775s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[43.979s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[44.066s] -- Found FastRTPS: /opt/ros/foxy/include  
+[44.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[44.344s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[44.349s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[44.350s] -- Looking for pthread.h
+[44.430s] -- Looking for pthread.h - found
+[44.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[44.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[44.510s] -- Looking for pthread_create in pthreads
+[44.577s] -- Looking for pthread_create in pthreads - not found
+[44.577s] -- Looking for pthread_create in pthread
+[44.659s] -- Looking for pthread_create in pthread - found
+[44.661s] -- Found Threads: TRUE  
+[44.709s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[44.715s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[44.722s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[44.755s] -- Configuring done
+[44.761s] -- Generating done
+[44.763s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[44.790s] [ 81%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[44.830s] [35m[1mScanning dependencies of target ping_uros_agent[0m
+[44.858s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[44.914s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[44.994s] [100%] Built target ping_uros_agent
+[45.016s] [ 82%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[45.077s] [100%] Built target ping_uros_agent
+[45.106s] [36mInstall the project...[0m
+[45.118s] -- Install configuration: ""
+[45.118s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[45.118s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[45.143s] [ 83%] [34m[1mCompleted 'ping_uros_agent'[0m
+[45.185s] [ 83%] Built target ping_uros_agent
+[45.198s] [35m[1mScanning dependencies of target timer[0m
+[45.212s] [ 84%] [34m[1mCreating directories for 'timer'[0m
+[45.320s] [ 84%] [34m[1mNo download step for 'timer'[0m
+[45.357s] [ 84%] [34m[1mNo patch step for 'timer'[0m
+[45.388s] [ 85%] [34m[1mNo update step for 'timer'[0m
+[45.418s] [ 86%] [34m[1mPerforming configure step for 'timer'[0m
+[45.428s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[45.475s] -- The C compiler identification is GNU 9.4.0
+[45.488s] -- Check for working C compiler: /usr/bin/cc
+[45.561s] -- Check for working C compiler: /usr/bin/cc -- works
+[45.562s] -- Detecting C compiler ABI info
+[45.634s] -- Detecting C compiler ABI info - done
+[45.645s] -- Detecting C compile features
+[45.646s] -- Detecting C compile features - done
+[45.657s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[45.736s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[45.736s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[46.112s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[46.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[46.246s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[46.446s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[46.528s] -- Found FastRTPS: /opt/ros/foxy/include  
+[46.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[46.840s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[46.845s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[46.846s] -- Looking for pthread.h
+[46.927s] -- Looking for pthread.h - found
+[46.927s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[47.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[47.011s] -- Looking for pthread_create in pthreads
+[47.084s] -- Looking for pthread_create in pthreads - not found
+[47.084s] -- Looking for pthread_create in pthread
+[47.166s] -- Looking for pthread_create in pthread - found
+[47.167s] -- Found Threads: TRUE  
+[47.221s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[47.227s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[47.245s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[47.265s] -- Configuring done
+[47.271s] -- Generating done
+[47.272s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/timer/src/timer-build
+[47.300s] [ 87%] [34m[1mPerforming build step for 'timer'[0m
+[47.340s] [35m[1mScanning dependencies of target timer[0m
+[47.364s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[47.419s] [100%] [32m[1mLinking C executable timer[0m
+[47.500s] [100%] Built target timer
+[47.523s] [ 87%] [34m[1mPerforming install step for 'timer'[0m
+[47.581s] [100%] Built target timer
+[47.606s] [36mInstall the project...[0m
+[47.617s] -- Install configuration: ""
+[47.617s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/timer/timer
+[47.618s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[47.641s] [ 88%] [34m[1mCompleted 'timer'[0m
+[47.686s] [ 88%] Built target timer
+[47.700s] [35m[1mScanning dependencies of target int32_multinode[0m
+[47.713s] [ 88%] [34m[1mCreating directories for 'int32_multinode'[0m
+[47.811s] [ 89%] [34m[1mNo download step for 'int32_multinode'[0m
+[47.844s] [ 90%] [34m[1mNo patch step for 'int32_multinode'[0m
+[47.878s] [ 90%] [34m[1mNo update step for 'int32_multinode'[0m
+[47.912s] [ 90%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[47.924s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[47.977s] -- The C compiler identification is GNU 9.4.0
+[48.002s] -- Check for working C compiler: /usr/bin/cc
+[48.102s] -- Check for working C compiler: /usr/bin/cc -- works
+[48.103s] -- Detecting C compiler ABI info
+[48.182s] -- Detecting C compiler ABI info - done
+[48.203s] -- Detecting C compile features
+[48.203s] -- Detecting C compile features - done
+[48.219s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[48.328s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[48.328s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[48.710s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[48.811s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[48.843s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[49.035s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[49.115s] -- Found FastRTPS: /opt/ros/foxy/include  
+[49.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[49.457s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[49.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[49.463s] -- Looking for pthread.h
+[49.547s] -- Looking for pthread.h - found
+[49.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[49.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[49.628s] -- Looking for pthread_create in pthreads
+[49.702s] -- Looking for pthread_create in pthreads - not found
+[49.702s] -- Looking for pthread_create in pthread
+[49.802s] -- Looking for pthread_create in pthread - found
+[49.802s] -- Found Threads: TRUE  
+[49.858s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[49.864s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[49.886s] -- Configuring done
+[49.891s] -- Generating done
+[49.892s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[49.920s] [ 91%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[49.959s] [35m[1mScanning dependencies of target int32_multinode[0m
+[49.981s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[50.060s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[50.169s] [100%] Built target int32_multinode
+[50.193s] [ 92%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[50.251s] [100%] Built target int32_multinode
+[50.275s] [36mInstall the project...[0m
+[50.288s] -- Install configuration: ""
+[50.292s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[50.293s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[50.317s] [ 92%] [34m[1mCompleted 'int32_multinode'[0m
+[50.360s] [ 92%] Built target int32_multinode
+[50.373s] [35m[1mScanning dependencies of target addtwoints_client[0m
+[50.387s] [ 92%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[50.487s] [ 93%] [34m[1mNo download step for 'addtwoints_client'[0m
+[50.520s] [ 94%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[50.552s] [ 94%] [34m[1mNo update step for 'addtwoints_client'[0m
+[50.585s] [ 94%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[50.597s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[50.647s] -- The C compiler identification is GNU 9.4.0
+[50.662s] -- Check for working C compiler: /usr/bin/cc
+[50.739s] -- Check for working C compiler: /usr/bin/cc -- works
+[50.740s] -- Detecting C compiler ABI info
+[50.817s] -- Detecting C compiler ABI info - done
+[50.840s] -- Detecting C compile features
+[50.841s] -- Detecting C compile features - done
+[50.860s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[50.984s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[50.984s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[51.560s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[51.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[51.784s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[52.090s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[52.237s] -- Found FastRTPS: /opt/ros/foxy/include  
+[52.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[52.663s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[52.673s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[52.674s] -- Looking for pthread.h
+[52.799s] -- Looking for pthread.h - found
+[52.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[52.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[52.929s] -- Looking for pthread_create in pthreads
+[53.014s] -- Looking for pthread_create in pthreads - not found
+[53.014s] -- Looking for pthread_create in pthread
+[53.116s] -- Looking for pthread_create in pthread - found
+[53.116s] -- Found Threads: TRUE  
+[53.187s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[53.197s] -- Found example_interfaces: 0.9.1 (/root/catkin_ws/install/example_interfaces/share/example_interfaces/cmake)
+[53.327s] -- Configuring done
+[53.334s] -- Generating done
+[53.336s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[53.365s] [ 95%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[53.407s] [35m[1mScanning dependencies of target addtwoints_client[0m
+[53.435s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[53.493s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[53.576s] [100%] Built target addtwoints_client
+[53.604s] [ 96%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[53.664s] [100%] Built target addtwoints_client
+[53.690s] [36mInstall the project...[0m
+[53.701s] -- Install configuration: ""
+[53.701s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[53.701s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[53.725s] [ 96%] [34m[1mCompleted 'addtwoints_client'[0m
+[53.770s] [ 96%] Built target addtwoints_client
+[53.783s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[53.797s] [ 96%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[53.898s] [ 97%] [34m[1mNo download step for 'int32_subscriber'[0m
+[53.937s] [ 98%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[53.938s] [ 98%] [34m[1mNo update step for 'int32_subscriber'[0m
+[53.982s] [ 99%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[53.994s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[54.047s] -- The C compiler identification is GNU 9.4.0
+[54.062s] -- Check for working C compiler: /usr/bin/cc
+[54.143s] -- Check for working C compiler: /usr/bin/cc -- works
+[54.144s] -- Detecting C compiler ABI info
+[54.235s] -- Detecting C compiler ABI info - done
+[54.259s] -- Detecting C compile features
+[54.259s] -- Detecting C compile features - done
+[54.278s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[54.449s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[54.449s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[54.936s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[55.105s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[55.161s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[55.442s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[55.531s] -- Found FastRTPS: /opt/ros/foxy/include  
+[55.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[56.008s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[56.018s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[56.019s] -- Looking for pthread.h
+[56.181s] -- Looking for pthread.h - found
+[56.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[56.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[56.364s] -- Looking for pthread_create in pthreads
+[56.698s] -- Looking for pthread_create in pthreads - not found
+[56.698s] -- Looking for pthread_create in pthread
+[57.056s] -- Looking for pthread_create in pthread - found
+[57.058s] -- Found Threads: TRUE  
+[57.229s] -- Found rclc: 1.1.2 (/root/catkin_ws/install/rclc/share/rclc/cmake)
+[57.240s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[57.304s] -- Found rmw_microxrcedds: 1.1.0 (/root/catkin_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[57.341s] -- Configuring done
+[57.354s] -- Generating done
+[57.356s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[57.469s] [ 99%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[57.719s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[57.799s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[57.959s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[58.109s] [100%] Built target int32_subscriber
+[58.152s] [100%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[58.268s] [100%] Built target int32_subscriber
+[58.319s] [36mInstall the project...[0m
+[58.356s] -- Install configuration: ""
+[58.356s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[58.357s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[58.400s] [100%] [34m[1mCompleted 'int32_subscriber'[0m
+[58.490s] [100%] Built target int32_subscriber
+[58.509s] Invoked command in '/root/catkin_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/microxrcedds_client:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/rmw_microxrcedds/lib:/root/catkin_ws/install/rclc/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/example_interfaces/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib:/root/catkin_ws/install/rcl_interfaces/lib:/root/catkin_ws/install/microxrcedds_client/lib:/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/action_msgs/lib:/root/catkin_ws/install/unique_identifier_msgs/lib:/root/catkin_ws/install/microcdr/lib:/root/catkin_ws/install/micro_ros_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:/root/catkin_ws/install/udp_driver/lib:/root/catkin_ws/install/serial_driver/lib:/root/catkin_ws/install/omo_r1mini_interfaces/lib:/root/catkin_ws/install/msg_srv_action_interface_example/lib:/root/catkin_ws/install/micro_ros_agent/lib:/root/catkin_ws/install/io_context/lib:/root/catkin_ws/install/iahrs_driver_interface/lib:/root/catkin_ws/install/drive_base_msgs/lib:/root/install/udp_driver/lib:/root/install/serial_driver/lib:/root/install/omo_r1mini_interfaces/lib:/root/install/msg_srv_action_interface_example/lib:/root/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/example_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/root/catkin_ws/install/rcl_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/action_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/topic_service_action_rclpy_example:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/time_rclpy_example:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/tf2_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/rqt_example/lib/python3.8/site-packages:/root/catkin_ws/build/ros2env:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_bringup:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/my_first_ros_rclpy_pkg:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/catkin_ws/build/logging_rclpy_example:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages:/root/catkin_ws/build/iahrs_driver:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:/root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages:/root/build/topic_service_action_rclpy_example:/root/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/build/time_rclpy_example:/root/install/time_rclpy_example/lib/python3.8/site-packages:/root/build/tf2_rclpy_example:/root/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/install/rqt_example/lib/python3.8/site-packages:/root/build/ros2env:/root/install/ros2env/lib/python3.8/site-packages:/root/build/omo_r1mini_teleop:/root/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/build/omo_r1mini_bringup:/root/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/build/my_first_ros_rclpy_pkg:/root/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/build/logging_rclpy_example:/root/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_demos_rclc -- -j12 -l12
+[58.575s] Invoking command in '/root/catkin_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/microxrcedds_client:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/rmw_microxrcedds/lib:/root/catkin_ws/install/rclc/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/example_interfaces/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib:/root/catkin_ws/install/rcl_interfaces/lib:/root/catkin_ws/install/microxrcedds_client/lib:/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/action_msgs/lib:/root/catkin_ws/install/unique_identifier_msgs/lib:/root/catkin_ws/install/microcdr/lib:/root/catkin_ws/install/micro_ros_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:/root/catkin_ws/install/udp_driver/lib:/root/catkin_ws/install/serial_driver/lib:/root/catkin_ws/install/omo_r1mini_interfaces/lib:/root/catkin_ws/install/msg_srv_action_interface_example/lib:/root/catkin_ws/install/micro_ros_agent/lib:/root/catkin_ws/install/io_context/lib:/root/catkin_ws/install/iahrs_driver_interface/lib:/root/catkin_ws/install/drive_base_msgs/lib:/root/install/udp_driver/lib:/root/install/serial_driver/lib:/root/install/omo_r1mini_interfaces/lib:/root/install/msg_srv_action_interface_example/lib:/root/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/example_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/root/catkin_ws/install/rcl_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/action_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/topic_service_action_rclpy_example:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/time_rclpy_example:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/tf2_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/rqt_example/lib/python3.8/site-packages:/root/catkin_ws/build/ros2env:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_bringup:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/my_first_ros_rclpy_pkg:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/catkin_ws/build/logging_rclpy_example:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages:/root/catkin_ws/build/iahrs_driver:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:/root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages:/root/build/topic_service_action_rclpy_example:/root/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/build/time_rclpy_example:/root/install/time_rclpy_example/lib/python3.8/site-packages:/root/build/tf2_rclpy_example:/root/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/install/rqt_example/lib/python3.8/site-packages:/root/build/ros2env:/root/install/ros2env/lib/python3.8/site-packages:/root/build/omo_r1mini_teleop:/root/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/build/omo_r1mini_bringup:/root/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/build/my_first_ros_rclpy_pkg:/root/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/build/logging_rclpy_example:/root/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_demos_rclc
+[58.586s] -- Install configuration: ""
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[58.587s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[58.588s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[58.589s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[58.589s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[58.589s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[58.589s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[58.590s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[58.590s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[58.590s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[58.590s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[58.590s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[58.590s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[58.590s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[58.591s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[58.591s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[58.591s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[58.591s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[58.591s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[58.591s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[58.591s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[58.592s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[58.593s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[58.594s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[58.595s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[58.595s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[58.595s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[58.595s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[58.601s] Invoked command in '/root/catkin_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/rmw_microxrcedds:/root/catkin_ws/install/rclc:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/example_interfaces:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/rcl_interfaces:/root/catkin_ws/install/microxrcedds_client:/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/action_msgs:/root/catkin_ws/install/unique_identifier_msgs:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/rmw_microxrcedds/lib:/root/catkin_ws/install/rclc/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/example_interfaces/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib:/root/catkin_ws/install/rcl_interfaces/lib:/root/catkin_ws/install/microxrcedds_client/lib:/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/action_msgs/lib:/root/catkin_ws/install/unique_identifier_msgs/lib:/root/catkin_ws/install/microcdr/lib:/root/catkin_ws/install/micro_ros_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:/root/catkin_ws/install/udp_driver/lib:/root/catkin_ws/install/serial_driver/lib:/root/catkin_ws/install/omo_r1mini_interfaces/lib:/root/catkin_ws/install/msg_srv_action_interface_example/lib:/root/catkin_ws/install/micro_ros_agent/lib:/root/catkin_ws/install/io_context/lib:/root/catkin_ws/install/iahrs_driver_interface/lib:/root/catkin_ws/install/drive_base_msgs/lib:/root/install/udp_driver/lib:/root/install/serial_driver/lib:/root/install/omo_r1mini_interfaces/lib:/root/install/msg_srv_action_interface_example/lib:/root/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/example_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/root/catkin_ws/install/rcl_interfaces/lib/python3.8/site-packages:/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/action_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/topic_service_action_rclpy_example:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/time_rclpy_example:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/build/tf2_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/rqt_example/lib/python3.8/site-packages:/root/catkin_ws/build/ros2env:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/catkin_ws/build/omo_r1mini_bringup:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/catkin_ws/build/my_first_ros_rclpy_pkg:/root/catkin_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/catkin_ws/build/logging_rclpy_example:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages:/root/catkin_ws/build/iahrs_driver:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:/root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages:/root/build/topic_service_action_rclpy_example:/root/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/build/time_rclpy_example:/root/install/time_rclpy_example/lib/python3.8/site-packages:/root/build/tf2_rclpy_example:/root/install/tf2_rclpy_example/lib/python3.8/site-packages:/root/install/rqt_example/lib/python3.8/site-packages:/root/build/ros2env:/root/install/ros2env/lib/python3.8/site-packages:/root/build/omo_r1mini_teleop:/root/install/omo_r1mini_teleop/lib/python3.8/site-packages:/root/build/omo_r1mini_bringup:/root/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/root/build/my_first_ros_rclpy_pkg:/root/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/root/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/root/build/logging_rclpy_example:/root/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_demos_rclc

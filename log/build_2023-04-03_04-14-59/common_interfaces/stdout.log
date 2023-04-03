@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/catkin_ws/build/common_interfaces
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/path.sh
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/path.dsv
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.bash
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.sh
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.zsh
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.dsv
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/package.dsv
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/ament_index/resource_index/packages/common_interfaces
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig.cmake
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+-- Symlinking: /root/catkin_ws/install/common_interfaces/share/common_interfaces/package.xml

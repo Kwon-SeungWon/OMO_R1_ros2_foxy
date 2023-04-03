@@ -1,0 +1,3 @@
+/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example:msg/ArithmeticArgument.idl
+/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example:srv/ArithmeticOperator.idl
+/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example:action/ArithmeticChecker.idl

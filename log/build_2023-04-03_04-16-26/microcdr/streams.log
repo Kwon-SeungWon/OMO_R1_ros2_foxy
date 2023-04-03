@@ -1,0 +1,17 @@
+[0.351s] Invoking command in '/root/catkin_ws/build/microcdr': /usr/bin/cmake --build /root/catkin_ws/build/microcdr -- -j12 -l12
+[0.491s] [100%] Built target microcdr
+[0.524s] Invoked command in '/root/catkin_ws/build/microcdr' returned '0': /usr/bin/cmake --build /root/catkin_ws/build/microcdr -- -j12 -l12
+[1.072s] Invoking command in '/root/catkin_ws/build/microcdr': /usr/bin/cmake --install /root/catkin_ws/build/microcdr
+[1.157s] -- Install configuration: "Release"
+[1.157s] -- Up-to-date: /root/catkin_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[1.157s] -- Up-to-date: /root/catkin_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[1.157s] -- Up-to-date: /root/catkin_ws/install/microcdr/lib/libmicrocdr.so
+[1.157s] -- Up-to-date: /root/catkin_ws/install/microcdr/include/ucdr
+[1.157s] -- Up-to-date: /root/catkin_ws/install/microcdr/include/ucdr/visibility.h
+[1.157s] -- Up-to-date: /root/catkin_ws/install/microcdr/include/ucdr/microcdr.h
+[1.158s] -- Up-to-date: /root/catkin_ws/install/microcdr/include/ucdr/config.h
+[1.158s] -- Up-to-date: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[1.158s] -- Up-to-date: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.158s] -- Up-to-date: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[1.158s] -- Up-to-date: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.279s] Invoked command in '/root/catkin_ws/build/microcdr' returned '0': /usr/bin/cmake --install /root/catkin_ws/build/microcdr

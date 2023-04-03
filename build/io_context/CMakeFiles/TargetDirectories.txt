@@ -1,0 +1,10 @@
+/root/catkin_ws/build/io_context/CMakeFiles/install/strip.dir
+/root/catkin_ws/build/io_context/CMakeFiles/install/local.dir
+/root/catkin_ws/build/io_context/CMakeFiles/install.dir
+/root/catkin_ws/build/io_context/CMakeFiles/list_install_components.dir
+/root/catkin_ws/build/io_context/CMakeFiles/rebuild_cache.dir
+/root/catkin_ws/build/io_context/CMakeFiles/edit_cache.dir
+/root/catkin_ws/build/io_context/CMakeFiles/test.dir
+/root/catkin_ws/build/io_context/CMakeFiles/io_context_uninstall.dir
+/root/catkin_ws/build/io_context/CMakeFiles/io_context.dir
+/root/catkin_ws/build/io_context/CMakeFiles/uninstall.dir

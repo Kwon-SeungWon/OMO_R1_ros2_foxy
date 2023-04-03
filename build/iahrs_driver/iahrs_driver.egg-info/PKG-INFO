@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: iahrs-driver
+Version: 0.0.0
+Summary: ROS 2 Driver for iAHRS RB-SDA-v1
+Home-page: UNKNOWN
+Maintainer: varofla
+Maintainer-email: dhksrl0508@naver.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

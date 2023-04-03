@@ -1,0 +1,92 @@
+[1.414s] Invoking command in '/root/catkin_ws/build/iahrs_driver_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/root/catkin_ws/src/install/topic_service_action_rclpy_example:/root/catkin_ws/src/install/time_rclpy_example:/root/catkin_ws/src/install/tf2_rclpy_example:/root/catkin_ws/src/install/ros2env:/root/catkin_ws/src/install/omo_r1mini_teleop:/root/catkin_ws/src/install/omo_r1mini_bringup:/root/catkin_ws/src/install/my_first_ros_rclpy_pkg:/root/catkin_ws/src/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/iahrs_driver_interface -- -j12 -l12
+[2.040s] [  3%] Built target iahrs_driver_interface__cpp
+[2.040s] [ 12%] Built target iahrs_driver_interface__rosidl_generator_c
+[2.040s] [ 22%] Built target iahrs_driver_interface__rosidl_typesupport_cpp
+[2.040s] [ 32%] Built target iahrs_driver_interface__rosidl_typesupport_introspection_cpp
+[2.040s] [ 41%] Built target iahrs_driver_interface__rosidl_typesupport_fastrtps_cpp
+[2.040s] [ 51%] Built target iahrs_driver_interface__rosidl_typesupport_c
+[2.040s] [ 61%] Built target iahrs_driver_interface__rosidl_typesupport_introspection_c
+[2.041s] [ 70%] Built target iahrs_driver_interface__rosidl_typesupport_fastrtps_c
+[2.041s] [ 70%] Built target iahrs_driver_interface
+[2.041s] [ 74%] Built target iahrs_driver_interface__py
+[2.041s] [ 80%] Built target iahrs_driver_interface__python
+[2.055s] [ 87%] Built target iahrs_driver_interface__rosidl_typesupport_c__pyext
+[2.066s] [ 93%] Built target iahrs_driver_interface__rosidl_typesupport_introspection_c__pyext
+[2.071s] [100%] Built target iahrs_driver_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.102s] Invoked command in '/root/catkin_ws/build/iahrs_driver_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/root/catkin_ws/src/install/topic_service_action_rclpy_example:/root/catkin_ws/src/install/time_rclpy_example:/root/catkin_ws/src/install/tf2_rclpy_example:/root/catkin_ws/src/install/ros2env:/root/catkin_ws/src/install/omo_r1mini_teleop:/root/catkin_ws/src/install/omo_r1mini_bringup:/root/catkin_ws/src/install/my_first_ros_rclpy_pkg:/root/catkin_ws/src/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/iahrs_driver_interface -- -j12 -l12
+[2.231s] Invoking command in '/root/catkin_ws/build/iahrs_driver_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/root/catkin_ws/src/install/topic_service_action_rclpy_example:/root/catkin_ws/src/install/time_rclpy_example:/root/catkin_ws/src/install/tf2_rclpy_example:/root/catkin_ws/src/install/ros2env:/root/catkin_ws/src/install/omo_r1mini_teleop:/root/catkin_ws/src/install/omo_r1mini_bringup:/root/catkin_ws/src/install/my_first_ros_rclpy_pkg:/root/catkin_ws/src/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/iahrs_driver_interface
+[2.249s] -- Install configuration: ""
+[2.249s] -- Execute custom install script
+[2.252s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/ament_index/resource_index/rosidl_interfaces/iahrs_driver_interface
+[2.256s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/msg/rosidl_generator_c__visibility_control.h
+[2.257s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__functions.h
+[2.257s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__struct.h
+[2.257s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__type_support.h
+[2.257s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/set.h
+[2.257s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/library_path.sh
+[2.257s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/library_path.dsv
+[2.259s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.259s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__rosidl_typesupport_fastrtps_c.h
+[2.262s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__rosidl_typesupport_fastrtps_c.so
+[2.263s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.263s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__rosidl_typesupport_fastrtps_cpp.hpp
+[2.263s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.266s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.266s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__rosidl_typesupport_introspection_c.h
+[2.266s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__builder.hpp
+[2.267s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__struct.hpp
+[2.267s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__traits.hpp
+[2.267s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/set.hpp
+[2.268s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/include/iahrs_driver_interface/srv/detail/set__rosidl_typesupport_introspection_cpp.hpp
+[2.269s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/pythonpath.sh
+[2.270s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/pythonpath.dsv
+[2.270s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages/iahrs_driver_interface/__init__.py
+[2.271s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages/iahrs_driver_interface/srv/__init__.py
+[2.276s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages/iahrs_driver_interface/srv/_set.py
+[2.276s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages/iahrs_driver_interface/iahrs_driver_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.276s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages/iahrs_driver_interface/iahrs_driver_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.276s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/python3.8/site-packages/iahrs_driver_interface/iahrs_driver_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.278s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__python.so
+[2.279s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/srv/Set.idl
+[2.279s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/srv/Set.srv
+[2.282s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/srv/Set_Request.msg
+[2.283s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/srv/Set_Response.msg
+[2.285s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/ament_index/resource_index/package_run_dependencies/iahrs_driver_interface
+[2.286s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/ament_index/resource_index/parent_prefix_path/iahrs_driver_interface
+[2.286s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/ament_prefix_path.sh
+[2.287s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/ament_prefix_path.dsv
+[2.292s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/path.sh
+[2.293s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/environment/path.dsv
+[2.293s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/local_setup.bash
+[2.293s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/local_setup.sh
+[2.293s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/local_setup.zsh
+[2.293s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/local_setup.dsv
+[2.294s] -- Symlinking: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/package.dsv
+[2.302s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/ament_index/resource_index/packages/iahrs_driver_interface
+[2.304s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/rosidl_cmake-extras.cmake
+[2.305s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.306s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.311s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.311s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.312s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.315s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.316s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interfaceConfig.cmake
+[2.316s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interfaceConfig-version.cmake
+[2.316s] -- Up-to-date symlink: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/package.xml
+[2.316s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__rosidl_generator_c.so
+[2.316s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__rosidl_typesupport_introspection_c.so
+[2.317s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__rosidl_typesupport_c.so
+[2.317s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__rosidl_typesupport_introspection_cpp.so
+[2.317s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/lib/libiahrs_driver_interface__rosidl_typesupport_cpp.so
+[2.426s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_generator_cExport.cmake
+[2.426s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_generator_cExport-noconfig.cmake
+[2.427s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.427s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.427s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_cExport.cmake
+[2.427s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.428s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_generator_cppExport.cmake
+[2.428s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.428s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.430s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_cppExport.cmake
+[2.430s] -- Up-to-date: /root/catkin_ws/install/iahrs_driver_interface/share/iahrs_driver_interface/cmake/iahrs_driver_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.551s] Invoked command in '/root/catkin_ws/build/iahrs_driver_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/root/catkin_ws/src/install/topic_service_action_rclpy_example:/root/catkin_ws/src/install/time_rclpy_example:/root/catkin_ws/src/install/tf2_rclpy_example:/root/catkin_ws/src/install/ros2env:/root/catkin_ws/src/install/omo_r1mini_teleop:/root/catkin_ws/src/install/omo_r1mini_bringup:/root/catkin_ws/src/install/my_first_ros_rclpy_pkg:/root/catkin_ws/src/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/iahrs_driver_interface

@@ -1,0 +1,23 @@
+{
+  "package_name": "msg_srv_action_interface_example",
+  "output_dir": "/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_typesupport_microxrcedds_c/msg_srv_action_interface_example",
+  "template_dir": "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource",
+  "idl_tuples": [
+    "/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example:msg/ArithmeticArgument.idl",
+    "/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example:srv/ArithmeticOperator.idl",
+    "/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example:action/ArithmeticChecker.idl"
+  ],
+  "target_dependencies": [
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em",
+    "/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example/msg/ArithmeticArgument.idl",
+    "/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example/srv/ArithmeticOperator.idl",
+    "/root/catkin_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example/action/ArithmeticChecker.idl"
+  ]
+}

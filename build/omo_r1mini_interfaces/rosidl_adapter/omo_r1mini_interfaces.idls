@@ -1,0 +1,6 @@
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_adapter/omo_r1mini_interfaces:srv/Battery.idl
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_adapter/omo_r1mini_interfaces:srv/Calg.idl
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_adapter/omo_r1mini_interfaces:srv/Color.idl
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_adapter/omo_r1mini_interfaces:srv/Onoff.idl
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_adapter/omo_r1mini_interfaces:srv/ResetOdom.idl
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_adapter/omo_r1mini_interfaces:srv/SaveColor.idl

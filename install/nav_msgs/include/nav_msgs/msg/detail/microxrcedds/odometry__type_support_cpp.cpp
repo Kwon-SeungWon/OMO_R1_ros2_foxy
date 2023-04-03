@@ -1,0 +1,1 @@
+/root/catkin_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp

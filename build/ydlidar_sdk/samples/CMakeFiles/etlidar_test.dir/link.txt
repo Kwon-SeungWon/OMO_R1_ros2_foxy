@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/etlidar_test.dir/etlidar_test.cpp.o  -o ../etlidar_test  -Wl,-rpath,/root/catkin_ws/build/ydlidar_sdk: ../libydlidar_sdk.so -lpthread -lrt 

@@ -1,0 +1,6 @@
+Invoking command in '/root/catkin_ws/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/omo_r1mini_gazebo
+Invoked command in '/root/catkin_ws/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/omo_r1mini_gazebo
+Invoking command in '/root/catkin_ws/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_gazebo -- -j12 -l12
+Invoked command in '/root/catkin_ws/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_gazebo -- -j12 -l12
+Invoking command in '/root/catkin_ws/build/omo_r1mini_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_gazebo
+Invoked command in '/root/catkin_ws/build/omo_r1mini_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_gazebo

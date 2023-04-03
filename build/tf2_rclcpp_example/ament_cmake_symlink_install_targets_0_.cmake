@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/catkin_ws/build/tf2_rclcpp_example/broadcaster" "/root/catkin_ws/build/tf2_rclcpp_example/listener" "/root/catkin_ws/build/tf2_rclcpp_example/static_broadcaster" "TARGETS" "broadcaster" "listener" "static_broadcaster" "DESTINATION" "lib/tf2_rclcpp_example")

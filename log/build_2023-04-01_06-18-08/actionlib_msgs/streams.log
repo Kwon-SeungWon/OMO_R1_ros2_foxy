@@ -1,0 +1,308 @@
+[0.177s] Invoking command in '/root/catkin_ws/build/actionlib_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/ros2/common_interfaces/actionlib_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/actionlib_msgs
+[1.330s] -- The C compiler identification is GNU 9.4.0
+[1.330s] -- The CXX compiler identification is GNU 9.4.0
+[1.330s] -- Check for working C compiler: /usr/bin/cc
+[1.330s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.330s] -- Detecting C compiler ABI info
+[1.330s] -- Detecting C compiler ABI info - done
+[1.330s] -- Detecting C compile features
+[1.331s] -- Detecting C compile features - done
+[1.331s] -- Check for working CXX compiler: /usr/bin/c++
+[1.331s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.331s] -- Detecting CXX compiler ABI info
+[1.331s] -- Detecting CXX compiler ABI info - done
+[1.331s] -- Detecting CXX compile features
+[1.331s] -- Detecting CXX compile features - done
+[1.331s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.342s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.022s] -- Found builtin_interfaces: 1.0.0 (/root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.317s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.811s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.967s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.510s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.563s] -- Found std_msgs: 2.0.5 (/root/catkin_ws/install/std_msgs/share/std_msgs/cmake)
+[3.701s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.219s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.857s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.039s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.177s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.178s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.297s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.297s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.298s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.298s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.388s] -- Found PythonExtra: .so  
+[5.664s] -- Configuring done
+[5.795s] -- Generating done
+[5.802s] -- Build files have been written to: /root/catkin_ws/build/actionlib_msgs
+[5.840s] Invoked command in '/root/catkin_ws/build/actionlib_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/ros2/common_interfaces/actionlib_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/actionlib_msgs
+[5.841s] Invoking command in '/root/catkin_ws/build/actionlib_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/actionlib_msgs -- -j12 -l12
+[5.974s] [35m[1mScanning dependencies of target actionlib_msgs__cpp[0m
+[6.025s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.154s] [  1%] Built target actionlib_msgs__cpp
+[7.176s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.236s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_generator_c[0m
+[8.265s] [  5%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_id__functions.c.o[0m
+[8.351s] [  6%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status_array__functions.c.o[0m
+[8.427s] [  8%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_generator_c.dir/rosidl_generator_c/actionlib_msgs/msg/detail/goal_status__functions.c.o[0m
+[8.506s] [ 10%] [32m[1mLinking C shared library libactionlib_msgs__rosidl_generator_c.so[0m
+[8.576s] [ 10%] Built target actionlib_msgs__rosidl_generator_c
+[8.595s] [ 11%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[9.211s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[9.235s] [ 13%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_cpp.cpp.o[0m
+[9.661s] [ 15%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp.o[0m
+[10.114s] [ 16%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp.o[0m
+[10.466s] [ 18%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[10.572s] [ 18%] Built target actionlib_msgs__rosidl_typesupport_microxrcedds_cpp
+[10.586s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.081s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_introspection_c[0m
+[11.108s] [ 22%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actionlib_msgs/msg/detail/goal_id__type_support.c.o[0m
+[11.163s] [ 23%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actionlib_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[11.220s] [ 25%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actionlib_msgs/msg/detail/goal_status__type_support.c.o[0m
+[11.266s] [ 27%] [32m[1mLinking C shared library libactionlib_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.304s] [ 27%] Built target actionlib_msgs__rosidl_typesupport_introspection_c
+[11.317s] [ 28%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[11.927s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_microxrcedds_c[0m
+[11.952s] [ 30%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_c.c.o[0m
+[12.027s] [ 32%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_c.c.o[0m
+[12.098s] [ 33%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_c.c.o[0m
+[12.173s] [ 35%] [32m[1mLinking C shared library libactionlib_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[12.233s] [ 35%] Built target actionlib_msgs__rosidl_typesupport_microxrcedds_c
+[12.251s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.696s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_c[0m
+[12.717s] [ 38%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/actionlib_msgs/msg/goal_id__type_support.cpp.o[0m
+[12.751s] [ 40%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/actionlib_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[12.786s] [ 42%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/actionlib_msgs/msg/goal_status__type_support.cpp.o[0m
+[12.822s] [ 44%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_c.so[0m
+[12.871s] [ 44%] Built target actionlib_msgs__rosidl_typesupport_c
+[12.885s] [ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.422s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[13.445s] [ 47%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actionlib_msgs/msg/detail/dds_fastrtps/goal_id__type_support.cpp.o[0m
+[13.933s] [ 49%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actionlib_msgs/msg/detail/dds_fastrtps/goal_status_array__type_support.cpp.o[0m
+[14.532s] [ 50%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actionlib_msgs/msg/detail/dds_fastrtps/goal_status__type_support.cpp.o[0m
+[14.994s] [ 52%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.105s] [ 52%] Built target actionlib_msgs__rosidl_typesupport_fastrtps_cpp
+[15.122s] [ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.528s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_cpp[0m
+[15.546s] [ 55%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actionlib_msgs/msg/goal_id__type_support.cpp.o[0m
+[15.839s] [ 57%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actionlib_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[16.117s] [ 59%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actionlib_msgs/msg/goal_status__type_support.cpp.o[0m
+[16.417s] [ 61%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_cpp.so[0m
+[16.464s] [ 61%] Built target actionlib_msgs__rosidl_typesupport_cpp
+[16.477s] [ 62%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.478s] [ 64%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.903s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_introspection_cpp[0m
+[16.919s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_fastrtps_c[0m
+[16.924s] [ 66%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actionlib_msgs/msg/detail/goal_id__type_support.cpp.o[0m
+[16.924s] [ 67%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actionlib_msgs/msg/detail/goal_status__type_support.cpp.o[0m
+[16.928s] [ 69%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actionlib_msgs/msg/detail/goal_status_array__type_support.cpp.o[0m
+[16.951s] [ 71%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actionlib_msgs/msg/detail/goal_id__type_support_c.cpp.o[0m
+[16.953s] [ 72%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actionlib_msgs/msg/detail/goal_status__type_support_c.cpp.o[0m
+[16.966s] [ 74%] [32mBuilding CXX object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actionlib_msgs/msg/detail/goal_status_array__type_support_c.cpp.o[0m
+[17.489s] [ 76%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[17.576s] [ 77%] [32m[1mLinking CXX shared library libactionlib_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[17.638s] [ 77%] Built target actionlib_msgs__rosidl_typesupport_introspection_cpp
+[17.733s] [ 77%] Built target actionlib_msgs__rosidl_typesupport_fastrtps_c
+[17.746s] [35m[1mScanning dependencies of target actionlib_msgs[0m
+[17.765s] [ 77%] Built target actionlib_msgs
+[17.781s] [35m[1mScanning dependencies of target actionlib_msgs__py[0m
+[17.794s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.619s] [ 79%] Built target actionlib_msgs__py
+[18.632s] [35m[1mScanning dependencies of target actionlib_msgs__python[0m
+[18.663s] [ 81%] [32mBuilding C object CMakeFiles/actionlib_msgs__python.dir/rosidl_generator_py/actionlib_msgs/msg/_goal_status_s.c.o[0m
+[18.663s] [ 83%] [32mBuilding C object CMakeFiles/actionlib_msgs__python.dir/rosidl_generator_py/actionlib_msgs/msg/_goal_id_s.c.o[0m
+[18.664s] [ 84%] [32mBuilding C object CMakeFiles/actionlib_msgs__python.dir/rosidl_generator_py/actionlib_msgs/msg/_goal_status_array_s.c.o[0m
+[18.810s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/actionlib_msgs/libactionlib_msgs__python.so[0m
+[18.859s] [ 86%] Built target actionlib_msgs__python
+[18.877s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.877s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[18.878s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[18.909s] [ 88%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.910s] [ 89%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.919s] [ 91%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[19.020s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.021s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.074s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.079s] [ 96%] Built target actionlib_msgs__rosidl_typesupport_introspection_c__pyext
+[19.095s] [35m[1mScanning dependencies of target actionlib_msgs__rosidl_typesupport_c__pyext[0m
+[19.121s] [ 96%] Built target actionlib_msgs__rosidl_typesupport_fastrtps_c__pyext
+[19.130s] [ 98%] [32mBuilding C object CMakeFiles/actionlib_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/actionlib_msgs/_actionlib_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.134s] [ 98%] Built target actionlib_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[19.223s] [100%] [32m[1mLinking C shared library rosidl_generator_py/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.271s] [100%] Built target actionlib_msgs__rosidl_typesupport_c__pyext
+[19.295s] Invoked command in '/root/catkin_ws/build/actionlib_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/actionlib_msgs -- -j12 -l12
+[19.455s] Invoking command in '/root/catkin_ws/build/actionlib_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/actionlib_msgs
+[19.471s] -- Install configuration: ""
+[19.472s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/ament_index/resource_index/rosidl_interfaces/actionlib_msgs
+[19.472s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.472s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.472s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.473s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__functions.h
+[19.473s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__struct.h
+[19.473s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__type_support.h
+[19.473s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__functions.c
+[19.473s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__functions.c
+[19.473s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__type_support.h
+[19.474s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__struct.h
+[19.474s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__type_support.h
+[19.474s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__functions.c
+[19.474s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__functions.h
+[19.474s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__functions.h
+[19.474s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__struct.h
+[19.475s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.475s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/goal_id.h
+[19.475s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/goal_status.h
+[19.475s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/goal_status_array.h
+[19.475s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/library_path.sh
+[19.475s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/library_path.dsv
+[19.476s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_generator_c.so
+[19.476s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_generator_c.so" to ""
+[19.477s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.477s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.477s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.477s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_c.h
+[19.478s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_c.h
+[19.478s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds
+[19.478s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_microxrcedds_c.h
+[19.478s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[19.479s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_c.so
+[19.479s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[19.479s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.479s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.480s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.480s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_c.h
+[19.480s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_fastrtps_c.h
+[19.480s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_c.h
+[19.481s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.481s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_c.so
+[19.481s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.481s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.482s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.482s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.482s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_cpp.hpp
+[19.482s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_fastrtps_cpp.hpp
+[19.483s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.483s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/dds_fastrtps
+[19.483s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.483s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.484s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.484s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.484s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.485s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.485s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__type_support.c
+[19.485s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_c.h
+[19.485s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__type_support.c
+[19.486s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_c.h
+[19.486s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_introspection_c.h
+[19.486s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__type_support.c
+[19.487s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.487s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_c.so
+[19.488s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.488s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_c.so
+[19.488s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_c.so" to ""
+[19.488s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.489s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.489s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.489s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__struct.hpp
+[19.490s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__struct.hpp
+[19.490s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__traits.hpp
+[19.490s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__builder.hpp
+[19.490s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__builder.hpp
+[19.491s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__builder.hpp
+[19.491s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__struct.hpp
+[19.491s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__traits.hpp
+[19.492s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__traits.hpp
+[19.492s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/goal_status.hpp
+[19.492s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/goal_status_array.hpp
+[19.493s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/goal_id.hpp
+[19.493s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.493s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.493s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.494s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_microxrcedds_cpp.hpp
+[19.494s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[19.494s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[19.495s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds
+[19.495s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds/goal_status__type_support_cpp.cpp
+[19.495s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds/goal_id__type_support_cpp.cpp
+[19.495s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/microxrcedds/goal_status_array__type_support_cpp.cpp
+[19.496s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[19.496s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[19.496s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[19.496s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs
+[19.497s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg
+[19.497s] -- Up-to-date: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail
+[19.497s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__type_support.cpp
+[19.497s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__rosidl_typesupport_introspection_cpp.hpp
+[19.498s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_id__type_support.cpp
+[19.498s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_cpp.hpp
+[19.498s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status_array__type_support.cpp
+[19.498s] -- Installing: /root/catkin_ws/install/actionlib_msgs/include/actionlib_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_cpp.hpp
+[19.499s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_cpp.so
+[19.499s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.499s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_cpp.so
+[19.499s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__rosidl_typesupport_cpp.so" to ""
+[19.500s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/pythonpath.sh
+[19.500s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/pythonpath.dsv
+[19.500s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/__init__.py
+[19.614s] Compiling '/root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/__init__.py'...
+[19.622s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg
+[19.622s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg/_goal_status_array.py
+[19.625s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg/_goal_status_s.c
+[19.625s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg/_goal_status.py
+[19.625s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg/_goal_status_array_s.c
+[19.625s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg/_goal_id_s.c
+[19.625s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg/_goal_id.py
+[19.625s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/msg/__init__.py
+[19.626s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[19.628s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[19.628s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[19.628s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[19.629s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[19.629s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[19.630s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[19.630s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/python3.8/site-packages/actionlib_msgs/actionlib_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[19.631s] -- Installing: /root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__python.so
+[19.632s] -- Set runtime path of "/root/catkin_ws/install/actionlib_msgs/lib/libactionlib_msgs__python.so" to ""
+[19.632s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalID.idl
+[19.636s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatus.idl
+[19.637s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatusArray.idl
+[19.637s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalID.msg
+[19.645s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatus.msg
+[19.645s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/msg/GoalStatusArray.msg
+[19.646s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/ament_index/resource_index/package_run_dependencies/actionlib_msgs
+[19.646s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/ament_index/resource_index/parent_prefix_path/actionlib_msgs
+[19.646s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/ament_prefix_path.sh
+[19.646s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/ament_prefix_path.dsv
+[19.647s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/path.sh
+[19.647s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/environment/path.dsv
+[19.648s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.bash
+[19.648s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.sh
+[19.649s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.zsh
+[19.650s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/local_setup.dsv
+[19.651s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/package.dsv
+[19.651s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/ament_index/resource_index/packages/actionlib_msgs
+[19.652s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_generator_cExport.cmake
+[19.653s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.653s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.654s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.655s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cExport.cmake
+[19.656s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.656s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_generator_cppExport.cmake
+[19.658s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.658s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.659s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cppExport.cmake
+[19.660s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.660s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/rosidl_cmake-extras.cmake
+[19.661s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.661s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.662s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.663s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.664s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.665s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.665s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake
+[19.666s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake
+[19.667s] -- Installing: /root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/package.xml
+[19.676s] Invoked command in '/root/catkin_ws/build/actionlib_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/actionlib_msgs

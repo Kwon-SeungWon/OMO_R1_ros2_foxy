@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o  -o ../lidar_c_api_test  -Wl,-rpath,/root/catkin_ws/build/ydlidar_sdk: ../libydlidar_sdk.so -lstdc++ -lm -lpthread -lrt 

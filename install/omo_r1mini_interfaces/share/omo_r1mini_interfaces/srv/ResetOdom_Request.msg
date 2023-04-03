@@ -1,0 +1,1 @@
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_cmake/srv/ResetOdom_Request.msg

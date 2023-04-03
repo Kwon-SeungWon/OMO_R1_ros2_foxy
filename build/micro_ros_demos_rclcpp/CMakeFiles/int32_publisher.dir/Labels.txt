@@ -1,0 +1,13 @@
+# Target labels
+ int32_publisher
+# Source files and their labels
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_publisher
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_publisher.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_publisher-complete.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-stamp/int32_publisher-install.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-stamp/int32_publisher-mkdir.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-stamp/int32_publisher-download.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-stamp/int32_publisher-update.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-stamp/int32_publisher-patch.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-stamp/int32_publisher-configure.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-stamp/int32_publisher-build.rule

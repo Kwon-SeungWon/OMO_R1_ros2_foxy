@@ -1,0 +1,1 @@
+/root/catkin_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_cpp/composition_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h

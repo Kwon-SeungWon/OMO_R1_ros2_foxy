@@ -1,0 +1,1 @@
+/root/catkin_ws/build/sensor_msgs/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_microxrcedds_cpp.hpp

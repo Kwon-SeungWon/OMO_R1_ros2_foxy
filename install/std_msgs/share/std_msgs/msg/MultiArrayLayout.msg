@@ -1,0 +1,1 @@
+/root/catkin_ws/src/ros2/common_interfaces/std_msgs/msg/MultiArrayLayout.msg

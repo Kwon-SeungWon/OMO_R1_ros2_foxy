@@ -1,0 +1,243 @@
+[0.096s] Invoking command in '/root/catkin_ws/build/rosgraph_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/ros2/rcl_interfaces/rosgraph_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/rosgraph_msgs
+[0.408s] -- The C compiler identification is GNU 9.4.0
+[0.408s] -- The CXX compiler identification is GNU 9.4.0
+[0.408s] -- Check for working C compiler: /usr/bin/cc
+[0.475s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.476s] -- Detecting C compiler ABI info
+[0.611s] -- Detecting C compiler ABI info - done
+[0.663s] -- Detecting C compile features
+[0.664s] -- Detecting C compile features - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++
+[0.946s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.947s] -- Detecting CXX compiler ABI info
+[1.396s] -- Detecting CXX compiler ABI info - done
+[1.439s] -- Detecting CXX compile features
+[1.440s] -- Detecting CXX compile features - done
+[1.490s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.734s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.735s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.396s] -- Found builtin_interfaces: 1.0.0 (/root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.569s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.893s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.220s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.363s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.720s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.306s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.320s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.491s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.492s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.492s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.493s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.589s] -- Found PythonExtra: .so  
+[4.938s] -- Configuring done
+[5.030s] -- Generating done
+[5.037s] -- Build files have been written to: /root/catkin_ws/build/rosgraph_msgs
+[5.066s] Invoked command in '/root/catkin_ws/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/ros2/rcl_interfaces/rosgraph_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/rosgraph_msgs
+[5.068s] Invoking command in '/root/catkin_ws/build/rosgraph_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/rosgraph_msgs -- -j12 -l12
+[5.267s] [35m[1mScanning dependencies of target rosgraph_msgs__cpp[0m
+[5.278s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.355s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.018s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_generator_c[0m
+[6.128s] [  7%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosgraph_msgs/msg/detail/clock__functions.c.o[0m
+[6.136s] [  7%] Built target rosgraph_msgs__cpp
+[6.213s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.228s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.238s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.258s] [ 17%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[6.333s] [ 20%] [32m[1mLinking C shared library librosgraph_msgs__rosidl_generator_c.so[0m
+[6.539s] [ 20%] Built target rosgraph_msgs__rosidl_generator_c
+[6.623s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.642s] [ 25%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[6.670s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.816s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.888s] [ 30%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosgraph_msgs/msg/detail/clock__type_support.cpp.o[0m
+[7.118s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_cpp[0m
+[7.175s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[7.231s] [ 33%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosgraph_msgs/msg/clock__type_support.cpp.o[0m
+[7.270s] [ 35%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_cpp.cpp.o[0m
+[7.477s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.510s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_c[0m
+[7.601s] [ 38%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosgraph_msgs/msg/detail/clock__type_support.c.o[0m
+[7.606s] [ 41%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosgraph_msgs/msg/detail/dds_fastrtps/clock__type_support.cpp.o[0m
+[7.840s] [ 43%] [32m[1mLinking C shared library librosgraph_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.840s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_microxrcedds_c[0m
+[7.862s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_c[0m
+[7.943s] [ 46%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_c.c.o[0m
+[8.009s] [ 48%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosgraph_msgs/msg/clock__type_support.cpp.o[0m
+[8.068s] [ 48%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c
+[8.223s] [ 51%] [32m[1mLinking C shared library librosgraph_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[8.263s] [ 56%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_c.so[0m
+[8.271s] [ 56%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.340s] [ 58%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[8.420s] [ 58%] Built target rosgraph_msgs__rosidl_typesupport_microxrcedds_c
+[8.504s] [ 58%] Built target rosgraph_msgs__rosidl_typesupport_c
+[8.532s] [ 58%] Built target rosgraph_msgs__rosidl_typesupport_microxrcedds_cpp
+[8.672s] [ 58%] Built target rosgraph_msgs__rosidl_typesupport_introspection_cpp
+[8.864s] [ 61%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_cpp.so[0m
+[9.132s] [ 61%] Built target rosgraph_msgs__rosidl_typesupport_cpp
+[10.012s] [ 64%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.356s] [ 64%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp
+[10.474s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.758s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_c[0m
+[11.850s] [ 69%] [32mBuilding CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosgraph_msgs/msg/detail/clock__type_support_c.cpp.o[0m
+[13.019s] [ 71%] [32m[1mLinking CXX shared library librosgraph_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.450s] [ 71%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c
+[13.540s] [35m[1mScanning dependencies of target rosgraph_msgs[0m
+[13.602s] [ 71%] Built target rosgraph_msgs
+[13.706s] [35m[1mScanning dependencies of target rosgraph_msgs__py[0m
+[13.793s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.939s] [ 74%] Built target rosgraph_msgs__py
+[14.958s] [35m[1mScanning dependencies of target rosgraph_msgs__python[0m
+[15.020s] [ 76%] [32mBuilding C object CMakeFiles/rosgraph_msgs__python.dir/rosidl_generator_py/rosgraph_msgs/msg/_clock_s.c.o[0m
+[15.224s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/librosgraph_msgs__python.so[0m
+[15.343s] [ 79%] Built target rosgraph_msgs__python
+[15.394s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[15.473s] [ 82%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.685s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.793s] [ 84%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext
+[15.822s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_c__pyext[0m
+[15.866s] [ 87%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.050s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.168s] [ 89%] Built target rosgraph_msgs__rosidl_typesupport_c__pyext
+[16.190s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[16.240s] [ 92%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[16.380s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.483s] [ 94%] Built target rosgraph_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[16.513s] [35m[1mScanning dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.560s] [ 97%] [32mBuilding C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.704s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.819s] [100%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext
+[16.846s] Invoked command in '/root/catkin_ws/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/rosgraph_msgs -- -j12 -l12
+[16.976s] Invoking command in '/root/catkin_ws/build/rosgraph_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/rosgraph_msgs
+[16.995s] -- Install configuration: ""
+[16.996s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/ament_index/resource_index/rosidl_interfaces/rosgraph_msgs
+[16.996s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[16.996s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[16.996s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[16.997s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__functions.c
+[16.997s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__functions.h
+[16.997s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__struct.h
+[16.997s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__type_support.h
+[16.998s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.998s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/clock.h
+[16.998s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.sh
+[16.998s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.dsv
+[16.999s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_c.so
+[16.999s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_c.so" to ""
+[17.000s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[17.000s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[17.000s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[17.000s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_microxrcedds_c.h
+[17.001s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/microxrcedds
+[17.001s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[17.001s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_microxrcedds_c.so
+[17.002s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[17.002s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[17.002s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[17.003s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[17.003s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_c.h
+[17.003s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.004s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+[17.004s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[17.005s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[17.005s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[17.005s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[17.006s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_cpp.hpp
+[17.006s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/dds_fastrtps
+[17.007s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.008s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+[17.009s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.010s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[17.010s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[17.010s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[17.010s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_c.h
+[17.011s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__type_support.c
+[17.011s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.012s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+[17.013s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so" to ""
+[17.013s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_c.so
+[17.014s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_c.so" to ""
+[17.014s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[17.015s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[17.015s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[17.015s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__traits.hpp
+[17.016s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__builder.hpp
+[17.016s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__struct.hpp
+[17.017s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/clock.hpp
+[17.017s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[17.017s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[17.017s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[17.018s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_microxrcedds_cpp.hpp
+[17.018s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/microxrcedds
+[17.018s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_cpp.cpp
+[17.018s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[17.018s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[17.019s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[17.019s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs
+[17.019s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg
+[17.019s] -- Up-to-date: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail
+[17.019s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__type_support.cpp
+[17.020s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_cpp.hpp
+[17.020s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+[17.021s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[17.021s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+[17.022s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_cpp.so" to ""
+[17.022s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.sh
+[17.022s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.dsv
+[17.023s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/__init__.py
+[17.141s] Compiling '/root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/__init__.py'...
+[17.150s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/msg
+[17.150s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/msg/_clock_s.c
+[17.151s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/msg/_clock.py
+[17.151s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/msg/__init__.py
+[17.153s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[17.153s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.154s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[17.155s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.155s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[17.157s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.157s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[17.158s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/python3.8/site-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.159s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__python.so
+[17.164s] -- Set runtime path of "/root/catkin_ws/install/rosgraph_msgs/lib/librosgraph_msgs__python.so" to ""
+[17.165s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.idl
+[17.165s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.msg
+[17.166s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/ament_index/resource_index/package_run_dependencies/rosgraph_msgs
+[17.166s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/ament_index/resource_index/parent_prefix_path/rosgraph_msgs
+[17.168s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.sh
+[17.168s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.dsv
+[17.168s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.sh
+[17.169s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.dsv
+[17.169s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.bash
+[17.169s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.sh
+[17.169s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.zsh
+[17.169s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.dsv
+[17.169s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/package.dsv
+[17.170s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/ament_index/resource_index/packages/rosgraph_msgs
+[17.171s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_generator_cExport.cmake
+[17.171s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_generator_cExport-noconfig.cmake
+[17.171s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport.cmake
+[17.171s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.171s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_generator_cppExport.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake-extras.cmake
+[17.172s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.173s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[17.173s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[17.174s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.174s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.174s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.174s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake
+[17.174s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake
+[17.174s] -- Installing: /root/catkin_ws/install/rosgraph_msgs/share/rosgraph_msgs/package.xml
+[17.184s] Invoked command in '/root/catkin_ws/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/rosgraph_msgs

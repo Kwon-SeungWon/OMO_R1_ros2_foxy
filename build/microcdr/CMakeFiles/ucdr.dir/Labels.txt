@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/root/catkin_ws/build/microcdr/CMakeFiles/ucdr
+/root/catkin_ws/build/microcdr/CMakeFiles/ucdr.rule
+/root/catkin_ws/build/microcdr/CMakeFiles/ucdr-complete.rule
+/root/catkin_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/root/catkin_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/root/catkin_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/root/catkin_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule
+/root/catkin_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/root/catkin_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/root/catkin_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule

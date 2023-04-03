@@ -1,0 +1,4 @@
+/root/catkin_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Mesh.idl
+/root/catkin_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/MeshTriangle.idl
+/root/catkin_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Plane.idl
+/root/catkin_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/SolidPrimitive.idl

@@ -1,0 +1,11 @@
+{
+  "package_name": "omo_r1mini_interfaces",
+  "non_idl_tuples": [
+    "/root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_interfaces:srv/Battery.srv",
+    "/root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_interfaces:srv/Calg.srv",
+    "/root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_interfaces:srv/Color.srv",
+    "/root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_interfaces:srv/Onoff.srv",
+    "/root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_interfaces:srv/ResetOdom.srv",
+    "/root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_interfaces:srv/SaveColor.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/catkin_ws/build/std_msgs/rosidl_generator_py/std_msgs/std_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "std_msgs__rosidl_typesupport_microxrcedds_c__pyext" "DESTINATION" "lib/python3.8/site-packages/std_msgs")

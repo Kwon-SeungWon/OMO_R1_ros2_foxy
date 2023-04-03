@@ -1,0 +1,620 @@
+[0.014s] Invoking command in '/root/catkin_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/micro_ros_agent
+[0.020s] Not searching for unused variables given on the command line.
+[0.063s] -- The C compiler identification is GNU 9.4.0
+[0.072s] -- Check for working C compiler: /usr/bin/cc
+[0.126s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.127s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.265s] -- The CXX compiler identification is GNU 9.4.0
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.348s] -- Detecting CXX compiler ABI info
+[0.409s] -- Detecting CXX compiler ABI info - done
+[0.418s] -- Detecting CXX compile features
+[0.418s] -- Detecting CXX compile features - done
+[0.474s] -- Configuring done
+[0.477s] -- Generating done
+[0.477s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_agent
+[0.480s] Invoked command in '/root/catkin_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/micro_ros_agent
+[0.481s] Invoking command in '/root/catkin_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_agent -- -j12 -l12
+[0.509s] [35m[1mScanning dependencies of target xrceagent[0m
+[0.516s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.569s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.584s] Cloning into 'xrceagent'...
+[3.484s] Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+[3.484s] Switched to a new branch 'ros2'
+[3.534s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[3.534s] [ 25%] [34m[1mPerforming update step for 'xrceagent'[0m
+[4.041s] Current branch ros2 is up to date.
+[4.067s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[4.073s] loading initial cache file /root/catkin_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[4.114s] -- The C compiler identification is GNU 9.4.0
+[4.122s] -- Check for working C compiler: /usr/bin/cc
+[4.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.171s] -- Detecting C compiler ABI info
+[4.240s] -- Detecting C compiler ABI info - done
+[4.248s] -- Detecting C compile features
+[4.248s] -- Detecting C compile features - done
+[4.284s] -- The CXX compiler identification is GNU 9.4.0
+[4.289s] -- Check for working CXX compiler: /usr/bin/c++
+[4.350s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.351s] -- Detecting CXX compiler ABI info
+[4.417s] -- Detecting CXX compiler ABI info - done
+[4.426s] -- Detecting CXX compile features
+[4.426s] -- Detecting CXX compile features - done
+[4.468s] -- Configuring done
+[4.471s] -- Generating done
+[4.471s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[4.485s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[4.507s] [35m[1mScanning dependencies of target spdlog[0m
+[4.515s] [  6%] [34m[1mCreating directories for 'spdlog'[0m
+[4.570s] [ 12%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[4.585s] Cloning into 'spdlog'...
+[21.479s] Note: switching to 'v1.9.2'.
+[21.479s] 
+[21.480s] You are in 'detached HEAD' state. You can look around, make experimental
+[21.480s] changes and commit them, and you can discard any commits you make in this
+[21.480s] state without impacting any branches by switching back to a branch.
+[21.480s] 
+[21.480s] If you want to create a new branch to retain commits you create, you may
+[21.480s] do so (now or later) by using -c with the switch command. Example:
+[21.480s] 
+[21.480s]   git switch -c <new-branch-name>
+[21.480s] 
+[21.480s] Or undo this operation with:
+[21.480s] 
+[21.480s]   git switch -
+[21.480s] 
+[21.480s] Turn off this advice by setting config variable advice.detachedHead to false
+[21.480s] 
+[21.480s] HEAD is now at eb322062 Bump version to 1.9.2
+[21.521s] [ 18%] [34m[1mNo patch step for 'spdlog'[0m
+[21.521s] [ 25%] [34m[1mPerforming update step for 'spdlog'[0m
+[21.543s] [ 31%] [34m[1mPerforming configure step for 'spdlog'[0m
+[21.550s] loading initial cache file /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake
+[21.593s] -- The CXX compiler identification is GNU 9.4.0
+[21.602s] -- Check for working CXX compiler: /usr/bin/c++
+[21.668s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[21.669s] -- Detecting CXX compiler ABI info
+[21.730s] -- Detecting CXX compiler ABI info - done
+[21.742s] -- Detecting CXX compile features
+[21.742s] -- Detecting CXX compile features - done
+[21.742s] -- Build spdlog: 1.9.2
+[21.747s] -- Looking for C++ include pthread.h
+[21.816s] -- Looking for C++ include pthread.h - found
+[21.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[21.883s] -- Looking for pthread_create in pthreads
+[21.939s] -- Looking for pthread_create in pthreads - not found
+[21.939s] -- Looking for pthread_create in pthread
+[22.003s] -- Looking for pthread_create in pthread - found
+[22.004s] -- Found Threads: TRUE  
+[22.004s] -- Build type: Release
+[22.004s] -- Generating example(s)
+[22.005s] -- Generating install
+[22.015s] -- Configuring done
+[22.020s] -- Generating done
+[22.021s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
+[22.039s] [ 37%] [34m[1mPerforming build step for 'spdlog'[0m
+[22.063s] [35m[1mScanning dependencies of target spdlog[0m
+[22.081s] [ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[22.081s] [ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[22.081s] [ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[22.083s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[22.083s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[22.083s] [ 60%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[22.084s] [ 70%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[28.586s] [ 80%] [32m[1mLinking CXX static library libspdlog.a[0m
+[28.626s] [ 80%] Built target spdlog
+[28.633s] [35m[1mScanning dependencies of target example[0m
+[28.646s] [ 90%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[31.797s] [100%] [32m[1mLinking CXX executable example[0m
+[31.866s] [100%] Built target example
+[31.886s] [ 43%] [34m[1mPerforming install step for 'spdlog'[0m
+[31.918s] [ 80%] Built target spdlog
+[31.934s] [100%] Built target example
+[31.949s] [36mInstall the project...[0m
+[31.956s] -- Install configuration: "Release"
+[31.956s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include
+[31.956s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog
+[31.956s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[31.956s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[31.956s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[31.956s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[31.957s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[31.958s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[31.959s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[31.960s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[31.961s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[31.962s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[31.963s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[31.963s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[31.964s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[31.965s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[31.965s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[31.965s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[31.965s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[31.965s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[31.965s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[31.965s] -- Installing: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[31.980s] [ 50%] [34m[1mCompleted 'spdlog'[0m
+[32.004s] [ 50%] Built target spdlog
+[32.011s] [35m[1mScanning dependencies of target uagent[0m
+[32.019s] [ 56%] [34m[1mCreating directories for 'uagent'[0m
+[32.077s] [ 62%] [34m[1mNo download step for 'uagent'[0m
+[32.096s] [ 75%] [34m[1mNo patch step for 'uagent'[0m
+[32.097s] [ 75%] [34m[1mNo update step for 'uagent'[0m
+[32.116s] [ 81%] [34m[1mPerforming configure step for 'uagent'[0m
+[32.123s] loading initial cache file /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[32.127s] -- Setting build type to 'Release' as none was specified.
+[32.171s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[32.218s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[32.225s] -- Looking for pthread.h
+[32.316s] -- Looking for pthread.h - found
+[32.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[32.379s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[32.380s] -- Looking for pthread_create in pthreads
+[32.425s] -- Looking for pthread_create in pthreads - not found
+[32.425s] -- Looking for pthread_create in pthread
+[32.502s] -- Looking for pthread_create in pthread - found
+[32.502s] -- Found Threads: TRUE  
+[32.506s] -- Configuring done
+[32.515s] -- Generating done
+[32.515s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[32.531s] [ 87%] [34m[1mPerforming build step for 'uagent'[0m
+[32.554s] [35m[1mScanning dependencies of target microxrcedds_agent[0m
+[32.727s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[32.729s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[32.730s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[32.730s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[32.730s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[32.730s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[32.730s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[32.730s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[32.731s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[32.731s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[32.731s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[32.731s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[34.374s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[34.418s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[34.424s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[34.438s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[35.172s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[35.302s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[35.902s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[37.527s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[37.980s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[38.028s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[38.503s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[38.522s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[39.693s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[39.727s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[40.017s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[40.298s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[40.949s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[41.111s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[42.167s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[44.074s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[44.140s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[45.207s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[45.491s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[45.855s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[45.949s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[46.630s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[46.754s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[46.927s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[47.018s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[52.270s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[52.475s] [100%] Built target microxrcedds_agent
+[52.495s] [34m[1mNo install step for 'uagent'[0m
+[52.513s] [34m[1mCompleted 'uagent'[0m
+[52.537s] Built target uagent
+[52.556s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[52.616s] [100%] Built target microxrcedds_agent
+[52.631s] [36mInstall the project...[0m
+[52.637s] -- Install configuration: "Release"
+[52.637s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.3.0
+[52.640s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.3
+[52.641s] -- Set runtime path of "/root/catkin_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.3.0" to ""
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/reader
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[52.641s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/requester
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[52.642s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport
+[52.643s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[52.644s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[52.645s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[52.646s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/replier
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/processor
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[52.647s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/participant
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/object
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/types
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/logger
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[52.648s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/topic
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/message
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[52.649s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[52.650s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[52.650s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[52.650s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[52.650s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[52.650s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[52.650s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[52.650s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[52.650s] -- Up-to-date: /root/catkin_ws/install/micro_ros_agent
+[52.650s] -- Up-to-date: /root/catkin_ws/install/micro_ros_agent/include
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/logger.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/stopwatch.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h
+[52.651s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h
+[52.652s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/version.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/tweakme.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/async_logger.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/async.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/cfg
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/cfg/env.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/formatter.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/spdlog.h
+[52.653s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/common.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/registry.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h
+[52.654s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/os.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h
+[52.655s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/logger-inl.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h
+[52.656s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h
+[52.657s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/common-inl.h
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/include/spdlog/fwd.h
+[52.658s] -- Up-to-date: /root/catkin_ws/install/micro_ros_agent/lib
+[52.658s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/cmake
+[52.659s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/cmake/spdlog
+[52.659s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[52.659s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[52.659s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake
+[52.659s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[52.659s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/libspdlog.a
+[52.660s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/pkgconfig
+[52.660s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc
+[52.674s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[52.700s] [ 50%] Built target xrceagent
+[52.708s] [35m[1mScanning dependencies of target micro_ros_agent[0m
+[52.716s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[52.773s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[52.794s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[52.794s] [ 75%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[52.815s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[52.822s] loading initial cache file /root/catkin_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[52.833s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[52.882s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[52.882s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[53.240s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[53.260s] -- Looking for C++ include pthread.h
+[53.321s] -- Looking for C++ include pthread.h - found
+[53.321s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[53.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[53.386s] -- Looking for pthread_create in pthreads
+[53.436s] -- Looking for pthread_create in pthreads - not found
+[53.436s] -- Looking for pthread_create in pthread
+[53.494s] -- Looking for pthread_create in pthread - found
+[53.495s] -- Found Threads: TRUE  
+[53.502s] -- Found rosidl_cmake: 1.3.0 (/opt/ros/foxy/share/rosidl_cmake/cmake)
+[53.508s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[53.539s] -- Found fastrtps_cmake_module: 1.0.4 (/opt/ros/foxy/share/fastrtps_cmake_module/cmake)
+[53.547s] -- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+[53.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[53.700s] -- Found FastRTPS: /opt/ros/foxy/include  
+[53.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[53.854s] -- Found rmw_fastrtps_shared_cpp: 1.3.1 (/opt/ros/foxy/share/rmw_fastrtps_shared_cpp/cmake)
+[53.917s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[53.925s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[53.925s] -- Found micro_ros_msgs: 1.0.0 (/root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[54.003s] -- Configuring done
+[54.008s] -- Generating done
+[54.009s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_agent
+[54.025s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[54.048s] [35m[1mScanning dependencies of target micro_ros_agent[0m
+[54.152s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[54.152s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[54.153s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[54.153s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[54.154s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[57.174s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[57.387s] [100%] Built target micro_ros_agent
+[57.408s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[57.428s] [34m[1mCompleted 'micro_ros_agent'[0m
+[57.456s] Built target micro_ros_agent
+[57.464s] Invoked command in '/root/catkin_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_agent -- -j12 -l12
+[57.492s] Invoking command in '/root/catkin_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_agent
+[57.500s] -- Install configuration: ""
+[57.500s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[57.500s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[57.500s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[57.500s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[57.500s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[57.501s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.502s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[57.502s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[57.502s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[57.502s] -- Installing: /root/catkin_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[57.503s] -- Set runtime path of "/root/catkin_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[57.503s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[57.503s] -- Installing: /root/catkin_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[57.507s] Invoked command in '/root/catkin_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_agent

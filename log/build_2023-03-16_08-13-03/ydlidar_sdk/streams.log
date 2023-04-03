@@ -1,0 +1,7 @@
+[0.347s] Invoking command in '/root/catkin_ws/build/ydlidar_sdk': /usr/bin/cmake --build /root/catkin_ws/build/ydlidar_sdk -- -j12 -l12
+[0.405s] [ 58%] Built target ydlidar_sdk
+[0.431s] [ 83%] Built target tof_test
+[0.431s] [ 83%] Built target etlidar_test
+[0.432s] [ 83%] Built target lidar_c_api_test
+[0.432s] [ 91%] Built target ydlidar_test
+[0.438s] [100%] Built target lidar_test

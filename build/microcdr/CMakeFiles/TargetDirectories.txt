@@ -1,0 +1,7 @@
+/root/catkin_ws/build/microcdr/CMakeFiles/install/strip.dir
+/root/catkin_ws/build/microcdr/CMakeFiles/install/local.dir
+/root/catkin_ws/build/microcdr/CMakeFiles/install.dir
+/root/catkin_ws/build/microcdr/CMakeFiles/list_install_components.dir
+/root/catkin_ws/build/microcdr/CMakeFiles/rebuild_cache.dir
+/root/catkin_ws/build/microcdr/CMakeFiles/edit_cache.dir
+/root/catkin_ws/build/microcdr/CMakeFiles/microcdr.dir

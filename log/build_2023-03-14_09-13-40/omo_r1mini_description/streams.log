@@ -1,0 +1,57 @@
+[0.041s] Invoking command in '/root/catkin_ws/build/omo_r1mini_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/omo_r1mini_description
+[0.095s] -- The C compiler identification is GNU 9.4.0
+[0.146s] -- The CXX compiler identification is GNU 9.4.0
+[0.151s] -- Check for working C compiler: /usr/bin/cc
+[0.206s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.207s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.285s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.356s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.443s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.477s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.477s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.681s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.719s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.825s] -- Configuring done
+[0.827s] -- Generating done
+[0.827s] -- Build files have been written to: /root/catkin_ws/build/omo_r1mini_description
+[0.836s] Invoked command in '/root/catkin_ws/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/omo_r1mini-foxy/omo_r1mini_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/omo_r1mini_description
+[0.838s] Invoking command in '/root/catkin_ws/build/omo_r1mini_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_description -- -j12 -l12
+[0.902s] Invoked command in '/root/catkin_ws/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_description -- -j12 -l12
+[1.085s] Invoking command in '/root/catkin_ws/build/omo_r1mini_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_description
+[1.106s] -- Install configuration: ""
+[1.109s] -- Execute custom install script
+[1.110s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/body_assy.dae
+[1.130s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/housing_body.dae
+[1.152s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/sensors/ydlidar_assy.dae
+[1.176s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel.dae
+[1.208s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_mount.dae
+[1.236s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_rotate.dae
+[1.260s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/wheel_assy.dae
+[1.293s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/rviz/model.rviz
+[1.309s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_r1mini.urdf
+[1.324s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description.launch.py
+[1.337s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description_rviz.launch.py
+[1.349s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_state_publisher.launch.py
+[1.365s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_description
+[1.375s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_description
+[1.385s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.sh
+[1.407s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.dsv
+[1.409s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.sh
+[1.421s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.dsv
+[1.431s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.bash
+[1.443s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.sh
+[1.455s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.zsh
+[1.467s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.dsv
+[1.478s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv
+[1.486s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/ament_index/resource_index/packages/omo_r1mini_description
+[1.494s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake
+[1.506s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake
+[1.519s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/package.xml
+[1.534s] Invoked command in '/root/catkin_ws/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_description

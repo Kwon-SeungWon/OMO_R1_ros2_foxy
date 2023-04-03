@@ -1,0 +1,237 @@
+[0.088s] Invoking command in '/root/catkin_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/lifecycle_msgs -- -j12 -l12
+[0.315s] [  1%] Built target lifecycle_msgs__cpp
+[0.320s] [  9%] Built target lifecycle_msgs__rosidl_generator_c
+[0.460s] [ 23%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp
+[0.460s] [ 37%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp
+[0.460s] [ 37%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c
+[0.493s] [ 46%] Built target lifecycle_msgs__rosidl_typesupport_cpp
+[0.493s] [ 55%] Built target lifecycle_msgs__rosidl_typesupport_introspection_cpp
+[0.528s] [ 64%] Built target lifecycle_msgs__rosidl_typesupport_c
+[0.536s] [ 73%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c
+[0.540s] [ 82%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c
+[0.611s] [ 82%] Built target lifecycle_msgs
+[0.622s] [ 83%] Built target lifecycle_msgs__py
+[0.713s] [ 92%] Built target lifecycle_msgs__python
+[0.803s] [ 94%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.820s] [ 96%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[0.820s] [ 98%] Built target lifecycle_msgs__rosidl_typesupport_c__pyext
+[0.824s] [100%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c__pyext
+[0.936s] Invoked command in '/root/catkin_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/lifecycle_msgs -- -j12 -l12
+[1.358s] Invoking command in '/root/catkin_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/lifecycle_msgs
+[1.450s] -- Install configuration: ""
+[1.450s] -- Execute custom install script
+[1.450s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/ament_index/resource_index/rosidl_interfaces/lifecycle_msgs
+[1.450s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__functions.h
+[1.450s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__struct.h
+[1.460s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__type_support.h
+[1.489s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__functions.h
+[1.508s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__struct.h
+[1.526s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__type_support.h
+[1.546s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__functions.h
+[1.571s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__struct.h
+[1.602s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__type_support.h
+[1.621s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__functions.h
+[1.641s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__struct.h
+[1.663s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__type_support.h
+[1.686s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.713s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/state.h
+[1.728s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/transition.h
+[1.748s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/transition_description.h
+[1.769s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/transition_event.h
+[1.792s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/change_state.h
+[1.812s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__functions.h
+[1.831s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__struct.h
+[1.852s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__type_support.h
+[1.872s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__functions.h
+[1.892s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__struct.h
+[1.951s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__type_support.h
+[1.964s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__functions.h
+[1.965s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__struct.h
+[1.970s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__type_support.h
+[2.005s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__functions.h
+[2.010s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__struct.h
+[2.022s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__type_support.h
+[2.039s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/get_available_states.h
+[2.058s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/get_available_transitions.h
+[2.067s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/get_state.h
+[2.083s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.sh
+[2.101s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.dsv
+[2.116s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_c.h
+[2.133s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_c.h
+[2.151s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_c.h
+[2.164s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_c.h
+[2.177s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[2.189s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_c.h
+[2.203s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_c.h
+[2.216s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_c.h
+[2.229s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_c.h
+[2.243s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so
+[2.257s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[2.269s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_c.h
+[2.282s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_c.h
+[2.295s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_c.h
+[2.308s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.322s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_c.h
+[2.336s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_c.h
+[2.350s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_c.h
+[2.364s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[2.378s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+[2.395s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.407s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_cpp.hpp
+[2.420s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_cpp.hpp
+[2.431s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_cpp.hpp
+[2.444s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.456s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.469s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_cpp.hpp
+[2.482s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_cpp.hpp
+[2.496s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.510s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.523s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[2.536s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_c.h
+[2.550s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_c.h
+[2.563s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_c.h
+[2.578s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.590s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_c.h
+[2.607s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_c.h
+[2.619s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_c.h
+[2.632s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[2.647s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__builder.hpp
+[2.664s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__struct.hpp
+[2.674s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__traits.hpp
+[2.687s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__builder.hpp
+[2.703s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__struct.hpp
+[2.714s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__traits.hpp
+[2.724s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__builder.hpp
+[2.735s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__struct.hpp
+[2.748s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__traits.hpp
+[2.761s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__builder.hpp
+[2.771s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__struct.hpp
+[2.784s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__traits.hpp
+[2.799s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/state.hpp
+[2.810s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/transition.hpp
+[2.820s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/transition_description.hpp
+[2.832s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/transition_event.hpp
+[2.844s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/change_state.hpp
+[2.857s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__builder.hpp
+[2.873s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__struct.hpp
+[2.885s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__traits.hpp
+[2.897s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__builder.hpp
+[2.909s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__struct.hpp
+[2.924s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__traits.hpp
+[2.931s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__builder.hpp
+[2.941s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__struct.hpp
+[2.956s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__traits.hpp
+[2.967s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__builder.hpp
+[2.980s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__struct.hpp
+[2.992s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__traits.hpp
+[3.004s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/get_available_states.hpp
+[3.015s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/get_available_transitions.hpp
+[3.029s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/get_state.hpp
+[3.039s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp
+[3.051s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp
+[3.065s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp
+[3.077s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp
+[3.090s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.099s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.111s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.123s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.138s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[3.155s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.173s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.192s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.212s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[3.234s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp
+[3.256s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp
+[3.277s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp
+[3.295s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp
+[3.315s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[3.337s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[3.352s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp
+[3.372s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_cpp.hpp
+[3.393s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_cpp.hpp
+[3.413s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp
+[3.435s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_cpp.hpp
+[3.454s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_cpp.hpp
+[3.477s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[3.495s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.sh
+[3.513s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.dsv
+[3.534s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/__init__.py
+[3.548s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/msg/__init__.py
+[3.564s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/msg/_state.py
+[3.584s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/msg/_transition.py
+[3.608s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/msg/_transition_description.py
+[3.628s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/msg/_transition_event.py
+[3.653s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/srv/__init__.py
+[3.671s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/srv/_change_state.py
+[3.689s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/srv/_get_available_states.py
+[3.706s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/srv/_get_available_transitions.py
+[3.724s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/srv/_get_state.py
+[3.753s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[3.768s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.787s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.806s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.827s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__python.so
+[3.847s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.idl
+[3.865s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.idl
+[3.884s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.idl
+[3.903s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.idl
+[3.922s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.idl
+[3.939s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.idl
+[3.955s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.idl
+[3.972s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.idl
+[3.990s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.msg
+[4.009s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.msg
+[4.027s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.msg
+[4.047s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.msg
+[4.066s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.srv
+[4.079s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Request.msg
+[4.098s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState_Response.msg
+[4.116s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.srv
+[4.136s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Request.msg
+[4.154s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates_Response.msg
+[4.173s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.srv
+[4.191s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Request.msg
+[4.210s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions_Response.msg
+[4.230s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.srv
+[4.250s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Request.msg
+[4.273s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState_Response.msg
+[4.290s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/ament_index/resource_index/package_run_dependencies/lifecycle_msgs
+[4.309s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/ament_index/resource_index/parent_prefix_path/lifecycle_msgs
+[4.329s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.sh
+[4.347s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.dsv
+[4.367s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.sh
+[4.386s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.dsv
+[4.405s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.bash
+[4.422s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.sh
+[4.441s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.zsh
+[4.461s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.dsv
+[4.480s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.dsv
+[4.499s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/ament_index/resource_index/packages/lifecycle_msgs
+[4.518s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake-extras.cmake
+[4.537s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.553s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.572s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.595s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.612s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.633s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.650s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake
+[4.668s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig-version.cmake
+[4.711s] -- Symlinking: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.xml
+[4.727s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so
+[4.729s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+[4.730s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+[4.733s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+[4.734s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+[4.857s] Compiling '/root/catkin_ws/install/lifecycle_msgs/lib/python3.8/site-packages/lifecycle_msgs/__init__.py'...
+[4.864s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_generator_cExport.cmake
+[4.865s] -- Installing: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.869s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.870s] -- Installing: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.870s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport.cmake
+[4.870s] -- Installing: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.871s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_generator_cppExport.cmake
+[4.872s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.872s] -- Installing: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.872s] -- Up-to-date: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport.cmake
+[4.872s] -- Installing: /root/catkin_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.881s] Invoked command in '/root/catkin_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/lifecycle_msgs

@@ -1,0 +1,94 @@
+[0.145s] Invoking command in '/root/catkin_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/ros2-seminar-examples/tf2_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/tf2_rclcpp_example
+[0.205s] -- The C compiler identification is GNU 9.4.0
+[0.285s] -- The CXX compiler identification is GNU 9.4.0
+[0.292s] -- Check for working C compiler: /usr/bin/cc
+[0.352s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.353s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.422s] -- Detecting C compile features
+[0.422s] -- Detecting C compile features - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++
+[0.490s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.491s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.585s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.631s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.631s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.895s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.977s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.158s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.440s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.504s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.505s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.507s] -- Looking for pthread.h
+[1.586s] -- Looking for pthread.h - found
+[1.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.682s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.682s] -- Looking for pthread_create in pthreads
+[1.765s] -- Looking for pthread_create in pthreads - not found
+[1.765s] -- Looking for pthread_create in pthread
+[1.868s] -- Looking for pthread_create in pthread - found
+[1.870s] -- Found Threads: TRUE  
+[2.171s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.189s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.211s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.236s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.254s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.108s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.260s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.261s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.262s] -- Configured cppcheck include dirs: /root/catkin_ws/src/ros2-seminar-examples/tf2_rclcpp_example/include
+[3.262s] -- Configured cppcheck exclude dirs and/or files: 
+[3.263s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.263s] -- Configured cpplint exclude dirs and/or files: 
+[3.265s] -- Added test 'lint_cmake' to check CMake code style
+[3.267s] -- Added test 'uncrustify' to check C / C++ code style
+[3.267s] -- Configured uncrustify additional arguments: 
+[3.268s] -- Added test 'xmllint' to check XML markup files
+[3.273s] -- Configuring done
+[3.315s] -- Generating done
+[3.318s] -- Build files have been written to: /root/catkin_ws/build/tf2_rclcpp_example
+[3.371s] Invoked command in '/root/catkin_ws/build/tf2_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/ros2-seminar-examples/tf2_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/tf2_rclcpp_example
+[3.372s] Invoking command in '/root/catkin_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/tf2_rclcpp_example -- -j12 -l12
+[3.432s] [35m[1mScanning dependencies of target broadcaster[0m
+[3.452s] [35m[1mScanning dependencies of target static_broadcaster[0m
+[3.457s] [35m[1mScanning dependencies of target listener[0m
+[3.511s] [ 16%] [32mBuilding CXX object CMakeFiles/broadcaster.dir/src/broadcaster.cpp.o[0m
+[3.520s] [ 33%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_broadcaster.cpp.o[0m
+[3.537s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[5.465s] [ 66%] [32m[1mLinking CXX executable listener[0m
+[5.631s] [ 66%] Built target listener
+[6.195s] [ 83%] [32m[1mLinking CXX executable static_broadcaster[0m
+[6.381s] [ 83%] Built target static_broadcaster
+[7.244s] [100%] [32m[1mLinking CXX executable broadcaster[0m
+[7.425s] [100%] Built target broadcaster
+[7.464s] Invoked command in '/root/catkin_ws/build/tf2_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/tf2_rclcpp_example -- -j12 -l12
+[7.486s] Invoking command in '/root/catkin_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/tf2_rclcpp_example
+[7.494s] -- Install configuration: ""
+[7.495s] -- Execute custom install script
+[7.495s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/lib/tf2_rclcpp_example/broadcaster
+[7.503s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/lib/tf2_rclcpp_example/listener
+[7.510s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/lib/tf2_rclcpp_example/static_broadcaster
+[7.518s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/rviz/arm.rviz
+[7.526s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/ament_index/resource_index/package_run_dependencies/tf2_rclcpp_example
+[7.531s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/ament_index/resource_index/parent_prefix_path/tf2_rclcpp_example
+[7.538s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/ament_prefix_path.sh
+[7.545s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/ament_prefix_path.dsv
+[7.551s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/path.sh
+[7.558s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/environment/path.dsv
+[7.565s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.bash
+[7.572s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.sh
+[7.579s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.zsh
+[7.585s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/local_setup.dsv
+[7.592s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.dsv
+[7.599s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/ament_index/resource_index/packages/tf2_rclcpp_example
+[7.607s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/cmake/tf2_rclcpp_exampleConfig.cmake
+[7.613s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/cmake/tf2_rclcpp_exampleConfig-version.cmake
+[7.621s] -- Symlinking: /root/catkin_ws/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.xml
+[7.632s] Invoked command in '/root/catkin_ws/build/tf2_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/tf2_rclcpp_example
