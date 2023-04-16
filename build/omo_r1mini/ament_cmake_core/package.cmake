@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 set(_AMENT_PACKAGE_NAME "omo_r1mini")
 set(omo_r1mini_VERSION "0.0.1")
 set(omo_r1mini_MAINTAINER "Bishop Pearson <bishopearson@gmail.com>")
@@ -12,3 +13,20 @@ set(omo_r1mini_MEMBER_OF_GROUPS )
 set(omo_r1mini_DEPRECATED "")
 set(omo_r1mini_EXPORT_TAGS)
 list(APPEND omo_r1mini_EXPORT_TAGS "<build_type>ament_cmake</build_type>")
+||||||| empty tree
+=======
+set(_AMENT_PACKAGE_NAME "omo_r1mini")
+set(omo_r1mini_VERSION "0.0.1")
+set(omo_r1mini_MAINTAINER "Bishop Pearson <bishopearson@gmail.com>")
+set(omo_r1mini_BUILD_DEPENDS )
+set(omo_r1mini_BUILDTOOL_DEPENDS "ament_cmake")
+set(omo_r1mini_BUILD_EXPORT_DEPENDS )
+set(omo_r1mini_BUILDTOOL_EXPORT_DEPENDS )
+set(omo_r1mini_EXEC_DEPENDS "omo_r1mini_bringup" "omo_r1mini_cartographer" "omo_r1mini_description" "omo_r1mini_navigation2" "omo_r1mini_teleop")
+set(omo_r1mini_TEST_DEPENDS )
+set(omo_r1mini_GROUP_DEPENDS )
+set(omo_r1mini_MEMBER_OF_GROUPS )
+set(omo_r1mini_DEPRECATED "")
+set(omo_r1mini_EXPORT_TAGS)
+list(APPEND omo_r1mini_EXPORT_TAGS "<build_type>ament_cmake</build_type>")
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

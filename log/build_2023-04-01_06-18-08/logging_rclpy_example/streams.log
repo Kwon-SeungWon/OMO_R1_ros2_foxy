@@ -1,0 +1,39 @@
+[2.892s] Invoking command in '/root/catkin_ws/build/logging_rclpy_example': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/logging_rclpy_example/prefix_override:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/catkin_ws/build/logging_rclpy_example/build
+[3.473s] running develop
+[3.753s] Removing /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging-rclpy-example.egg-link (link to .)
+[3.902s] Invoked command in '/root/catkin_ws/build/logging_rclpy_example' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/logging_rclpy_example/prefix_override:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/catkin_ws/build/logging_rclpy_example/build
+[3.903s] Invoking command in '/root/catkin_ws/src/ros2-seminar-examples/logging_rclpy_example': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/logging_rclpy_example/prefix_override:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/logging_rclpy_example build --build-base /root/catkin_ws/build/logging_rclpy_example/build install --record /root/catkin_ws/build/logging_rclpy_example/install.log --single-version-externally-managed
+[4.436s] running egg_info
+[4.437s] writing ../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/PKG-INFO
+[4.438s] writing dependency_links to ../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/dependency_links.txt
+[4.438s] writing entry points to ../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/entry_points.txt
+[4.439s] writing requirements to ../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/requires.txt
+[4.439s] writing top-level names to ../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/top_level.txt
+[4.510s] reading manifest file '../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/SOURCES.txt'
+[4.512s] writing manifest file '../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/SOURCES.txt'
+[4.512s] running build
+[4.512s] running build_py
+[4.512s] creating /root/catkin_ws/build/logging_rclpy_example/build
+[4.513s] creating /root/catkin_ws/build/logging_rclpy_example/build/lib
+[4.513s] creating /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example
+[4.513s] copying logging_rclpy_example/__init__.py -> /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example
+[4.514s] creating /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example/logging_example
+[4.514s] copying logging_rclpy_example/logging_example/main.py -> /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example/logging_example
+[4.515s] copying logging_rclpy_example/logging_example/__init__.py -> /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example/logging_example
+[4.515s] running install
+[4.518s] running install_lib
+[4.520s] creating /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example
+[4.520s] creating /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example/logging_example
+[4.521s] copying /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example/logging_example/main.py -> /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example/logging_example
+[4.521s] copying /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example/logging_example/__init__.py -> /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example/logging_example
+[4.522s] copying /root/catkin_ws/build/logging_rclpy_example/build/lib/logging_rclpy_example/__init__.py -> /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example
+[4.524s] byte-compiling /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example/logging_example/main.py to main.cpython-38.pyc
+[4.527s] byte-compiling /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example/logging_example/__init__.py to __init__.cpython-38.pyc
+[4.527s] byte-compiling /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example/__init__.py to __init__.cpython-38.pyc
+[4.528s] running install_data
+[4.529s] running install_egg_info
+[4.533s] Copying ../../../build/logging_rclpy_example/logging_rclpy_example.egg-info to /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging_rclpy_example-0.6.0-py3.8.egg-info
+[4.536s] running install_scripts
+[4.569s] Installing logging_example script to /root/catkin_ws/install/logging_rclpy_example/lib/logging_rclpy_example
+[4.570s] writing list of installed files to '/root/catkin_ws/build/logging_rclpy_example/install.log'
+[5.057s] Invoked command in '/root/catkin_ws/src/ros2-seminar-examples/logging_rclpy_example' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/logging_rclpy_example/prefix_override:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/logging_rclpy_example build --build-base /root/catkin_ws/build/logging_rclpy_example/build install --record /root/catkin_ws/build/logging_rclpy_example/install.log --single-version-externally-managed

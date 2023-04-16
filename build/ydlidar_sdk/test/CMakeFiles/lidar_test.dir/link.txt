@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 /usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/lidar_test.dir/lidar_test.cpp.o  -o lidar_test  ../libydlidar_sdk.a -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lpthread -lrt 
+||||||| empty tree
+=======
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/lidar_test.dir/lidar_test.cpp.o  -o lidar_test  -Wl,-rpath,/root/catkin_ws/build/ydlidar_sdk ../libydlidar_sdk.so -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lpthread -lrt 
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 CMAKE_PROGRESS_1 = 10
 CMAKE_PROGRESS_2 = 11
 
+||||||| empty tree
+=======
+CMAKE_PROGRESS_1 = 6
+CMAKE_PROGRESS_2 = 7
+
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

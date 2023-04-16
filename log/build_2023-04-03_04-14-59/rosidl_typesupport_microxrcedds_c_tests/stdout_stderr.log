@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/catkin_ws/build/rosidl_typesupport_microxrcedds_c_tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c_tests
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c_tests
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.sh
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/ament_prefix_path.dsv
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.sh
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/environment/path.dsv
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.bash
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.sh
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.zsh
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/local_setup.dsv
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.dsv
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c_tests
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig.cmake
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/cmake/rosidl_typesupport_microxrcedds_c_testsConfig-version.cmake
+-- Symlinking: /root/catkin_ws/install/rosidl_typesupport_microxrcedds_c_tests/share/rosidl_typesupport_microxrcedds_c_tests/package.xml

@@ -1,0 +1,54 @@
+[1.988s] Invoking command in '/root/catkin_ws/build/ros2env': PYTHONPATH=/root/catkin_ws/build/ros2env/prefix_override:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/catkin_ws/build/ros2env/build
+[3.883s] running develop
+[4.037s] Removing /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+[4.117s] Invoked command in '/root/catkin_ws/build/ros2env' returned '0': PYTHONPATH=/root/catkin_ws/build/ros2env/prefix_override:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/catkin_ws/build/ros2env/build
+[4.118s] Invoking command in '/root/catkin_ws/src/ros2-seminar-examples/ros2env': PYTHONPATH=/root/catkin_ws/build/ros2env/prefix_override:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2env build --build-base /root/catkin_ws/build/ros2env/build install --record /root/catkin_ws/build/ros2env/install.log --single-version-externally-managed
+[4.728s] running egg_info
+[4.729s] writing ../../../build/ros2env/ros2env.egg-info/PKG-INFO
+[4.729s] writing dependency_links to ../../../build/ros2env/ros2env.egg-info/dependency_links.txt
+[4.729s] writing entry points to ../../../build/ros2env/ros2env.egg-info/entry_points.txt
+[4.730s] writing requirements to ../../../build/ros2env/ros2env.egg-info/requires.txt
+[4.730s] writing top-level names to ../../../build/ros2env/ros2env.egg-info/top_level.txt
+[4.796s] reading manifest file '../../../build/ros2env/ros2env.egg-info/SOURCES.txt'
+[4.797s] writing manifest file '../../../build/ros2env/ros2env.egg-info/SOURCES.txt'
+[4.797s] running build
+[4.797s] running build_py
+[4.797s] creating /root/catkin_ws/build/ros2env/build
+[4.798s] creating /root/catkin_ws/build/ros2env/build/lib
+[4.798s] creating /root/catkin_ws/build/ros2env/build/lib/ros2env
+[4.798s] copying ros2env/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env
+[4.798s] creating /root/catkin_ws/build/ros2env/build/lib/ros2env/api
+[4.798s] copying ros2env/api/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/api
+[4.798s] creating /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+[4.799s] copying ros2env/verb/set.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+[4.799s] copying ros2env/verb/list.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+[4.799s] copying ros2env/verb/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/verb
+[4.799s] creating /root/catkin_ws/build/ros2env/build/lib/ros2env/command
+[4.799s] copying ros2env/command/env.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/command
+[4.800s] copying ros2env/command/__init__.py -> /root/catkin_ws/build/ros2env/build/lib/ros2env/command
+[4.800s] running install
+[4.801s] running install_lib
+[4.803s] creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env
+[4.803s] creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/api
+[4.803s] copying /root/catkin_ws/build/ros2env/build/lib/ros2env/api/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/api
+[4.803s] creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+[4.804s] copying /root/catkin_ws/build/ros2env/build/lib/ros2env/verb/set.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+[4.804s] copying /root/catkin_ws/build/ros2env/build/lib/ros2env/verb/list.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+[4.804s] copying /root/catkin_ws/build/ros2env/build/lib/ros2env/verb/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb
+[4.804s] creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command
+[4.804s] copying /root/catkin_ws/build/ros2env/build/lib/ros2env/command/env.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command
+[4.805s] copying /root/catkin_ws/build/ros2env/build/lib/ros2env/command/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command
+[4.805s] copying /root/catkin_ws/build/ros2env/build/lib/ros2env/__init__.py -> /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env
+[4.807s] byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/api/__init__.py to __init__.cpython-38.pyc
+[4.809s] byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb/set.py to set.cpython-38.pyc
+[4.810s] byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb/list.py to list.cpython-38.pyc
+[4.811s] byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/verb/__init__.py to __init__.cpython-38.pyc
+[4.811s] byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command/env.py to env.cpython-38.pyc
+[4.812s] byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/command/__init__.py to __init__.cpython-38.pyc
+[4.812s] byte-compiling /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env/__init__.py to __init__.cpython-38.pyc
+[4.813s] running install_data
+[4.814s] running install_egg_info
+[4.817s] Copying ../../../build/ros2env/ros2env.egg-info to /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env-0.6.0-py3.8.egg-info
+[4.819s] running install_scripts
+[4.854s] writing list of installed files to '/root/catkin_ws/build/ros2env/install.log'
+[4.897s] Invoked command in '/root/catkin_ws/src/ros2-seminar-examples/ros2env' returned '0': PYTHONPATH=/root/catkin_ws/build/ros2env/prefix_override:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2env build --build-base /root/catkin_ws/build/ros2env/build install --record /root/catkin_ws/build/ros2env/install.log --single-version-externally-managed

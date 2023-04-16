@@ -1,0 +1,64 @@
+[0.015s] Invoking command in '/root/catkin_ws/build/microcdr': /usr/bin/cmake /root/catkin_ws/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/microcdr
+[0.033s] -- Setting build type to 'Release' as none was specified.
+[0.117s] -- The C compiler identification is GNU 9.4.0
+[0.126s] -- Check for working C compiler: /usr/bin/cc
+[0.180s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.181s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.310s] -- The CXX compiler identification is GNU 9.4.0
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.376s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Detecting CXX compile features
+[0.448s] -- Detecting CXX compile features - done
+[0.456s] -- Configuring done
+[0.458s] -- Generating done
+[0.458s] CMake Warning:
+[0.458s]   Manually-specified variables were not used by the project:
+[0.458s] 
+[0.458s]     BUILD_TESTING
+[0.459s] 
+[0.459s] 
+[0.459s] -- Build files have been written to: /root/catkin_ws/build/microcdr
+[0.461s] Invoked command in '/root/catkin_ws/build/microcdr' returned '0': /usr/bin/cmake /root/catkin_ws/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/microcdr
+[0.463s] Invoking command in '/root/catkin_ws/build/microcdr': /usr/bin/cmake --build /root/catkin_ws/build/microcdr -- -j12 -l12
+[0.494s] [35m[1mScanning dependencies of target ucdr[0m
+[0.503s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[0.564s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[0.586s] [ 50%] [34m[1mNo update step for 'ucdr'[0m
+[0.586s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[0.608s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[0.616s] loading initial cache file /root/catkin_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[0.627s] -- Configuring done
+[0.630s] -- Generating done
+[0.630s] -- Build files have been written to: /root/catkin_ws/build/microcdr
+[0.646s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[0.672s] [35m[1mScanning dependencies of target microcdr[0m
+[0.683s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[0.683s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[0.683s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[0.683s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[0.683s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[1.104s] [100%] [32m[1mLinking C shared library libmicrocdr.so[0m
+[1.147s] [100%] Built target microcdr
+[1.169s] [34m[1mNo install step for 'ucdr'[0m
+[1.190s] [34m[1mCompleted 'ucdr'[0m
+[1.219s] Built target ucdr
+[1.228s] Invoked command in '/root/catkin_ws/build/microcdr' returned '0': /usr/bin/cmake --build /root/catkin_ws/build/microcdr -- -j12 -l12
+[1.262s] Invoking command in '/root/catkin_ws/build/microcdr': /usr/bin/cmake --install /root/catkin_ws/build/microcdr
+[1.269s] -- Install configuration: "Release"
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/lib/libmicrocdr.so
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/include/ucdr
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/include/ucdr/visibility.h
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/include/ucdr/microcdr.h
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/include/ucdr/config.h
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[1.270s] -- Installing: /root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.272s] Invoked command in '/root/catkin_ws/build/microcdr' returned '0': /usr/bin/cmake --install /root/catkin_ws/build/microcdr

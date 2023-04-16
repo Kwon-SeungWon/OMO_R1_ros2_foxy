@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CMake generated Testfile for 
 # Source directory: /root/catkin_ws/src/ros2-seminar-examples/rqt_example
 # Build directory: /root/catkin_ws/build/rqt_example
@@ -14,3 +15,12 @@ add_test(pep257 "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cm
 set_tests_properties(pep257 PROPERTIES  LABELS "pep257;linter" TIMEOUT "60" WORKING_DIRECTORY "/root/catkin_ws/src/ros2-seminar-examples/rqt_example" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_pep257/cmake/ament_pep257.cmake;41;ament_add_test;/opt/ros/foxy/share/ament_cmake_pep257/cmake/ament_cmake_pep257_lint_hook.cmake;18;ament_pep257;/opt/ros/foxy/share/ament_cmake_pep257/cmake/ament_cmake_pep257_lint_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;21;ament_execute_extensions;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake;66;ament_execute_extensions;/root/catkin_ws/src/ros2-seminar-examples/rqt_example/CMakeLists.txt;46;ament_package;/root/catkin_ws/src/ros2-seminar-examples/rqt_example/CMakeLists.txt;0;")
 add_test(xmllint "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/root/catkin_ws/build/rqt_example/test_results/rqt_example/xmllint.xunit.xml" "--package-name" "rqt_example" "--output-file" "/root/catkin_ws/build/rqt_example/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/root/catkin_ws/build/rqt_example/test_results/rqt_example/xmllint.xunit.xml")
 set_tests_properties(xmllint PROPERTIES  LABELS "xmllint;linter" TIMEOUT "60" WORKING_DIRECTORY "/root/catkin_ws/src/ros2-seminar-examples/rqt_example" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_xmllint/cmake/ament_xmllint.cmake;50;ament_add_test;/opt/ros/foxy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake;18;ament_xmllint;/opt/ros/foxy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;21;ament_execute_extensions;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake;66;ament_execute_extensions;/root/catkin_ws/src/ros2-seminar-examples/rqt_example/CMakeLists.txt;46;ament_package;/root/catkin_ws/src/ros2-seminar-examples/rqt_example/CMakeLists.txt;0;")
+||||||| empty tree
+=======
+# CMake generated Testfile for 
+# Source directory: /root/catkin_ws/src/ros2-seminar-examples/rqt_example
+# Build directory: /root/catkin_ws/build/rqt_example
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

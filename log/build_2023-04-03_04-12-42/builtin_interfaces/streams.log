@@ -1,0 +1,69 @@
+[0.173s] Invoking command in '/root/catkin_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/ros2/rcl_interfaces/builtin_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/builtin_interfaces
+[0.440s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.567s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.567s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.015s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.025s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.071s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.635s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.982s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.370s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.469s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.469s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.624s] -- Configuring done
+[2.815s] -- Generating done
+[2.914s] -- Build files have been written to: /root/catkin_ws/build/builtin_interfaces
+[2.920s] Invoked command in '/root/catkin_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/ros2/rcl_interfaces/builtin_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/builtin_interfaces
+[2.924s] Invoking command in '/root/catkin_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/builtin_interfaces -- -j12 -l12
+[2.955s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.028s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.028s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.494s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.500s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.532s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.872s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.023s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.390s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.639s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.639s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.695s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.695s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.695s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.759s] -- Configuring done
+[4.793s] -- Generating done
+[4.797s] -- Build files have been written to: /root/catkin_ws/build/builtin_interfaces
+[4.839s] [  2%] Built target builtin_interfaces__cpp
+[4.840s] [ 10%] Built target builtin_interfaces__rosidl_generator_c
+[4.880s] [ 12%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[4.881s] [ 20%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[4.884s] [ 28%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[4.886s] [ 32%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.886s] [ 38%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[4.887s] [ 48%] Built target builtin_interfaces__rosidl_typesupport_c
+[4.887s] [ 48%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[4.928s] [ 55%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[4.930s] [ 61%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[4.965s] [ 67%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.997s] [ 69%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.069s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[5.093s] [ 75%] Built target builtin_interfaces
+[5.117s] [ 77%] Built target builtin_interfaces__py
+[5.150s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__python.so[0m
+[5.190s] [ 83%] Built target builtin_interfaces__python
+[5.230s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.230s] [ 91%] [32m[1mLinking CXX shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.230s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.230s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.275s] [ 97%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[5.275s] [ 97%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[5.275s] [ 97%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.298s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext

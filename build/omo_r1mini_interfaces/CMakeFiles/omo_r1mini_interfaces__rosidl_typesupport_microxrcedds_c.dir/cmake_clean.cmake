@@ -1,0 +1,27 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/omo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/battery__type_support_c.c.o"
+  "CMakeFiles/omo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/calg__type_support_c.c.o"
+  "CMakeFiles/omo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/color__type_support_c.c.o"
+  "CMakeFiles/omo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/onoff__type_support_c.c.o"
+  "CMakeFiles/omo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/reset_odom__type_support_c.c.o"
+  "CMakeFiles/omo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/save_color__type_support_c.c.o"
+  "libomo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.pdb"
+  "libomo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.so"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/battery__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/calg__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/color__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/onoff__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/reset_odom__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/microxrcedds/save_color__type_support_c.c"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_microxrcedds_c.h"
+  "rosidl_typesupport_microxrcedds_c/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_microxrcedds_c.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/omo_r1mini_interfaces__rosidl_typesupport_microxrcedds_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

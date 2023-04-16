@@ -1,0 +1,8 @@
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
+/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

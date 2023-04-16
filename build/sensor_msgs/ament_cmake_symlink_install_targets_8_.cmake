@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/catkin_ws/build/sensor_msgs/rosidl_generator_py/sensor_msgs/libsensor_msgs__python.so" "TARGETS" "sensor_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1328 @@
+[0.036s] Invoking command in '/root/catkin_ws/build/micro_ros_demos_rclcpp': AMENT_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/micro_ros_demos_rclcpp
+[0.125s] -- The C compiler identification is GNU 9.4.0
+[0.219s] -- The CXX compiler identification is GNU 9.4.0
+[0.231s] -- Check for working C compiler: /usr/bin/cc
+[0.340s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.342s] -- Detecting C compiler ABI info
+[0.447s] -- Detecting C compiler ABI info - done
+[0.465s] -- Detecting C compile features
+[0.465s] -- Detecting C compile features - done
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.572s] -- Detecting CXX compiler ABI info
+[0.719s] -- Detecting CXX compiler ABI info - done
+[0.744s] -- Detecting CXX compile features
+[0.744s] -- Detecting CXX compile features - done
+[0.763s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.863s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.863s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.656s] -- Configuring done
+[1.673s] -- Generating done
+[1.676s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp
+[1.682s] Invoked command in '/root/catkin_ws/build/micro_ros_demos_rclcpp' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/micro_ros_demos_rclcpp
+[1.686s] Invoking command in '/root/catkin_ws/build/micro_ros_demos_rclcpp': AMENT_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_demos_rclcpp -- -j12 -l12
+[1.758s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[1.777s] [  1%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[1.904s] [  3%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[1.946s] [  5%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[1.991s] [  7%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[2.028s] [  8%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[2.046s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclcpp/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[2.147s] -- The CXX compiler identification is GNU 9.4.0
+[2.161s] -- Check for working CXX compiler: /usr/bin/c++
+[2.280s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.281s] -- Detecting CXX compiler ABI info
+[2.438s] -- Detecting CXX compiler ABI info - done
+[2.461s] -- Detecting CXX compile features
+[2.462s] -- Detecting CXX compile features - done
+[2.494s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.588s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.588s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.505s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.798s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.883s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.125s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.318s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.324s] -- Looking for C++ include pthread.h
+[4.464s] -- Looking for C++ include pthread.h - found
+[4.465s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.608s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.608s] -- Looking for pthread_create in pthreads
+[4.723s] -- Looking for pthread_create in pthreads - not found
+[4.723s] -- Looking for pthread_create in pthread
+[4.846s] -- Looking for pthread_create in pthread - found
+[4.848s] -- Found Threads: TRUE  
+[5.240s] -- Found complex_msgs: 1.0.0 (/root/catkin_ws/install/complex_msgs/share/complex_msgs/cmake)
+[5.281s] -- Configuring done
+[5.294s] -- Generating done
+[5.296s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp/complex_msg_publisher/src/complex_msg_publisher-build
+[5.335s] [ 10%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[5.393s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[5.536s] [ 50%] [32mBuilding CXX object CMakeFiles/complex_msg_publisher.dir/main.cpp.o[0m
+[40.120s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:417:53: warning: Moved-from object 'message' is moved [clang-analyzer-cplusplus.Move]
+[40.120s]         subscription->provide_intra_process_message(std::move(message));
+[40.120s]                                                     ^
+[40.120s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:58:5: note: Calling 'Publisher::publish'
+[40.120s]     publisher_->publish(msg);
+[40.120s]     ^
+[40.120s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+[40.120s]     if (!intra_process_is_enabled_) {
+[40.121s]         ^
+[40.121s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+[40.121s]     if (!intra_process_is_enabled_) {
+[40.121s]     ^
+[40.121s] /opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+[40.121s]     this->publish(std::move(unique_msg));
+[40.121s]     ^
+[40.121s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+[40.121s]     if (!intra_process_is_enabled_) {
+[40.121s]          ^
+[40.121s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+[40.121s]     if (!intra_process_is_enabled_) {
+[40.121s]     ^
+[40.121s] /opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+[40.122s]       get_subscription_count() > get_intra_process_subscription_count();
+[40.122s]       ^
+[40.122s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+[40.122s]     if (inter_process_publish_needed) {
+[40.122s]         ^
+[40.122s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+[40.122s]     if (inter_process_publish_needed) {
+[40.122s]     ^
+[40.122s] /opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+[40.122s]       this->do_intra_process_publish(std::move(msg));
+[40.123s]       ^
+[40.123s] /opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+[40.123s]     if (!ipm) {
+[40.123s]     ^
+[40.123s] /opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+[40.123s]     if (!msg) {
+[40.123s]     ^
+[40.123s] /opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+[40.123s]     ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+[40.123s]     ^
+[40.124s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+[40.124s]     if (publisher_it == pub_to_subs_.end()) {
+[40.124s]     ^
+[40.124s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+[40.124s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[40.124s]         ^
+[40.124s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+[40.124s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[40.124s]     ^
+[40.124s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:421:27: warning: Method called on moved-from object 'message' [clang-analyzer-cplusplus.Move]
+[40.125s]         Deleter deleter = message.get_deleter();
+[40.125s]                           ^
+[40.125s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:58:5: note: Calling 'Publisher::publish'
+[40.125s]     publisher_->publish(msg);
+[40.125s]     ^
+[40.125s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+[40.125s]     if (!intra_process_is_enabled_) {
+[40.125s]         ^
+[40.125s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+[40.125s]     if (!intra_process_is_enabled_) {
+[40.125s]     ^
+[40.126s] /opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+[40.126s]     this->publish(std::move(unique_msg));
+[40.126s]     ^
+[40.126s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+[40.126s]     if (!intra_process_is_enabled_) {
+[40.126s]          ^
+[40.126s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+[40.126s]     if (!intra_process_is_enabled_) {
+[40.126s]     ^
+[40.127s] /opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+[40.127s]       get_subscription_count() > get_intra_process_subscription_count();
+[40.127s]       ^
+[40.127s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+[40.127s]     if (inter_process_publish_needed) {
+[40.127s]         ^
+[40.127s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+[40.127s]     if (inter_process_publish_needed) {
+[40.127s]     ^
+[40.128s] /opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+[40.128s]       this->do_intra_process_publish(std::move(msg));
+[40.128s]       ^
+[40.128s] /opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+[40.128s]     if (!ipm) {
+[40.128s]     ^
+[40.128s] /opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+[40.128s]     if (!msg) {
+[40.128s]     ^
+[40.129s] /opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+[40.129s]     ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+[40.129s]     ^
+[40.129s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+[40.129s]     if (publisher_it == pub_to_subs_.end()) {
+[40.129s]     ^
+[40.129s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+[40.129s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[40.129s]         ^
+[40.129s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+[40.130s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[40.130s]     ^
+[40.130s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:15:1: warning: #includes are not sorted properly [llvm-include-order]
+[40.130s] #include <rclcpp/rclcpp.hpp>
+[40.130s] ^        ~~~~~~~~~~~~~~~~~~~
+[40.130s]          <complex_msgs/msg/nested_msg_test.hpp>
+[40.130s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+[40.130s] #include <memory>
+[40.130s] ^        ~~~~~~~~
+[40.131s]          <chrono>
+[40.131s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:27:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.131s]   complex_msg_publisher_cpp_node()
+[40.131s]   ^
+[40.131s] /root/catkin_ws/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__struct.hpp:39:27: note: default parameter was declared here
+[40.131s]   explicit NestedMsgTest_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[40.131s]                           ^
+[40.131s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:28:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.131s]   : Node("complex_msg_publisher_cpp")
+[40.132s]     ^
+[40.132s] /opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+[40.132s]     const NodeOptions & options = NodeOptions());
+[40.132s]     ^
+[40.132s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:28:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.132s]   : Node("complex_msg_publisher_cpp")
+[40.132s]          ^
+[40.132s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[40.132s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[40.132s]                                       ^
+[40.133s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:30:18: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.133s]     publisher_ = this->create_publisher<complex_msgs::msg::NestedMsgTest>(
+[40.133s]                  ^
+[40.133s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+[40.133s]   const PublisherOptionsWithAllocator<AllocatorT> & options)
+[40.133s]   ^
+[40.133s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:31:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.133s]       "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS());
+[40.133s]       ^
+[40.134s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[40.134s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[40.134s]                                       ^
+[40.134s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:31:41: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.134s]       "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS());
+[40.134s]                                         ^
+[40.134s] /opt/ros/foxy/include/rclcpp/qos.hpp:270:5: note: default parameter was declared here
+[40.134s]     const QoSInitialization & qos_initialization = (
+[40.134s]     ^
+[40.134s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:32:14: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.135s]     timer_ = this->create_wall_timer(
+[40.135s]              ^
+[40.135s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:112:3: note: default parameter was declared here
+[40.135s]   rclcpp::CallbackGroup::SharedPtr group)
+[40.135s]   ^
+[40.135s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:33:14: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+[40.135s]       500ms, std::bind(&complex_msg_publisher_cpp_node::timer_callback, this));
+[40.135s]              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[40.135s]              [this] { timer_callback(); }
+[40.135s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:39:35: warning: use of a signed integer operand with a binary bitwise operator [hicpp-signed-bitwise]
+[40.136s]     msg.data1 = static_cast<bool>(num & 0x01);
+[40.136s]                                   ^
+[40.136s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:61:47: warning: implicit conversion bool -> 'int' [readability-implicit-bool-conversion]
+[40.136s]     std::cout << "\tBool: " << std::to_string(msg.data1) << std::endl;
+[40.136s]                                               ^
+[40.136s]                                               static_cast<int>( )
+[40.136s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:89:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+[40.136s] int main(int argc, char * argv[])
+[40.136s] ~~~ ^
+[40.137s] auto                              -> int
+[40.137s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:91:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.137s]   rclcpp::init(argc, argv);
+[40.137s]   ^
+[40.137s] /opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+[40.137s] init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+[40.137s]                                           ^
+[40.137s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:93:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[40.137s]   rclcpp::shutdown();
+[40.138s]   ^
+[40.138s] /opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+[40.138s]   rclcpp::Context::SharedPtr context = nullptr,
+[40.138s]   ^
+[44.486s] [100%] [32m[1mLinking CXX executable complex_msg_publisher[0m
+[44.760s] [100%] Built target complex_msg_publisher
+[44.809s] [ 12%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[44.896s] [100%] Built target complex_msg_publisher
+[44.972s] [36mInstall the project...[0m
+[44.988s] -- Install configuration: ""
+[44.988s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_publisher/complex_msg_publisher
+[44.993s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[45.027s] [ 14%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[45.089s] [ 14%] Built target complex_msg_publisher
+[45.107s] [35m[1mScanning dependencies of target string_subscriber[0m
+[45.107s] [35m[1mScanning dependencies of target string_publisher[0m
+[45.128s] [ 16%] [34m[1mCreating directories for 'string_subscriber'[0m
+[45.128s] [ 17%] [34m[1mCreating directories for 'string_publisher'[0m
+[45.265s] [ 19%] [34m[1mNo download step for 'string_publisher'[0m
+[45.272s] [ 21%] [34m[1mNo download step for 'string_subscriber'[0m
+[45.312s] [ 23%] [34m[1mNo patch step for 'string_publisher'[0m
+[45.312s] [ 25%] [34m[1mNo update step for 'string_publisher'[0m
+[45.318s] [ 26%] [34m[1mNo patch step for 'string_subscriber'[0m
+[45.333s] [ 28%] [34m[1mNo update step for 'string_subscriber'[0m
+[45.365s] [ 30%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[45.382s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/tmp/string_publisher-cache-.cmake
+[45.395s] [ 32%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[45.427s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclcpp/string_subscriber/tmp/string_subscriber-cache-.cmake
+[45.516s] -- The CXX compiler identification is GNU 9.4.0
+[45.546s] -- Check for working CXX compiler: /usr/bin/c++
+[45.560s] -- The CXX compiler identification is GNU 9.4.0
+[45.581s] -- Check for working CXX compiler: /usr/bin/c++
+[45.690s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[45.692s] -- Detecting CXX compiler ABI info
+[45.729s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[45.730s] -- Detecting CXX compiler ABI info
+[45.824s] -- Detecting CXX compiler ABI info - done
+[45.846s] -- Detecting CXX compile features
+[45.847s] -- Detecting CXX compile features - done
+[45.852s] -- Detecting CXX compiler ABI info - done
+[45.865s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[45.876s] -- Detecting CXX compile features
+[45.877s] -- Detecting CXX compile features - done
+[45.895s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[45.992s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[45.992s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[46.011s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[46.011s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[46.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[46.765s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[46.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[46.855s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[46.983s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[47.043s] -- Found FastRTPS: /opt/ros/foxy/include  
+[47.074s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[47.150s] -- Found FastRTPS: /opt/ros/foxy/include  
+[47.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[47.372s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[47.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[47.382s] -- Looking for C++ include pthread.h
+[47.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[47.525s] -- Looking for C++ include pthread.h - found
+[47.525s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[47.600s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[47.612s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[47.616s] -- Looking for C++ include pthread.h
+[47.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[47.679s] -- Looking for pthread_create in pthreads
+[47.761s] -- Looking for C++ include pthread.h - found
+[47.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[47.852s] -- Looking for pthread_create in pthreads - not found
+[47.852s] -- Looking for pthread_create in pthread
+[47.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[47.928s] -- Looking for pthread_create in pthreads
+[47.972s] -- Looking for pthread_create in pthread - found
+[47.974s] -- Found Threads: TRUE  
+[48.056s] -- Looking for pthread_create in pthreads - not found
+[48.057s] -- Looking for pthread_create in pthread
+[48.158s] -- Looking for pthread_create in pthread - found
+[48.163s] -- Found Threads: TRUE  
+[48.230s] -- Configuring done
+[48.237s] -- Generating done
+[48.239s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp/string_subscriber/src/string_subscriber-build
+[48.271s] [ 33%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[48.318s] [35m[1mScanning dependencies of target string_subscriber[0m
+[48.382s] [ 50%] [32mBuilding CXX object CMakeFiles/string_subscriber.dir/main.cpp.o[0m
+[48.548s] -- Configuring done
+[48.556s] -- Generating done
+[48.558s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-build
+[48.584s] [ 35%] [34m[1mPerforming build step for 'string_publisher'[0m
+[48.621s] [35m[1mScanning dependencies of target string_publisher[0m
+[48.662s] [ 50%] [32mBuilding CXX object CMakeFiles/string_publisher.dir/main.cpp.o[0m
+[82.105s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:417:53: warning: Moved-from object 'message' is moved [clang-analyzer-cplusplus.Move]
+[82.106s]         subscription->provide_intra_process_message(std::move(message));
+[82.106s]                                                     ^
+[82.106s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:40:5: note: Calling 'Publisher::publish'
+[82.106s]     publisher_->publish(msg);
+[82.106s]     ^
+[82.106s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+[82.106s]     if (!intra_process_is_enabled_) {
+[82.106s]         ^
+[82.107s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+[82.107s]     if (!intra_process_is_enabled_) {
+[82.107s]     ^
+[82.107s] /opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+[82.107s]     this->publish(std::move(unique_msg));
+[82.107s]     ^
+[82.107s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+[82.108s]     if (!intra_process_is_enabled_) {
+[82.108s]          ^
+[82.108s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+[82.108s]     if (!intra_process_is_enabled_) {
+[82.108s]     ^
+[82.108s] /opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+[82.108s]       get_subscription_count() > get_intra_process_subscription_count();
+[82.108s]       ^
+[82.109s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+[82.109s]     if (inter_process_publish_needed) {
+[82.109s]         ^
+[82.109s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+[82.109s]     if (inter_process_publish_needed) {
+[82.109s]     ^
+[82.109s] /opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+[82.109s]       this->do_intra_process_publish(std::move(msg));
+[82.110s]       ^
+[82.110s] /opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+[82.110s]     if (!ipm) {
+[82.110s]     ^
+[82.110s] /opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+[82.110s]     if (!msg) {
+[82.110s]     ^
+[82.110s] /opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+[82.111s]     ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+[82.111s]     ^
+[82.111s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+[82.111s]     if (publisher_it == pub_to_subs_.end()) {
+[82.111s]     ^
+[82.111s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+[82.111s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[82.111s]         ^
+[82.112s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+[82.112s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[82.112s]     ^
+[82.112s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:421:27: warning: Method called on moved-from object 'message' [clang-analyzer-cplusplus.Move]
+[82.112s]         Deleter deleter = message.get_deleter();
+[82.112s]                           ^
+[82.112s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:40:5: note: Calling 'Publisher::publish'
+[82.112s]     publisher_->publish(msg);
+[82.112s]     ^
+[82.113s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+[82.113s]     if (!intra_process_is_enabled_) {
+[82.113s]         ^
+[82.113s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+[82.113s]     if (!intra_process_is_enabled_) {
+[82.113s]     ^
+[82.113s] /opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+[82.113s]     this->publish(std::move(unique_msg));
+[82.114s]     ^
+[82.114s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+[82.114s]     if (!intra_process_is_enabled_) {
+[82.114s]          ^
+[82.114s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+[82.114s]     if (!intra_process_is_enabled_) {
+[82.114s]     ^
+[82.114s] /opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+[82.114s]       get_subscription_count() > get_intra_process_subscription_count();
+[82.115s]       ^
+[82.116s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+[82.116s]     if (inter_process_publish_needed) {
+[82.116s]         ^
+[82.116s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+[82.117s]     if (inter_process_publish_needed) {
+[82.117s]     ^
+[82.117s] /opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+[82.117s]       this->do_intra_process_publish(std::move(msg));
+[82.117s]       ^
+[82.118s] /opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+[82.118s]     if (!ipm) {
+[82.118s]     ^
+[82.118s] /opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+[82.119s]     if (!msg) {
+[82.119s]     ^
+[82.119s] /opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+[82.119s]     ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+[82.119s]     ^
+[82.120s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+[82.120s]     if (publisher_it == pub_to_subs_.end()) {
+[82.120s]     ^
+[82.120s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+[82.121s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[82.121s]         ^
+[82.121s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+[82.121s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[82.121s]     ^
+[82.122s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:15:1: warning: #includes are not sorted properly [llvm-include-order]
+[82.122s] #include <std_msgs/msg/string.hpp>
+[82.122s] ^        ~~~~~~~~~~~~~~~~~~~~~~~~~
+[82.122s]          <rclcpp/rclcpp.hpp>
+[82.122s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+[82.123s] #include <memory>
+[82.123s] ^        ~~~~~~~~
+[82.123s]          <chrono>
+[82.123s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:27:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.124s]   string_publisher_cpp_node()
+[82.124s]   ^
+[82.124s] /opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:35:20: note: default parameter was declared here
+[82.124s]   explicit String_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[82.125s]                    ^
+[82.125s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:28:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.125s]   : Node("string_publisher_cpp")
+[82.125s]     ^
+[82.126s] /opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+[82.126s]     const NodeOptions & options = NodeOptions());
+[82.126s]     ^
+[82.126s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:28:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.126s]   : Node("string_publisher_cpp")
+[82.127s]          ^
+[82.127s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[82.127s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[82.127s]                                       ^
+[82.128s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:30:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[82.128s]     rclcpp::QoS qos(10);
+[82.128s]                     ^
+[82.128s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:30:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[82.129s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:31:18: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.129s]     publisher_ = this->create_publisher<std_msgs::msg::String>("std_msgs_msg_String", qos);
+[82.129s]                  ^
+[82.129s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+[82.129s]   const PublisherOptionsWithAllocator<AllocatorT> & options)
+[82.130s]   ^
+[82.130s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:31:64: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.143s]     publisher_ = this->create_publisher<std_msgs::msg::String>("std_msgs_msg_String", qos);
+[82.143s]                                                                ^
+[82.143s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[82.143s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[82.143s]                                       ^
+[82.144s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:32:14: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.144s]     timer_ = this->create_wall_timer(
+[82.144s]              ^
+[82.144s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:112:3: note: default parameter was declared here
+[82.144s]   rclcpp::CallbackGroup::SharedPtr group)
+[82.144s]   ^
+[82.145s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:33:14: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+[82.145s]       500ms, std::bind(&string_publisher_cpp_node::timer_callback, this));
+[82.145s]              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[82.145s]              [this] { timer_callback(); }
+[82.145s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:51:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+[82.146s] int main(int argc, char * argv[])
+[82.146s] ~~~ ^
+[82.146s] auto                              -> int
+[82.146s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:53:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.147s]   rclcpp::init(argc, argv);
+[82.147s]   ^
+[82.147s] /opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+[82.147s] init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+[82.148s]                                           ^
+[82.148s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:55:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.148s]   rclcpp::shutdown();
+[82.148s]   ^
+[82.148s] /opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+[82.149s]   rclcpp::Context::SharedPtr context = nullptr,
+[82.149s]   ^
+[82.747s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:15:1: warning: #includes are not sorted properly [llvm-include-order]
+[82.749s] #include <std_msgs/msg/string.hpp>
+[82.749s] ^        ~~~~~~~~~~~~~~~~~~~~~~~~~
+[82.749s]          <rclcpp/rclcpp.hpp>
+[82.749s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+[82.749s] #include <memory>
+[82.749s] ^        ~~~~~~~~
+[82.749s]          <cstdio>
+[82.750s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:27:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.750s]   : Node("string_subscriber_cpp")
+[82.750s]     ^
+[82.750s] /opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+[82.750s]     const NodeOptions & options = NodeOptions());
+[82.750s]     ^
+[82.750s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:27:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.750s]   : Node("string_subscriber_cpp")
+[82.751s]          ^
+[82.751s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[82.751s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[82.751s]                                       ^
+[82.751s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[82.751s]     rclcpp::QoS qos(10);
+[82.751s]                     ^
+[82.752s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[82.752s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:30:21: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.752s]     subscription_ = this->create_subscription<std_msgs::msg::String>("std_msgs_msg_String", qos,
+[82.752s]                     ^
+[82.752s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+[82.752s]   const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+[82.752s]   ^
+[82.752s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:30:70: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.753s]     subscription_ = this->create_subscription<std_msgs::msg::String>("std_msgs_msg_String", qos,
+[82.753s]                                                                      ^
+[82.753s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[82.753s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[82.753s]                                       ^
+[82.753s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:31:9: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+[82.753s]         std::bind(&string_subscriber_cpp_node::topic_callback, this, _1));
+[82.754s]         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[82.754s]         [this](auto && PH1) { topic_callback(PH1); }
+[82.754s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:37:8: warning: method 'topic_callback' can be made static [readability-convert-member-functions-to-static]
+[82.754s]   void topic_callback(const std_msgs::msg::String::SharedPtr msg)
+[82.754s]        ^
+[82.754s]   static 
+[82.754s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:37:62: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+[82.754s]   void topic_callback(const std_msgs::msg::String::SharedPtr msg)
+[82.755s]                                                              ^
+[82.756s]                                                             &
+[82.756s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:43:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+[82.756s] int main(int argc, char * argv[])
+[82.756s] ~~~ ^
+[82.757s] auto                              -> int
+[82.757s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:45:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.757s]   rclcpp::init(argc, argv);
+[82.757s]   ^
+[82.758s] /opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+[82.758s] init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+[82.758s]                                           ^
+[82.759s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:47:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[82.759s]   rclcpp::shutdown();
+[82.759s]   ^
+[82.760s] /opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+[82.760s]   rclcpp::Context::SharedPtr context = nullptr,
+[82.760s]   ^
+[86.499s] [100%] [32m[1mLinking CXX executable string_publisher[0m
+[86.709s] [100%] Built target string_publisher
+[86.745s] [ 37%] [34m[1mPerforming install step for 'string_publisher'[0m
+[86.814s] [100%] Built target string_publisher
+[86.842s] [36mInstall the project...[0m
+[86.856s] -- Install configuration: ""
+[86.856s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/string_publisher/string_publisher
+[86.858s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/string_publisher/string_publisher" to ""
+[86.881s] [ 39%] [34m[1mCompleted 'string_publisher'[0m
+[86.926s] [ 39%] Built target string_publisher
+[89.182s] [100%] [32m[1mLinking CXX executable string_subscriber[0m
+[89.425s] [100%] Built target string_subscriber
+[89.457s] [ 41%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[89.518s] [100%] Built target string_subscriber
+[89.541s] [36mInstall the project...[0m
+[89.551s] -- Install configuration: ""
+[89.551s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/string_subscriber/string_subscriber
+[89.553s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/string_subscriber/string_subscriber" to ""
+[89.578s] [ 42%] [34m[1mCompleted 'string_subscriber'[0m
+[89.620s] [ 42%] Built target string_subscriber
+[89.632s] [35m[1mScanning dependencies of target RAD0_control[0m
+[89.645s] [ 44%] [34m[1mCreating directories for 'RAD0_control'[0m
+[89.737s] [ 46%] [34m[1mNo download step for 'RAD0_control'[0m
+[89.767s] [ 48%] [34m[1mNo patch step for 'RAD0_control'[0m
+[89.796s] [ 50%] [34m[1mNo update step for 'RAD0_control'[0m
+[89.828s] [ 51%] [34m[1mPerforming configure step for 'RAD0_control'[0m
+[89.838s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclcpp/RAD0_control/tmp/RAD0_control-cache-.cmake
+[89.898s] -- The CXX compiler identification is GNU 9.4.0
+[89.913s] -- Check for working CXX compiler: /usr/bin/c++
+[89.999s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[90.000s] -- Detecting CXX compiler ABI info
+[90.093s] -- Detecting CXX compiler ABI info - done
+[90.104s] -- Detecting CXX compile features
+[90.104s] -- Detecting CXX compile features - done
+[90.116s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[90.229s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[90.230s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[90.729s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[90.761s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[90.955s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[91.013s] -- Found FastRTPS: /opt/ros/foxy/include  
+[91.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[91.298s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[91.303s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[91.304s] -- Looking for C++ include pthread.h
+[91.398s] -- Looking for C++ include pthread.h - found
+[91.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[91.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[91.510s] -- Looking for pthread_create in pthreads
+[91.620s] -- Looking for pthread_create in pthreads - not found
+[91.620s] -- Looking for pthread_create in pthread
+[91.762s] -- Looking for pthread_create in pthread - found
+[91.763s] -- Found Threads: TRUE  
+[92.233s] -- Configuring done
+[92.241s] -- Generating done
+[92.242s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-build
+[92.273s] [ 53%] [34m[1mPerforming build step for 'RAD0_control'[0m
+[92.322s] [35m[1mScanning dependencies of target rad0_control[0m
+[92.373s] [ 50%] [32mBuilding CXX object CMakeFiles/rad0_control.dir/main.cpp.o[0m
+[139.504s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:26:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.504s]   : Node("rad0_control_cpp")
+[139.505s]     ^
+[139.505s] /opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+[139.505s]     const NodeOptions & options = NodeOptions());
+[139.505s]     ^
+[139.505s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:26:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.505s]   : Node("rad0_control_cpp")
+[139.505s]          ^
+[139.506s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[139.506s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[139.506s]                                       ^
+[139.506s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:28:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[139.506s]     rclcpp::QoS qos(10);
+[139.506s]                     ^
+[139.506s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:28:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[139.506s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:29:31: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.507s]     engine_power_publisher_ = this->create_publisher<std_msgs::msg::Int32>(
+[139.507s]                               ^
+[139.507s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+[139.507s]   const PublisherOptionsWithAllocator<AllocatorT> & options)
+[139.507s]   ^
+[139.507s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:30:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.507s]       "std_msgs_msg_Int32", qos);
+[139.507s]       ^
+[139.508s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[139.508s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[139.508s]                                       ^
+[139.508s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:31:23: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.508s]     warn_publisher_ = this->create_publisher<std_msgs::msg::String>(
+[139.508s]                       ^
+[139.508s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+[139.509s]   const PublisherOptionsWithAllocator<AllocatorT> & options)
+[139.509s]   ^
+[139.509s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:32:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.509s]       "std_msgs_msg_String", qos);
+[139.509s]       ^
+[139.509s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[139.509s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[139.509s]                                       ^
+[139.510s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:34:30: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.510s]     altitude_subscription_ = this->create_subscription<std_msgs::msg::Float64>(
+[139.510s]                              ^
+[139.510s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+[139.510s]   const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+[139.510s]   ^
+[139.510s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:35:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.510s]       "std_msgs_msg_Float64", qos, std::bind(&ExternalNode::topic_callback, this, _1));
+[139.511s]       ^
+[139.511s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[139.511s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[139.511s]                                       ^
+[139.511s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:35:36: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+[139.511s]       "std_msgs_msg_Float64", qos, std::bind(&ExternalNode::topic_callback, this, _1));
+[139.511s]                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[139.511s]                                    [this](auto && PH1) { topic_callback(PH1); }
+[139.512s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:43:63: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+[139.512s]   void topic_callback(const std_msgs::msg::Float64::SharedPtr msg)
+[139.512s]                                                               ^
+[139.512s]                                                              &
+[139.512s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:46:22: warning: 500 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[139.512s]     if (msg->data <= 500) {
+[139.512s]                      ^
+[139.512s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:46:22: warning: 500 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[139.513s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:48:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.513s]         auto message = std_msgs::msg::String();
+[139.513s]                        ^
+[139.513s] /opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:35:20: note: default parameter was declared here
+[139.513s]   explicit String_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[139.513s]                    ^
+[139.513s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [cppcoreguidelines-pro-bounds-array-to-pointer-decay]
+[139.513s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.514s]         ^
+[139.514s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.514s]     RCUTILS_LOG_INFO_NAMED( \
+[139.514s]     ^
+[139.514s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.514s]   RCUTILS_LOG_COND_NAMED( \
+[139.514s]   ^
+[139.515s] /opt/ros/foxy/include/rcutils/logging_macros.h:68:5: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.515s]     RCUTILS_LOGGING_AUTOINIT \
+[139.515s]     ^
+[139.515s] /opt/ros/foxy/include/rcutils/logging.h:525:37: note: expanded from macro 'RCUTILS_LOGGING_AUTOINIT'
+[139.515s]       RCUTILS_SAFE_FWRITE_TO_STDERR(rcutils_get_error_string().str); \
+[139.515s]                                     ^
+[139.515s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not call c-style vararg functions [cppcoreguidelines-pro-type-vararg]
+[139.516s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.516s]         ^
+[139.516s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.516s]     RCUTILS_LOG_INFO_NAMED( \
+[139.516s]     ^
+[139.516s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.516s]   RCUTILS_LOG_COND_NAMED( \
+[139.516s]   ^
+[139.517s] /opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.517s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[139.517s]       ^
+[139.517s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [hicpp-no-array-decay]
+[139.517s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.517s]         ^
+[139.517s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.518s]     RCUTILS_LOG_INFO_NAMED( \
+[139.518s]     ^
+[139.518s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.518s]   RCUTILS_LOG_COND_NAMED( \
+[139.518s]   ^
+[139.518s] /opt/ros/foxy/include/rcutils/logging_macros.h:69:65: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.518s]     static rcutils_log_location_t __rcutils_logging_location = {__func__, __FILE__, __LINE__}; \
+[139.518s]                                                                 ^
+[139.519s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not call c-style vararg functions [hicpp-vararg]
+[139.519s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.519s]         ^
+[139.519s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.519s]     RCUTILS_LOG_INFO_NAMED( \
+[139.519s]     ^
+[139.519s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.519s]   RCUTILS_LOG_COND_NAMED( \
+[139.520s]   ^
+[139.520s] /opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.520s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[139.520s]       ^
+[139.520s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:55:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.520s]         auto message = std_msgs::msg::Int32();
+[139.520s]                        ^
+[139.521s] /opt/ros/foxy/include/std_msgs/msg/detail/int32__struct.hpp:35:19: note: default parameter was declared here
+[139.521s]   explicit Int32_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[139.521s]                   ^
+[139.521s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:56:24: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[139.521s]         message.data = 10;
+[139.521s]                        ^
+[139.521s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:56:24: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[139.521s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:60:29: warning: 1000 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[139.522s]     } else if (msg->data <= 1000) {
+[139.522s]                             ^
+[139.522s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:60:29: warning: 1000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[139.522s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:62:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.522s]         auto message = std_msgs::msg::String();
+[139.522s]                        ^
+[139.523s] /opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:35:20: note: default parameter was declared here
+[139.523s]   explicit String_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[139.523s]                    ^
+[139.523s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [cppcoreguidelines-pro-bounds-array-to-pointer-decay]
+[139.523s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.523s]         ^
+[139.523s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.524s]     RCUTILS_LOG_INFO_NAMED( \
+[139.524s]     ^
+[139.524s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.524s]   RCUTILS_LOG_COND_NAMED( \
+[139.525s]   ^
+[139.525s] /opt/ros/foxy/include/rcutils/logging_macros.h:68:5: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.525s]     RCUTILS_LOGGING_AUTOINIT \
+[139.525s]     ^
+[139.525s] /opt/ros/foxy/include/rcutils/logging.h:525:37: note: expanded from macro 'RCUTILS_LOGGING_AUTOINIT'
+[139.525s]       RCUTILS_SAFE_FWRITE_TO_STDERR(rcutils_get_error_string().str); \
+[139.525s]                                     ^
+[139.526s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not call c-style vararg functions [cppcoreguidelines-pro-type-vararg]
+[139.526s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.526s]         ^
+[139.526s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.526s]     RCUTILS_LOG_INFO_NAMED( \
+[139.526s]     ^
+[139.526s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.527s]   RCUTILS_LOG_COND_NAMED( \
+[139.527s]   ^
+[139.527s] /opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.527s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[139.527s]       ^
+[139.527s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [hicpp-no-array-decay]
+[139.527s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.527s]         ^
+[139.528s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.528s]     RCUTILS_LOG_INFO_NAMED( \
+[139.528s]     ^
+[139.528s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.528s]   RCUTILS_LOG_COND_NAMED( \
+[139.528s]   ^
+[139.528s] /opt/ros/foxy/include/rcutils/logging_macros.h:68:5: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.528s]     RCUTILS_LOGGING_AUTOINIT \
+[139.529s]     ^
+[139.529s] /opt/ros/foxy/include/rcutils/logging.h:525:37: note: expanded from macro 'RCUTILS_LOGGING_AUTOINIT'
+[139.529s]       RCUTILS_SAFE_FWRITE_TO_STDERR(rcutils_get_error_string().str); \
+[139.529s]                                     ^
+[139.529s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not call c-style vararg functions [hicpp-vararg]
+[139.529s]         RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[139.529s]         ^
+[139.529s] /opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+[139.530s]     RCUTILS_LOG_INFO_NAMED( \
+[139.530s]     ^
+[139.530s] /opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[139.530s]   RCUTILS_LOG_COND_NAMED( \
+[139.530s]   ^
+[139.530s] /opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[139.530s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[139.531s]       ^
+[139.531s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:69:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.531s]         auto message = std_msgs::msg::Int32();
+[139.531s]                        ^
+[139.531s] /opt/ros/foxy/include/std_msgs/msg/detail/int32__struct.hpp:35:19: note: default parameter was declared here
+[139.531s]   explicit Int32_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[139.531s]                   ^
+[139.531s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:70:24: warning: 5 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[139.532s]         message.data = 5;
+[139.532s]                        ^
+[139.532s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:70:24: warning: 5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[139.532s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:77:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+[139.532s] int main(int argc, char * argv[])
+[139.532s] ~~~ ^
+[139.532s] auto                              -> int
+[139.533s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:79:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.533s]   rclcpp::init(argc, argv);
+[139.533s]   ^
+[139.533s] /opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+[139.533s] init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+[139.533s]                                           ^
+[139.533s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:81:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[139.533s]   rclcpp::shutdown();
+[139.534s]   ^
+[139.534s] /opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+[139.534s]   rclcpp::Context::SharedPtr context = nullptr,
+[139.534s]   ^
+[147.002s] [100%] [32m[1mLinking CXX executable rad0_control[0m
+[147.339s] [100%] Built target rad0_control
+[147.383s] [ 55%] [34m[1mPerforming install step for 'RAD0_control'[0m
+[147.452s] [100%] Built target rad0_control
+[147.488s] [36mInstall the project...[0m
+[147.504s] -- Install configuration: ""
+[147.504s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/rad0_control/rad0_control
+[147.509s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/rad0_control/rad0_control" to ""
+[147.541s] [ 57%] [34m[1mCompleted 'RAD0_control'[0m
+[147.599s] [ 57%] Built target RAD0_control
+[147.617s] [35m[1mScanning dependencies of target int32_publisher[0m
+[147.633s] [ 58%] [34m[1mCreating directories for 'int32_publisher'[0m
+[147.773s] [ 60%] [34m[1mNo download step for 'int32_publisher'[0m
+[147.819s] [ 62%] [34m[1mNo patch step for 'int32_publisher'[0m
+[147.860s] [ 64%] [34m[1mNo update step for 'int32_publisher'[0m
+[147.897s] [ 66%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[147.914s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/tmp/int32_publisher-cache-.cmake
+[147.998s] -- The CXX compiler identification is GNU 9.4.0
+[148.018s] -- Check for working CXX compiler: /usr/bin/c++
+[148.133s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[148.134s] -- Detecting CXX compiler ABI info
+[148.271s] -- Detecting CXX compiler ABI info - done
+[148.291s] -- Detecting CXX compile features
+[148.291s] -- Detecting CXX compile features - done
+[148.310s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[148.439s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[148.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[149.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[149.311s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[149.606s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[149.674s] -- Found FastRTPS: /opt/ros/foxy/include  
+[149.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[150.091s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[150.100s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[150.101s] -- Looking for C++ include pthread.h
+[150.256s] -- Looking for C++ include pthread.h - found
+[150.256s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[150.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[150.390s] -- Looking for pthread_create in pthreads
+[150.514s] -- Looking for pthread_create in pthreads - not found
+[150.515s] -- Looking for pthread_create in pthread
+[150.659s] -- Looking for pthread_create in pthread - found
+[150.660s] -- Found Threads: TRUE  
+[151.061s] -- Configuring done
+[151.072s] -- Generating done
+[151.074s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-build
+[151.116s] [ 67%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[151.157s] [35m[1mScanning dependencies of target int32_publisher[0m
+[151.202s] [ 50%] [32mBuilding CXX object CMakeFiles/int32_publisher.dir/main.cpp.o[0m
+[181.031s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:417:53: warning: Moved-from object 'message' is moved [clang-analyzer-cplusplus.Move]
+[181.031s]         subscription->provide_intra_process_message(std::move(message));
+[181.031s]                                                     ^
+[181.031s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:41:5: note: Calling 'Publisher::publish'
+[181.031s]     publisher_->publish(count_);
+[181.031s]     ^
+[181.031s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+[181.031s]     if (!intra_process_is_enabled_) {
+[181.032s]         ^
+[181.032s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+[181.032s]     if (!intra_process_is_enabled_) {
+[181.032s]     ^
+[181.032s] /opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+[181.032s]     this->publish(std::move(unique_msg));
+[181.032s]     ^
+[181.032s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+[181.032s]     if (!intra_process_is_enabled_) {
+[181.032s]          ^
+[181.032s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+[181.032s]     if (!intra_process_is_enabled_) {
+[181.032s]     ^
+[181.033s] /opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+[181.033s]       get_subscription_count() > get_intra_process_subscription_count();
+[181.033s]       ^
+[181.033s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+[181.033s]     if (inter_process_publish_needed) {
+[181.033s]         ^
+[181.033s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+[181.034s]     if (inter_process_publish_needed) {
+[181.034s]     ^
+[181.034s] /opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+[181.034s]       this->do_intra_process_publish(std::move(msg));
+[181.034s]       ^
+[181.034s] /opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+[181.034s]     if (!ipm) {
+[181.034s]     ^
+[181.034s] /opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+[181.035s]     if (!msg) {
+[181.035s]     ^
+[181.035s] /opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+[181.035s]     ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+[181.035s]     ^
+[181.035s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+[181.035s]     if (publisher_it == pub_to_subs_.end()) {
+[181.036s]     ^
+[181.036s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+[181.036s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[181.037s]         ^
+[181.037s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+[181.037s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[181.037s]     ^
+[181.037s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:421:27: warning: Method called on moved-from object 'message' [clang-analyzer-cplusplus.Move]
+[181.038s]         Deleter deleter = message.get_deleter();
+[181.038s]                           ^
+[181.038s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:41:5: note: Calling 'Publisher::publish'
+[181.038s]     publisher_->publish(count_);
+[181.039s]     ^
+[181.039s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+[181.039s]     if (!intra_process_is_enabled_) {
+[181.039s]         ^
+[181.040s] /opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+[181.040s]     if (!intra_process_is_enabled_) {
+[181.040s]     ^
+[181.040s] /opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+[181.041s]     this->publish(std::move(unique_msg));
+[181.041s]     ^
+[181.041s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+[181.041s]     if (!intra_process_is_enabled_) {
+[181.042s]          ^
+[181.042s] /opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+[181.042s]     if (!intra_process_is_enabled_) {
+[181.043s]     ^
+[181.043s] /opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+[181.043s]       get_subscription_count() > get_intra_process_subscription_count();
+[181.044s]       ^
+[181.044s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+[181.044s]     if (inter_process_publish_needed) {
+[181.045s]         ^
+[181.045s] /opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+[181.045s]     if (inter_process_publish_needed) {
+[181.045s]     ^
+[181.046s] /opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+[181.046s]       this->do_intra_process_publish(std::move(msg));
+[181.046s]       ^
+[181.046s] /opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+[181.047s]     if (!ipm) {
+[181.047s]     ^
+[181.047s] /opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+[181.048s]     if (!msg) {
+[181.048s]     ^
+[181.048s] /opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+[181.048s]     ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+[181.049s]     ^
+[181.049s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+[181.049s]     if (publisher_it == pub_to_subs_.end()) {
+[181.049s]     ^
+[181.050s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+[181.050s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[181.050s]         ^
+[181.050s] /opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+[181.051s]     if (sub_ids.take_ownership_subscriptions.empty()) {
+[181.051s]     ^
+[181.051s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+[181.051s] #include <memory>
+[181.052s] ^        ~~~~~~~~
+[181.052s]          <chrono>
+[181.052s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:28:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.052s]   int32_publisher_node()
+[181.053s]   ^
+[181.053s] /opt/ros/foxy/include/std_msgs/msg/detail/int32__struct.hpp:35:19: note: default parameter was declared here
+[181.053s]   explicit Int32_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[181.053s]                   ^
+[181.054s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:29:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.054s]   : Node("int32_publisher_cpp")
+[181.054s]     ^
+[181.054s] /opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+[181.055s]     const NodeOptions & options = NodeOptions());
+[181.055s]     ^
+[181.055s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:29:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.055s]   : Node("int32_publisher_cpp")
+[181.056s]          ^
+[181.056s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[181.056s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[181.056s]                                       ^
+[181.056s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:31:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[181.057s]     rclcpp::QoS qos(10);
+[181.057s]                     ^
+[181.057s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:31:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[181.058s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:32:18: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.058s]     publisher_ = this->create_publisher<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos);
+[181.058s]                  ^
+[181.058s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+[181.059s]   const PublisherOptionsWithAllocator<AllocatorT> & options)
+[181.059s]   ^
+[181.059s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:32:63: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.060s]     publisher_ = this->create_publisher<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos);
+[181.060s]                                                               ^
+[181.060s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[181.060s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[181.061s]                                       ^
+[181.061s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:33:14: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.061s]     timer_ = this->create_wall_timer(
+[181.061s]              ^
+[181.062s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:112:3: note: default parameter was declared here
+[181.062s]   rclcpp::CallbackGroup::SharedPtr group)
+[181.062s]   ^
+[181.063s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:34:14: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+[181.063s]       500ms, std::bind(&int32_publisher_node::timer_callback, this));
+[181.063s]              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[181.063s]              [this] { timer_callback(); }
+[181.064s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:51:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+[181.064s] int main(int argc, char * argv[])
+[181.064s] ~~~ ^
+[181.064s] auto                              -> int
+[181.065s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:53:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.065s]   rclcpp::init(argc, argv);
+[181.065s]   ^
+[181.065s] /opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+[181.066s] init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+[181.066s]                                           ^
+[181.066s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:55:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[181.066s]   rclcpp::shutdown();
+[181.066s]   ^
+[181.067s] /opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+[181.067s]   rclcpp::Context::SharedPtr context = nullptr,
+[181.067s]   ^
+[184.128s] [100%] [32m[1mLinking CXX executable int32_publisher[0m
+[184.297s] [100%] Built target int32_publisher
+[184.329s] [ 69%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[184.389s] [100%] Built target int32_publisher
+[184.412s] [36mInstall the project...[0m
+[184.423s] -- Install configuration: ""
+[184.423s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/int32_publisher/int32_publisher
+[184.424s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/int32_publisher/int32_publisher" to ""
+[184.447s] [ 71%] [34m[1mCompleted 'int32_publisher'[0m
+[184.494s] [ 71%] Built target int32_publisher
+[184.507s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[184.513s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[184.521s] [ 73%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[184.532s] [ 75%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[184.634s] [ 76%] [34m[1mNo download step for 'int32_subscriber'[0m
+[184.646s] [ 78%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[184.680s] [ 80%] [34m[1mNo update step for 'int32_subscriber'[0m
+[184.681s] [ 82%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[184.689s] [ 83%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[184.689s] [ 85%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[184.725s] [ 87%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[184.730s] [ 89%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[184.741s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclcpp/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[184.741s] loading initial cache file /root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[184.803s] -- The CXX compiler identification is GNU 9.4.0
+[184.811s] -- The CXX compiler identification is GNU 9.4.0
+[184.817s] -- Check for working CXX compiler: /usr/bin/c++
+[184.835s] -- Check for working CXX compiler: /usr/bin/c++
+[184.905s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[184.905s] -- Detecting CXX compiler ABI info
+[184.923s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[184.925s] -- Detecting CXX compiler ABI info
+[184.989s] -- Detecting CXX compiler ABI info - done
+[185.010s] -- Detecting CXX compile features
+[185.010s] -- Detecting CXX compile features - done
+[185.020s] -- Detecting CXX compiler ABI info - done
+[185.023s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[185.036s] -- Detecting CXX compile features
+[185.036s] -- Detecting CXX compile features - done
+[185.047s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[185.094s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[185.094s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[185.115s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[185.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[185.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[185.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[185.565s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[185.587s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[185.734s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[185.746s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[185.787s] -- Found FastRTPS: /opt/ros/foxy/include  
+[185.791s] -- Found FastRTPS: /opt/ros/foxy/include  
+[185.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[185.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[186.034s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[186.034s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[186.038s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[186.039s] -- Looking for C++ include pthread.h
+[186.040s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[186.041s] -- Looking for C++ include pthread.h
+[186.124s] -- Looking for C++ include pthread.h - found
+[186.124s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[186.143s] -- Looking for C++ include pthread.h - found
+[186.143s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[186.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[186.207s] -- Looking for pthread_create in pthreads
+[186.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[186.232s] -- Looking for pthread_create in pthreads
+[186.274s] -- Looking for pthread_create in pthreads - not found
+[186.275s] -- Looking for pthread_create in pthread
+[186.301s] -- Looking for pthread_create in pthreads - not found
+[186.301s] -- Looking for pthread_create in pthread
+[186.356s] -- Looking for pthread_create in pthread - found
+[186.357s] -- Found Threads: TRUE  
+[186.385s] -- Looking for pthread_create in pthread - found
+[186.386s] -- Found Threads: TRUE  
+[186.562s] -- Found complex_msgs: 1.0.0 (/root/catkin_ws/install/complex_msgs/share/complex_msgs/cmake)
+[186.584s] -- Configuring done
+[186.591s] -- Generating done
+[186.592s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp/complex_msg_subscriber/src/complex_msg_subscriber-build
+[186.595s] -- Configuring done
+[186.602s] -- Generating done
+[186.603s] -- Build files have been written to: /root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-build
+[186.618s] [ 91%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[186.628s] [ 92%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[186.653s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[186.664s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[186.687s] [ 50%] [32mBuilding CXX object CMakeFiles/complex_msg_subscriber.dir/main.cpp.o[0m
+[186.698s] [ 50%] [32mBuilding CXX object CMakeFiles/int32_subscriber.dir/main.cpp.o[0m
+[210.811s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+[210.811s] #include <memory>
+[210.812s] ^        ~~~~~~~~
+[210.812s]          <cstdio>
+[210.812s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:27:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[210.812s]   : Node("int32_subscriber_cpp")
+[210.812s]     ^
+[210.812s] /opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+[210.812s]     const NodeOptions & options = NodeOptions());
+[210.812s]     ^
+[210.812s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:27:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[210.812s]   : Node("int32_subscriber_cpp")
+[210.812s]          ^
+[210.813s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[210.813s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[210.813s]                                       ^
+[210.813s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+[210.813s]     rclcpp::QoS qos(10);
+[210.813s]                     ^
+[210.813s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+[210.813s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:30:21: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[210.813s]     subscription_ = this->create_subscription<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos,
+[210.813s]                     ^
+[210.813s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+[210.814s]   const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+[210.814s]   ^
+[210.814s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:30:69: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[210.814s]     subscription_ = this->create_subscription<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos,
+[210.814s]                                                                     ^
+[210.814s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[210.814s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[210.814s]                                       ^
+[210.814s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:31:9: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+[210.814s]         std::bind(&int32_subscriber_node::topic_callback, this, _1));
+[210.814s]         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[210.814s]         [this](auto && PH1) { topic_callback(PH1); }
+[210.814s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:39:8: warning: method 'topic_callback' can be made static [readability-convert-member-functions-to-static]
+[210.815s]   void topic_callback(const std_msgs::msg::Int32::SharedPtr msg)
+[210.815s]        ^
+[210.815s]   static 
+[210.815s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:39:61: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+[210.815s]   void topic_callback(const std_msgs::msg::Int32::SharedPtr msg)
+[210.815s]                                                             ^
+[210.815s]                                                            &
+[210.815s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:45:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+[210.815s] int main(int argc, char * argv[])
+[210.815s] ~~~ ^
+[210.815s] auto                              -> int
+[210.815s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:47:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[210.816s]   rclcpp::init(argc, argv);
+[210.816s]   ^
+[210.816s] /opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+[210.816s] init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+[210.816s]                                           ^
+[210.816s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:49:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[210.816s]   rclcpp::shutdown();
+[210.816s]   ^
+[210.816s] /opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+[210.816s]   rclcpp::Context::SharedPtr context = nullptr,
+[210.816s]   ^
+[212.617s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+[212.617s] #include <memory>
+[212.617s] ^        ~~~~~~~~
+[212.617s]          <cstdio>
+[212.617s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:27:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[212.617s]   : Node("complex_msg_subscriber_cpp")
+[212.617s]     ^
+[212.617s] /opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+[212.617s]     const NodeOptions & options = NodeOptions());
+[212.617s]     ^
+[212.617s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:27:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[212.617s]   : Node("complex_msg_subscriber_cpp")
+[212.618s]          ^
+[212.618s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[212.618s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[212.618s]                                       ^
+[212.618s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:29:21: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[212.618s]     subscription_ = this->create_subscription<complex_msgs::msg::NestedMsgTest>(
+[212.618s]                     ^
+[212.618s] /opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+[212.618s]   const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+[212.618s]   ^
+[212.618s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:30:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[212.618s]       "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS(),
+[212.618s]       ^
+[212.618s] /usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:529:39: note: default parameter was declared here
+[212.618s]       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+[212.618s]                                       ^
+[212.618s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:30:41: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[212.618s]       "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS(),
+[212.618s]                                         ^
+[212.619s] /opt/ros/foxy/include/rclcpp/qos.hpp:270:5: note: default parameter was declared here
+[212.619s]     const QoSInitialization & qos_initialization = (
+[212.619s]     ^
+[212.619s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:31:7: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+[212.619s]       std::bind(&complex_msg_subscriber_cpp_node::topic_callback, this, _1));
+[212.619s]       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[212.619s]       [this](auto && PH1) { topic_callback(PH1); }
+[212.619s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:37:8: warning: method 'topic_callback' can be made static [readability-convert-member-functions-to-static]
+[212.619s]   void topic_callback(const complex_msgs::msg::NestedMsgTest::SharedPtr msg)
+[212.619s]        ^
+[212.619s]   static 
+[212.619s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:37:73: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+[212.619s]   void topic_callback(const complex_msgs::msg::NestedMsgTest::SharedPtr msg)
+[212.619s]                                                                         ^
+[212.619s]                                                                        &
+[212.619s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:40:47: warning: implicit conversion bool -> 'int' [readability-implicit-bool-conversion]
+[212.619s]     std::cout << "\tBool: " << std::to_string(msg->data1) << std::endl;
+[212.620s]                                               ^
+[212.620s]                                               static_cast<int>( )
+[212.620s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:62:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+[212.620s] int main(int argc, char * argv[])
+[212.620s] ~~~ ^
+[212.620s] auto                              -> int
+[212.620s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:64:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[212.620s]   rclcpp::init(argc, argv);
+[212.620s]   ^
+[212.620s] /opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+[212.620s] init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+[212.620s]                                           ^
+[212.620s] /root/catkin_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:66:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+[212.620s]   rclcpp::shutdown();
+[212.620s]   ^
+[212.620s] /opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+[212.620s]   rclcpp::Context::SharedPtr context = nullptr,
+[212.621s]   ^
+[214.727s] [100%] [32m[1mLinking CXX executable int32_subscriber[0m
+[214.920s] [100%] Built target int32_subscriber
+[214.946s] [ 94%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[214.997s] [100%] Built target int32_subscriber
+[215.016s] [36mInstall the project...[0m
+[215.025s] -- Install configuration: ""
+[215.025s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/int32_subscriber/int32_subscriber
+[215.027s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/int32_subscriber/int32_subscriber" to ""
+[215.046s] [ 96%] [34m[1mCompleted 'int32_subscriber'[0m
+[215.080s] [ 96%] Built target int32_subscriber
+[216.626s] [100%] [32m[1mLinking CXX executable complex_msg_subscriber[0m
+[216.797s] [100%] Built target complex_msg_subscriber
+[216.821s] [ 98%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[216.866s] [100%] Built target complex_msg_subscriber
+[216.883s] [36mInstall the project...[0m
+[216.891s] -- Install configuration: ""
+[216.892s] -- Installing: /root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[216.893s] -- Set runtime path of "/root/catkin_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[216.911s] [100%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[216.944s] [100%] Built target complex_msg_subscriber
+[216.956s] Invoked command in '/root/catkin_ws/build/micro_ros_demos_rclcpp' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_demos_rclcpp -- -j12 -l12
+[216.982s] Invoking command in '/root/catkin_ws/build/micro_ros_demos_rclcpp': AMENT_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_demos_rclcpp
+[216.990s] -- Install configuration: ""
+[216.990s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp
+[216.990s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_publisher
+[216.991s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_publisher/string_publisher
+[216.991s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_subscriber
+[216.991s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_subscriber/complex_msg_subscriber
+[216.992s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_publisher
+[216.992s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_publisher/int32_publisher
+[216.993s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/rad0_control
+[216.993s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/rad0_control/rad0_control
+[216.994s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_subscriber
+[216.994s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_subscriber/string_subscriber
+[216.995s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_publisher
+[216.995s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_publisher/complex_msg_publisher
+[216.996s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_subscriber
+[216.996s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_subscriber/int32_subscriber
+[216.997s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclcpp
+[216.997s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclcpp
+[216.998s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/ament_prefix_path.sh
+[216.998s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/ament_prefix_path.dsv
+[216.998s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/path.sh
+[216.998s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/path.dsv
+[216.998s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.bash
+[216.998s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.sh
+[216.998s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.zsh
+[216.999s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.dsv
+[216.999s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/package.dsv
+[216.999s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/packages/micro_ros_demos_rclcpp
+[216.999s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/cmake/micro_ros_demos_rclcppConfig.cmake
+[216.999s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/cmake/micro_ros_demos_rclcppConfig-version.cmake
+[216.999s] -- Installing: /root/catkin_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/package.xml
+[217.003s] Invoked command in '/root/catkin_ws/build/micro_ros_demos_rclcpp' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/complex_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/complex_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/complex_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_demos_rclcpp

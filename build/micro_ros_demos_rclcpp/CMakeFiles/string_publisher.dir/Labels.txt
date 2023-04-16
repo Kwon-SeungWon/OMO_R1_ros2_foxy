@@ -1,0 +1,13 @@
+# Target labels
+ string_publisher
+# Source files and their labels
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/string_publisher
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/string_publisher.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/string_publisher-complete.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-stamp/string_publisher-install.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-stamp/string_publisher-mkdir.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-stamp/string_publisher-download.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-stamp/string_publisher-update.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-stamp/string_publisher-patch.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-stamp/string_publisher-configure.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-stamp/string_publisher-build.rule

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
@@ -74,3 +75,14 @@ math.h
 lockdev.h
 -
 
+||||||| empty tree
+=======
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

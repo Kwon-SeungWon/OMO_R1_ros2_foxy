@@ -1,0 +1,10 @@
+/root/catkin_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+/root/catkin_ws/install/microcdr/lib/libmicrocdr.so.2.0
+/root/catkin_ws/install/microcdr/lib/libmicrocdr.so
+/root/catkin_ws/install/microcdr/include/ucdr/visibility.h
+/root/catkin_ws/install/microcdr/include/ucdr/microcdr.h
+/root/catkin_ws/install/microcdr/include/ucdr/config.h
+/root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+/root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+/root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+/root/catkin_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

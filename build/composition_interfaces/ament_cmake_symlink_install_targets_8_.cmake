@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/catkin_ws/build/composition_interfaces/rosidl_generator_py/composition_interfaces/libcomposition_interfaces__python.so" "TARGETS" "composition_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

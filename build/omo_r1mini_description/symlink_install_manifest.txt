@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/omo_r1mini_body.stl
 /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/sensors/ydlidar_assy.dae
 /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/omo_r1mini_wheel.stl
@@ -21,3 +22,33 @@
 /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake
 /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake
 /root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/package.xml
+||||||| empty tree
+=======
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/body_assy.dae
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/housing_body.dae
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/sensors/ydlidar_assy.dae
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel.dae
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_mount.dae
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_rotate.dae
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/wheel_assy.dae
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/rviz/model.rviz
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_r1mini.urdf
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description.launch.py
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description_rviz.launch.py
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_state_publisher.launch.py
+/root/catkin_ws/install/omo_r1mini_description/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_description
+/root/catkin_ws/install/omo_r1mini_description/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_description
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.sh
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.dsv
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.sh
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.dsv
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.bash
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.sh
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.zsh
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.dsv
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv
+/root/catkin_ws/install/omo_r1mini_description/share/ament_index/resource_index/packages/omo_r1mini_description
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake
+/root/catkin_ws/install/omo_r1mini_description/share/omo_r1mini_description/package.xml
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

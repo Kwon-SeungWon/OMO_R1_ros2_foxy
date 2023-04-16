@@ -1,0 +1,13 @@
+# Target labels
+ int32_subscriber
+# Source files and their labels
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_subscriber
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_subscriber.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_subscriber-complete.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-install.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-mkdir.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-download.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-update.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-patch.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-configure.rule
+/root/catkin_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-build.rule

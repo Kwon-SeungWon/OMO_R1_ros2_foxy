@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CMake generated Testfile for 
 # Source directory: /root/catkin_ws/src/ydlidar_ros2_driver
 # Build directory: /root/catkin_ws/build/ydlidar_ros2_driver
@@ -20,3 +21,12 @@ add_test(uncrustify "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_tes
 set_tests_properties(uncrustify PROPERTIES  LABELS "uncrustify;linter" TIMEOUT "60" WORKING_DIRECTORY "/root/catkin_ws/src/ydlidar_ros2_driver" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_uncrustify/cmake/ament_uncrustify.cmake;65;ament_add_test;/opt/ros/foxy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake;34;ament_uncrustify;/opt/ros/foxy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;21;ament_execute_extensions;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake;66;ament_execute_extensions;/root/catkin_ws/src/ydlidar_ros2_driver/CMakeLists.txt;87;ament_package;/root/catkin_ws/src/ydlidar_ros2_driver/CMakeLists.txt;0;")
 add_test(xmllint "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/root/catkin_ws/build/ydlidar_ros2_driver/test_results/ydlidar_ros2_driver/xmllint.xunit.xml" "--package-name" "ydlidar_ros2_driver" "--output-file" "/root/catkin_ws/build/ydlidar_ros2_driver/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/root/catkin_ws/build/ydlidar_ros2_driver/test_results/ydlidar_ros2_driver/xmllint.xunit.xml")
 set_tests_properties(xmllint PROPERTIES  LABELS "xmllint;linter" TIMEOUT "60" WORKING_DIRECTORY "/root/catkin_ws/src/ydlidar_ros2_driver" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_xmllint/cmake/ament_xmllint.cmake;50;ament_add_test;/opt/ros/foxy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake;18;ament_xmllint;/opt/ros/foxy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;21;ament_execute_extensions;/opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake;66;ament_execute_extensions;/root/catkin_ws/src/ydlidar_ros2_driver/CMakeLists.txt;87;ament_package;/root/catkin_ws/src/ydlidar_ros2_driver/CMakeLists.txt;0;")
+||||||| empty tree
+=======
+# CMake generated Testfile for 
+# Source directory: /root/catkin_ws/src/ydlidar_ros2_driver
+# Build directory: /root/catkin_ws/build/ydlidar_ros2_driver
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

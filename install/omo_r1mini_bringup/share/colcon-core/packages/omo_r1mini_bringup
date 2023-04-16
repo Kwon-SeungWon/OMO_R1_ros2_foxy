@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 geometry_msgs:hls_lfcd_lds_driver:message_filters:omo_r1_description:omo_r1mini_interfaces:python3-serial:python3-transforms3d:rclpy:robot_localization:robot_state_publisher:rosidl_default_runtime:rviz2:std_msgs:tf2_ros_py
+||||||| empty tree
+=======
+geometry_msgs:hls_lfcd_lds_driver:message_filters:omo_r1mini_description:omo_r1mini_interfaces:python3-serial:python3-transforms3d:rclpy:robot_localization:robot_state_publisher:rosidl_default_runtime:rviz2:std_msgs:tf2_ros_py
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

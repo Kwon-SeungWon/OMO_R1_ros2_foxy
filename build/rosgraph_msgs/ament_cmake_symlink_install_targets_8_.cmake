@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/catkin_ws/build/rosgraph_msgs/rosidl_generator_py/rosgraph_msgs/librosgraph_msgs__python.so" "TARGETS" "rosgraph_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

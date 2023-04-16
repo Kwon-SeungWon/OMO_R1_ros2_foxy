@@ -1,0 +1,274 @@
+[0.172s] Invoking command in '/root/catkin_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/builtin_interfaces
+[0.290s] -- The C compiler identification is GNU 9.4.0
+[0.371s] -- The CXX compiler identification is GNU 9.4.0
+[0.383s] -- Check for working C compiler: /usr/bin/cc
+[0.545s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.546s] -- Detecting C compiler ABI info
+[0.718s] -- Detecting C compiler ABI info - done
+[0.736s] -- Detecting C compile features
+[0.737s] -- Detecting C compile features - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.881s] -- Detecting CXX compiler ABI info
+[1.151s] -- Detecting CXX compiler ABI info - done
+[1.162s] -- Detecting CXX compile features
+[1.162s] -- Detecting CXX compile features - done
+[1.173s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.258s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.749s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.829s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.178s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.249s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.833s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.790s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.391s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.406s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.553s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.553s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.553s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.681s] -- Found PythonExtra: .so  
+[6.043s] -- Configuring done
+[6.183s] -- Generating done
+[6.186s] -- Build files have been written to: /root/catkin_ws/build/builtin_interfaces
+[6.233s] Invoked command in '/root/catkin_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /root/catkin_ws/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/builtin_interfaces
+[6.234s] Invoking command in '/root/catkin_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/builtin_interfaces -- -j12 -l12
+[6.374s] [35m[1mScanning dependencies of target builtin_interfaces__cpp[0m
+[6.409s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.445s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.278s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_generator_c[0m
+[7.346s] [  6%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o[0m
+[7.365s] [  8%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o[0m
+[7.475s] [  8%] Built target builtin_interfaces__cpp
+[7.553s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.554s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.583s] [ 14%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[7.592s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.616s] [ 18%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_c.so[0m
+[7.823s] [ 18%] Built target builtin_interfaces__rosidl_generator_c
+[7.914s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.937s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.953s] [ 24%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[8.759s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_c[0m
+[8.780s] [ 26%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[8.865s] [ 28%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[8.925s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_cpp[0m
+[8.971s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[9.020s] [ 30%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[9.026s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp[0m
+[9.027s] [ 32%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[9.037s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_cpp[0m
+[9.044s] [ 34%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[9.056s] [ 36%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o[0m
+[9.079s] [ 38%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp.o[0m
+[9.111s] [ 40%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp.o[0m
+[9.129s] [ 42%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[9.131s] [ 44%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o[0m
+[9.174s] [ 46%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o[0m
+[9.228s] [ 46%] Built target builtin_interfaces__rosidl_typesupport_c
+[9.734s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_c[0m
+[9.821s] [ 48%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_c.c.o[0m
+[9.849s] [ 51%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/time__type_support_c.c.o[0m
+[9.996s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c[0m
+[10.087s] [ 53%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[10.110s] [ 55%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[10.121s] [ 57%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[10.128s] [ 59%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[10.332s] [ 59%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[10.357s] [ 61%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.397s] [ 61%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[10.600s] [ 61%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[10.667s] [ 63%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[10.833s] [ 65%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.892s] [ 65%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[11.041s] [ 65%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[11.164s] [ 67%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.484s] [ 67%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.546s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.249s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c[0m
+[12.321s] [ 71%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o[0m
+[12.344s] [ 73%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o[0m
+[13.341s] [ 75%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.650s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[13.701s] [35m[1mScanning dependencies of target builtin_interfaces[0m
+[13.757s] [ 75%] Built target builtin_interfaces
+[13.788s] [35m[1mScanning dependencies of target builtin_interfaces__py[0m
+[13.879s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.264s] [ 77%] Built target builtin_interfaces__py
+[15.286s] [35m[1mScanning dependencies of target builtin_interfaces__python[0m
+[15.324s] [ 79%] [32mBuilding C object CMakeFiles/builtin_interfaces__python.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[15.333s] [ 81%] [32mBuilding C object CMakeFiles/builtin_interfaces__python.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[15.507s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__python.so[0m
+[15.589s] [ 83%] Built target builtin_interfaces__python
+[15.595s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_c__pyext[0m
+[15.595s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[15.604s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[15.617s] [35m[1mScanning dependencies of target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext[0m
+[15.633s] [ 85%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.635s] [ 87%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.636s] [ 89%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.652s] [ 91%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[15.775s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.777s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.800s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.805s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.828s] [100%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[15.828s] [100%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[15.852s] [100%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[15.881s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[15.895s] Invoked command in '/root/catkin_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/builtin_interfaces -- -j12 -l12
+[15.996s] Invoking command in '/root/catkin_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/builtin_interfaces
+[16.008s] -- Install configuration: ""
+[16.009s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[16.009s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.009s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.009s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/time.h
+[16.010s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.010s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__functions.c
+[16.010s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__struct.h
+[16.010s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__functions.h
+[16.011s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__functions.c
+[16.016s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__functions.h
+[16.016s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.h
+[16.016s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__struct.h
+[16.016s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.h
+[16.016s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.016s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/duration.h
+[16.017s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[16.017s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[16.017s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[16.019s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+[16.019s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.019s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.019s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.019s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[16.019s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[16.019s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[16.019s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[16.020s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[16.020s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so" to ""
+[16.020s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.020s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.020s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.020s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[16.020s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[16.020s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.021s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.021s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.021s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.021s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.021s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.021s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[16.021s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[16.021s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/dds_fastrtps
+[16.021s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.022s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.022s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.022s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.022s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.022s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.022s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[16.024s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.c
+[16.024s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[16.024s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.c
+[16.024s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.024s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[16.025s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.025s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[16.025s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[16.026s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.026s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.026s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/duration.hpp
+[16.026s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.026s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__struct.hpp
+[16.026s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__struct.hpp
+[16.026s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__builder.hpp
+[16.027s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__builder.hpp
+[16.027s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__traits.hpp
+[16.027s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__traits.hpp
+[16.027s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/time.hpp
+[16.027s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.028s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.028s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.028s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.028s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.029s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[16.029s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[16.029s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[16.029s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[16.029s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[16.030s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[16.030s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces
+[16.030s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[16.030s] -- Up-to-date: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[16.031s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[16.031s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.cpp
+[16.031s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.cpp
+[16.032s] -- Installing: /root/catkin_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[16.032s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.036s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.036s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[16.036s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.037s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[16.037s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[16.037s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/__init__.py
+[16.111s] Compiling '/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/__init__.py'...
+[16.116s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg
+[16.116s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_duration_s.c
+[16.116s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_duration.py
+[16.116s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_time.py
+[16.116s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_time_s.c
+[16.116s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/__init__.py
+[16.117s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[16.118s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.118s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[16.119s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.119s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[16.120s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.120s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[16.121s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.121s] -- Installing: /root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__python.so
+[16.122s] -- Set runtime path of "/root/catkin_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__python.so" to ""
+[16.122s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[16.122s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[16.122s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[16.122s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[16.123s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[16.123s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[16.123s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[16.124s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[16.124s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[16.124s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[16.125s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[16.125s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[16.125s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[16.125s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[16.125s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[16.126s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[16.126s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport.cmake
+[16.126s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.127s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.127s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.127s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[16.128s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.128s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cppExport.cmake
+[16.128s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.129s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.129s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[16.129s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.129s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.130s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.130s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.130s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.130s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.131s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.131s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.131s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[16.131s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[16.132s] -- Installing: /root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[16.140s] Invoked command in '/root/catkin_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/builtin_interfaces

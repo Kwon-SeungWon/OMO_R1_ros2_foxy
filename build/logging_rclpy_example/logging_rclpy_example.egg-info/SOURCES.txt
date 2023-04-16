@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package.xml
 setup.cfg
 setup.py
@@ -12,3 +13,27 @@ logging_rclpy_example.egg-info/zip-safe
 logging_rclpy_example/logging_example/__init__.py
 logging_rclpy_example/logging_example/main.py
 resource/logging_rclpy_example
+||||||| empty tree
+=======
+package.xml
+setup.cfg
+setup.py
+../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/PKG-INFO
+../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/SOURCES.txt
+../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/dependency_links.txt
+../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/entry_points.txt
+../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/requires.txt
+../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/top_level.txt
+../../../build/logging_rclpy_example/logging_rclpy_example.egg-info/zip-safe
+logging_rclpy_example/__init__.py
+logging_rclpy_example.egg-info/PKG-INFO
+logging_rclpy_example.egg-info/SOURCES.txt
+logging_rclpy_example.egg-info/dependency_links.txt
+logging_rclpy_example.egg-info/entry_points.txt
+logging_rclpy_example.egg-info/requires.txt
+logging_rclpy_example.egg-info/top_level.txt
+logging_rclpy_example.egg-info/zip-safe
+logging_rclpy_example/logging_example/__init__.py
+logging_rclpy_example/logging_example/main.py
+resource/logging_rclpy_example
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

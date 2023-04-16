@@ -1,0 +1,1 @@
+/root/catkin_ws/build/omo_r1mini_interfaces/rosidl_typesupport_microxrcedds_cpp/omo_r1mini_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h

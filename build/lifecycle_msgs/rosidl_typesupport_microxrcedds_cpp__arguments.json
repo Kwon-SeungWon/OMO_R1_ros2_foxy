@@ -1,0 +1,33 @@
+{
+  "package_name": "lifecycle_msgs",
+  "output_dir": "/root/catkin_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs",
+  "template_dir": "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource",
+  "idl_tuples": [
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl"
+  ],
+  "target_dependencies": [
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/rosidl_typesupport_microxrcedds_cpp/rosidl_typesupport_microxrcedds_cpp",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_cpp/__init__.py",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__type_support_cpp.cpp.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__type_support_cpp.cpp.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__rosidl_typesupport_microxrcedds_cpp.hpp.em",
+    "/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__type_support_cpp.cpp.em",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/State.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/Transition.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionDescription.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionEvent.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/ChangeState.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableStates.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableTransitions.idl",
+    "/root/catkin_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetState.idl"
+  ]
+}

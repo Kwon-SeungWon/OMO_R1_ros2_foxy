@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h', needed by 'CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

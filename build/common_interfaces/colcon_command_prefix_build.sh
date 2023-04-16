@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/package.sh"
+. "/root/catkin_ws/install/std_srvs/share/std_srvs/package.sh"
+. "/root/catkin_ws/install/std_msgs/share/std_msgs/package.sh"
+. "/root/catkin_ws/install/actionlib_msgs/share/actionlib_msgs/package.sh"
+. "/root/catkin_ws/install/geometry_msgs/share/geometry_msgs/package.sh"
+. "/root/catkin_ws/install/diagnostic_msgs/share/diagnostic_msgs/package.sh"
+. "/root/catkin_ws/install/nav_msgs/share/nav_msgs/package.sh"
+. "/root/catkin_ws/install/sensor_msgs/share/sensor_msgs/package.sh"
+. "/root/catkin_ws/install/shape_msgs/share/shape_msgs/package.sh"
+. "/root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/package.sh"
+. "/root/catkin_ws/install/visualization_msgs/share/visualization_msgs/package.sh"
+. "/root/catkin_ws/install/stereo_msgs/share/stereo_msgs/package.sh"

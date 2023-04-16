@@ -1,0 +1,143 @@
+[0.132s] Invoking command in '/root/catkin_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/std_srvs -- -j12 -l12
+[0.275s] [  1%] Built target std_srvs__cpp
+[0.280s] [ 10%] Built target std_srvs__rosidl_generator_c
+[0.396s] [ 18%] Built target std_srvs__rosidl_typesupport_microxrcedds_cpp
+[0.407s] [ 27%] Built target std_srvs__rosidl_typesupport_cpp
+[0.440s] [ 35%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[0.448s] [ 44%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[0.509s] [ 52%] Built target std_srvs__rosidl_typesupport_introspection_c
+[0.553s] [ 61%] Built target std_srvs__rosidl_typesupport_c
+[0.566s] [ 69%] Built target std_srvs__rosidl_typesupport_microxrcedds_c
+[0.588s] [ 77%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[0.692s] [ 77%] Built target std_srvs
+[0.695s] [ 79%] Built target std_srvs__py
+[0.749s] [ 86%] Built target std_srvs__python
+[0.859s] [ 89%] Built target std_srvs__rosidl_typesupport_fastrtps_c__pyext
+[0.867s] [ 93%] Built target std_srvs__rosidl_typesupport_c__pyext
+[0.871s] [ 96%] Built target std_srvs__rosidl_typesupport_microxrcedds_c__pyext
+[0.886s] [100%] Built target std_srvs__rosidl_typesupport_introspection_c__pyext
+[0.969s] Invoked command in '/root/catkin_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/std_srvs -- -j12 -l12
+[1.401s] Invoking command in '/root/catkin_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/std_srvs
+[1.433s] -- Install configuration: ""
+[1.434s] -- Execute custom install script
+[1.435s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[1.437s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[1.438s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__functions.h
+[1.438s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__struct.h
+[1.438s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__type_support.h
+[1.439s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__functions.h
+[1.445s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__struct.h
+[1.446s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__type_support.h
+[1.450s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__functions.h
+[1.452s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__struct.h
+[1.453s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__type_support.h
+[1.453s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/empty.h
+[1.453s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/set_bool.h
+[1.454s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/trigger.h
+[1.456s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/library_path.sh
+[1.456s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[1.458s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[1.458s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h
+[1.459s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h
+[1.459s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h
+[1.459s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.so
+[1.462s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.463s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[1.463s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[1.464s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[1.465s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[1.466s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.469s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[1.470s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[1.472s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[1.474s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[1.483s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.483s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__builder.hpp
+[1.486s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__struct.hpp
+[1.486s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__traits.hpp
+[1.486s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__builder.hpp
+[1.486s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__struct.hpp
+[1.487s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__traits.hpp
+[1.487s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__builder.hpp
+[1.487s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__struct.hpp
+[1.487s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__traits.hpp
+[1.487s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/empty.hpp
+[1.487s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/set_bool.hpp
+[1.487s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/trigger.hpp
+[1.499s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[1.500s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.502s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp
+[1.503s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp
+[1.503s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp
+[1.508s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.517s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.519s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so
+[1.523s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[1.524s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[1.524s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[1.525s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[1.525s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[1.527s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/__init__.py
+[1.527s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/__init__.py
+[1.527s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_empty.py
+[1.527s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_set_bool.py
+[1.527s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_trigger.py
+[1.527s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[1.528s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.528s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.528s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.528s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__python.so
+[1.528s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Empty.idl
+[1.528s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[1.528s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Empty.srv
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+[1.529s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/path.sh
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/environment/path.dsv
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/local_setup.bash
+[1.530s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/local_setup.sh
+[1.531s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/local_setup.zsh
+[1.531s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/local_setup.dsv
+[1.531s] -- Symlinking: /root/catkin_ws/install/std_srvs/share/std_srvs/package.dsv
+[1.538s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.539s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[1.540s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[1.540s] -- Up-to-date symlink: /root/catkin_ws/install/std_srvs/share/std_srvs/package.xml
+[1.540s] -- Up-to-date: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[1.540s] -- Up-to-date: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[1.541s] -- Up-to-date: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[1.541s] -- Up-to-date: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[1.541s] -- Up-to-date: /root/catkin_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[1.709s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cExport.cmake
+[1.709s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cExport-noconfig.cmake
+[1.709s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[1.709s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.710s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[1.713s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[1.714s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cppExport.cmake
+[1.714s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[1.714s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.715s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[1.715s] -- Up-to-date: /root/catkin_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.818s] Invoked command in '/root/catkin_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/sensor_msgs_py:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/catkin_ws/install/ros2env:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/std_srvs

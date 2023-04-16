@@ -1,0 +1,340 @@
+[0.848s] Invoking command in '/root/catkin_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/trajectory_msgs
+[0.963s] -- The C compiler identification is GNU 9.4.0
+[1.107s] -- The CXX compiler identification is GNU 9.4.0
+[1.140s] -- Check for working C compiler: /usr/bin/cc
+[1.305s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.306s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.547s] -- Detecting C compile features
+[1.549s] -- Detecting C compile features - done
+[1.557s] -- Check for working CXX compiler: /usr/bin/c++
+[1.784s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.786s] -- Detecting CXX compiler ABI info
+[1.957s] -- Detecting CXX compiler ABI info - done
+[1.978s] -- Detecting CXX compile features
+[1.978s] -- Detecting CXX compile features - done
+[1.996s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.124s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.124s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.722s] -- Found builtin_interfaces: 1.0.0 (/root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.916s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.217s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.292s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.542s] -- Found geometry_msgs: 2.0.5 (/root/catkin_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.669s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.915s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.610s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.525s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.551s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.671s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.672s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.672s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.672s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.804s] -- Found PythonExtra: .so  
+[7.346s] -- Configuring done
+[7.683s] -- Generating done
+[7.713s] -- Build files have been written to: /root/catkin_ws/build/trajectory_msgs
+[7.748s] Invoked command in '/root/catkin_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/catkin_ws/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/trajectory_msgs
+[7.749s] Invoking command in '/root/catkin_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/trajectory_msgs -- -j12 -l12
+[7.916s] [35m[1mScanning dependencies of target trajectory_msgs__cpp[0m
+[7.968s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.709s] [  1%] Built target trajectory_msgs__cpp
+[9.754s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.907s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_generator_c[0m
+[11.967s] [  4%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[12.086s] [  5%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[12.229s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[12.342s] [  8%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[12.452s] [ 10%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[12.551s] [ 10%] Built target trajectory_msgs__rosidl_generator_c
+[12.589s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.521s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_introspection_cpp[0m
+[13.560s] [ 13%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[14.223s] [ 14%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[14.651s] [ 15%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[15.148s] [ 17%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[15.648s] [ 18%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[15.760s] [ 18%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[15.777s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.595s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_introspection_c[0m
+[16.632s] [ 21%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[16.697s] [ 23%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[16.770s] [ 24%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[16.838s] [ 26%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[16.899s] [ 27%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.964s] [ 27%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[16.984s] [ 28%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[18.050s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_microxrcedds_c[0m
+[18.073s] [ 30%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_c.c.o[0m
+[18.126s] [ 31%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_c.c.o[0m
+[18.177s] [ 33%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_c.c.o[0m
+[18.229s] [ 34%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_c.c.o[0m
+[18.284s] [ 36%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[18.355s] [ 36%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c
+[18.379s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.275s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_c[0m
+[19.301s] [ 39%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[19.357s] [ 40%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[19.409s] [ 42%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[19.465s] [ 43%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[19.520s] [ 44%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[19.588s] [ 44%] Built target trajectory_msgs__rosidl_typesupport_c
+[19.603s] [ 46%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.605s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[20.641s] [ 47%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[21.435s] [ 49%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[22.050s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[22.702s] [ 52%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[23.480s] [ 53%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.644s] [ 53%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[23.662s] [ 55%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.414s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_cpp[0m
+[24.439s] [ 56%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[24.845s] [ 57%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[25.224s] [ 59%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[25.605s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[25.993s] [ 62%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[26.060s] [ 62%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[26.081s] [ 63%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.805s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_fastrtps_c[0m
+[26.848s] [ 65%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[27.418s] [ 66%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[27.986s] [ 68%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[28.584s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[29.191s] [ 71%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.356s] [ 71%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[29.369s] [ 72%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[30.230s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[30.261s] [ 73%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp.o[0m
+[30.712s] [ 75%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp.o[0m
+[31.152s] [ 76%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp.o[0m
+[31.821s] [ 78%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp.o[0m
+[32.397s] [ 79%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[32.559s] [ 79%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_cpp
+[32.578s] [35m[1mScanning dependencies of target trajectory_msgs[0m
+[32.599s] [ 79%] Built target trajectory_msgs
+[32.619s] [35m[1mScanning dependencies of target trajectory_msgs__py[0m
+[32.640s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.413s] [ 81%] Built target trajectory_msgs__py
+[34.433s] [35m[1mScanning dependencies of target trajectory_msgs__python[0m
+[34.485s] [ 82%] [32mBuilding C object CMakeFiles/trajectory_msgs__python.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[34.665s] [ 84%] [32mBuilding C object CMakeFiles/trajectory_msgs__python.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[34.850s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__python.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[34.994s] [ 86%] [32mBuilding C object CMakeFiles/trajectory_msgs__python.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[35.177s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/libtrajectory_msgs__python.so[0m
+[35.261s] [ 88%] Built target trajectory_msgs__python
+[35.281s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35.314s] [ 89%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.451s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[35.521s] [ 91%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext
+[35.542s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[35.599s] [ 92%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[35.755s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[35.804s] [ 94%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[35.817s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_c__pyext[0m
+[35.845s] [ 95%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[35.949s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[35.998s] [ 97%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[36.011s] [35m[1mScanning dependencies of target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[36.043s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.209s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.331s] [100%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[36.357s] Invoked command in '/root/catkin_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/catkin_ws/build/trajectory_msgs -- -j12 -l12
+[36.553s] Invoking command in '/root/catkin_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/trajectory_msgs
+[36.571s] -- Install configuration: ""
+[36.571s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[36.572s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.572s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.572s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[36.573s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.573s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[36.573s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[36.573s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[36.573s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[36.574s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[36.574s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[36.574s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[36.574s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[36.574s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[36.574s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[36.575s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[36.575s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[36.575s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[36.575s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[36.575s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[36.575s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[36.576s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[36.576s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/joint_trajectory_point.h
+[36.576s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[36.576s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/joint_trajectory.h
+[36.576s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[36.576s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[36.577s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[36.577s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[36.577s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.577s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.577s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.578s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[36.578s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[36.578s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[36.578s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[36.578s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[36.578s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[36.579s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so
+[36.579s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[36.579s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.579s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.579s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.580s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[36.580s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[36.580s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[36.580s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[36.580s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.581s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[36.581s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.582s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.582s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.582s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.582s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[36.582s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[36.583s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/dds_fastrtps
+[36.583s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[36.583s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[36.583s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.583s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.584s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.584s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.584s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.584s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.584s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[36.584s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[36.585s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[36.585s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[36.585s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[36.585s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[36.585s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[36.585s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[36.586s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.586s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[36.586s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[36.586s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[36.587s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[36.587s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.587s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.587s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.588s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[36.588s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[36.589s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[36.589s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[36.589s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[36.589s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[36.590s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[36.590s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[36.590s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[36.590s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[36.590s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[36.591s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[36.591s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[36.591s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/joint_trajectory.hpp
+[36.591s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/joint_trajectory_point.hpp
+[36.591s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[36.592s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.592s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.592s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.592s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[36.592s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[36.592s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[36.592s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp
+[36.593s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp
+[36.593s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp
+[36.593s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp
+[36.593s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[36.593s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[36.593s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[36.594s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[36.595s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[36.595s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs
+[36.595s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[36.595s] -- Up-to-date: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[36.595s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[36.596s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[36.596s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[36.596s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[36.596s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[36.596s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[36.596s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[36.597s] -- Installing: /root/catkin_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[36.597s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[36.598s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.598s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[36.598s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[36.598s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[36.599s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[36.599s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/__init__.py
+[36.728s] Compiling '/root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/__init__.py'...
+[36.735s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg
+[36.735s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_joint_trajectory.py
+[36.735s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[36.735s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[36.735s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[36.736s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[36.736s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[36.736s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[36.736s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[36.736s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/msg/__init__.py
+[36.737s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[36.737s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[36.738s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[36.738s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[36.739s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[36.740s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[36.740s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[36.741s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/python3.8/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[36.741s] -- Installing: /root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__python.so
+[36.741s] -- Set runtime path of "/root/catkin_ws/install/trajectory_msgs/lib/libtrajectory_msgs__python.so" to ""
+[36.742s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[36.742s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[36.742s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[36.742s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[36.743s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[36.743s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[36.743s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[36.743s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[36.744s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[36.744s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[36.744s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[36.745s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[36.745s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[36.745s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[36.745s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[36.746s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[36.746s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[36.746s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[36.746s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[36.747s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[36.747s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_generator_cExport.cmake
+[36.747s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[36.748s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[36.748s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.748s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[36.749s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[36.749s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_generator_cppExport.cmake
+[36.749s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[36.750s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.750s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[36.750s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[36.751s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[36.751s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.751s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.751s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[36.752s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.752s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.752s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.752s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[36.752s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[36.753s] -- Installing: /root/catkin_ws/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[36.761s] Invoked command in '/root/catkin_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_cpp:/root/catkin_ws/install/rosidl_typesupport_microxrcedds_c:/root/catkin_ws/install/microcdr:/root/catkin_ws/install/ydlidar_sdk:/root/catkin_ws/install/ydlidar_ros2_driver:/root/catkin_ws/install/udp_driver:/root/catkin_ws/install/topic_service_action_rclcpp_example:/root/catkin_ws/install/time_rclcpp_example:/root/catkin_ws/install/tf2_rclcpp_example:/root/catkin_ws/install/testbot_description:/root/catkin_ws/install/serial_driver:/root/catkin_ws/install/rqt_example:/root/catkin_ws/install/omo_r1mini:/root/catkin_ws/install/omo_r1mini_navigation2:/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_gazebo:/root/catkin_ws/install/omo_r1mini_description:/root/catkin_ws/install/omo_r1mini_cartographer:/root/catkin_ws/install/my_first_ros_rclcpp_pkg:/root/catkin_ws/install/msg_srv_action_interface_example:/root/catkin_ws/install/micro_ros_setup:/root/catkin_ws/install/micro_ros_agent:/root/catkin_ws/install/micro_ros_msgs:/root/catkin_ws/install/io_context:/root/catkin_ws/install/iahrs_driver_interface:/root/catkin_ws/install/drive_base_msgs:/root/catkin_ws/install/asio_cmake_module:/root/install/ydlidar_sdk:/root/install/ydlidar_ros2_driver:/root/install/udp_driver:/root/install/topic_service_action_rclcpp_example:/root/install/time_rclcpp_example:/root/install/tf2_rclcpp_example:/root/install/testbot_description:/root/install/serial_driver:/root/install/rqt_example:/root/install/omo_r1mini:/root/install/omo_r1mini_navigation2:/root/install/omo_r1mini_interfaces:/root/install/omo_r1mini_gazebo:/root/install/omo_r1mini_description:/root/install/omo_r1mini_cartographer:/root/install/my_first_ros_rclcpp_pkg:/root/install/msg_srv_action_interface_example:/root/install/io_context:/root/install/asio_cmake_module:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/catkin_ws/build/trajectory_msgs

@@ -1,0 +1,22 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/catkin_ws/build/common_interfaces
+-- Install configuration: ""
+-- Installing: /root/catkin_ws/install/common_interfaces/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+-- Installing: /root/catkin_ws/install/common_interfaces/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.sh
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/path.sh
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/environment/path.dsv
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.bash
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.sh
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.zsh
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/local_setup.dsv
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/package.dsv
+-- Installing: /root/catkin_ws/install/common_interfaces/share/ament_index/resource_index/packages/common_interfaces
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig.cmake
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+-- Installing: /root/catkin_ws/install/common_interfaces/share/common_interfaces/package.xml

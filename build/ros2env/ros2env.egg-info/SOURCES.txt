@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package.xml
 setup.py
 resource/ros2env
@@ -15,3 +16,30 @@ ros2env/command/env.py
 ros2env/verb/__init__.py
 ros2env/verb/list.py
 ros2env/verb/set.py
+||||||| empty tree
+=======
+package.xml
+setup.py
+../../../build/ros2env/ros2env.egg-info/PKG-INFO
+../../../build/ros2env/ros2env.egg-info/SOURCES.txt
+../../../build/ros2env/ros2env.egg-info/dependency_links.txt
+../../../build/ros2env/ros2env.egg-info/entry_points.txt
+../../../build/ros2env/ros2env.egg-info/requires.txt
+../../../build/ros2env/ros2env.egg-info/top_level.txt
+../../../build/ros2env/ros2env.egg-info/zip-safe
+resource/ros2env
+ros2env/__init__.py
+ros2env.egg-info/PKG-INFO
+ros2env.egg-info/SOURCES.txt
+ros2env.egg-info/dependency_links.txt
+ros2env.egg-info/entry_points.txt
+ros2env.egg-info/requires.txt
+ros2env.egg-info/top_level.txt
+ros2env.egg-info/zip-safe
+ros2env/api/__init__.py
+ros2env/command/__init__.py
+ros2env/command/env.py
+ros2env/verb/__init__.py
+ros2env/verb/list.py
+ros2env/verb/set.py
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

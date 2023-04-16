@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CMake generated Testfile for 
 # Source directory: /root/catkin_ws/src/uros/drive_base/drive_base_msgs
 # Build directory: /root/catkin_ws/build/drive_base_msgs
@@ -63,3 +64,13 @@ set_tests_properties(pep257_rosidl_generated_py PROPERTIES  LABELS "pep257;linte
 add_test(uncrustify_rosidl_generated_py "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/root/catkin_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml" "--package-name" "drive_base_msgs" "--output-file" "/root/catkin_ws/build/drive_base_msgs/ament_uncrustify/uncrustify_rosidl_generated_py.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/root/catkin_ws/build/drive_base_msgs/test_results/drive_base_msgs/uncrustify_rosidl_generated_py.xunit.xml" "--linelength" "0" "/root/catkin_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs")
 set_tests_properties(uncrustify_rosidl_generated_py PROPERTIES  LABELS "uncrustify;linter" TIMEOUT "60" WORKING_DIRECTORY "/root/catkin_ws/src/uros/drive_base/drive_base_msgs" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_uncrustify/cmake/ament_uncrustify.cmake;65;ament_add_test;/opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake;361;ament_uncrustify;/opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake;0;;/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake;48;include;/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake;286;ament_execute_extensions;/root/catkin_ws/src/uros/drive_base/drive_base_msgs/CMakeLists.txt;30;rosidl_generate_interfaces;/root/catkin_ws/src/uros/drive_base/drive_base_msgs/CMakeLists.txt;0;")
 subdirs("drive_base_msgs__py")
+||||||| empty tree
+=======
+# CMake generated Testfile for 
+# Source directory: /root/catkin_ws/src/uros/drive_base/drive_base_msgs
+# Build directory: /root/catkin_ws/build/drive_base_msgs
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("drive_base_msgs__py")
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

@@ -1,0 +1,262 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.0 (/root/catkin_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 2.0.5 (/root/catkin_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/catkin_ws/build/nav_msgs
+[  0%] Built target nav_msgs__cpp
+[  9%] Built target nav_msgs__rosidl_generator_c
+[ 10%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[ 19%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[ 19%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[ 20%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 29%] Built target nav_msgs__rosidl_typesupport_cpp
+[ 38%] Built target nav_msgs__rosidl_typesupport_c
+[ 47%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[ 56%] Built target nav_msgs__rosidl_typesupport_microxrcedds_c
+[ 64%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target nav_msgs__rosidl_typesupport_microxrcedds_cpp
+[ 74%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 82%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[ 82%] Built target nav_msgs
+[ 83%] Built target nav_msgs__py
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/libnav_msgs__python.so[0m
+[ 92%] Built target nav_msgs__python
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] Built target nav_msgs__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target nav_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[ 99%] Built target nav_msgs__rosidl_typesupport_c__pyext
+[100%] Built target nav_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/grid_cells.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/map_meta_data.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/occupancy_grid.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/odometry.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/path.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__functions.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__struct.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__type_support.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/get_map.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/get_plan.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/set_map.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_c.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/grid_cells.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/map_meta_data.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/occupancy_grid.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/odometry.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/path.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__builder.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__struct.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__traits.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/get_map.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/get_plan.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/set_map.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/__init__.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/msg/__init__.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/msg/_grid_cells.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/msg/_map_meta_data.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/msg/_occupancy_grid.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/msg/_odometry.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/msg/_path.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/srv/__init__.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/srv/_get_map.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/srv/_get_plan.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/srv/_set_map.py
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__python.so
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/Path.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/msg/Path.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetMap_Request.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetMap_Response.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan_Request.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan_Response.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/SetMap_Request.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/srv/SetMap_Response.msg
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/path.sh
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/environment/path.dsv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/local_setup.bash
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/local_setup.sh
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/local_setup.zsh
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/local_setup.dsv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/package.dsv
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+-- Symlinking: /root/catkin_ws/install/nav_msgs/share/nav_msgs/package.xml
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+Compiling '/root/catkin_ws/install/nav_msgs/lib/python3.8/site-packages/nav_msgs/__init__.py'...
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_generator_cExport.cmake
+-- Installing: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/catkin_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake

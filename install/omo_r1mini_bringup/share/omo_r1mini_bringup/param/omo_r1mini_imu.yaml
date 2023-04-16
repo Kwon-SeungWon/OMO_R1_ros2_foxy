@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 omo_r1mini_imu_node:
   ros__parameters:
     port: /dev/ttyIMU
     baudrate: 115200
     frame_id: imu_link
+||||||| empty tree
+=======
+omo_r1mini_imu_node:
+  ros__parameters:
+    port: /dev/ttyIMU
+    baudrate: 115200
+    frame_id: base_imu
+>>>>>>> a174ea8931852ae77fc14043969ee14ebba4ae5c

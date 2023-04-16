@@ -1,0 +1,4 @@
+/root/catkin_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectory.idl
+/root/catkin_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectoryPoint.idl
+/root/catkin_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectory.idl
+/root/catkin_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.idl

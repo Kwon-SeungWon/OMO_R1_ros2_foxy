@@ -1,0 +1,35 @@
+[0.982s] Invoking command in '/root/catkin_ws/src/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/root/catkin_ws/install/sensor_msgs:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/sensor_msgs:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/sensor_msgs/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/sensor_msgs_py/prefix_override:/root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/root/catkin_ws/install/sensor_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /root/catkin_ws/build/sensor_msgs_py/build install --record /root/catkin_ws/build/sensor_msgs_py/install.log --install-scripts $base/lib/sensor_msgs_py --single-version-externally-managed
+[1.272s] running egg_info
+[1.272s] creating ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[1.272s] writing ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[1.273s] writing dependency_links to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[1.273s] writing requirements to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[1.273s] writing top-level names to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[1.275s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.314s] reading manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.315s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[1.315s] running build
+[1.316s] running build_py
+[1.316s] creating /root/catkin_ws/build/sensor_msgs_py/build
+[1.316s] creating /root/catkin_ws/build/sensor_msgs_py/build/lib
+[1.316s] creating /root/catkin_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.316s] copying sensor_msgs_py/point_cloud2.py -> /root/catkin_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.316s] copying sensor_msgs_py/__init__.py -> /root/catkin_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[1.316s] running install
+[1.319s] running install_lib
+[1.319s] creating /root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py
+[1.319s] copying /root/catkin_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py
+[1.319s] copying /root/catkin_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py
+[1.320s] byte-compiling /root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-38.pyc
+[1.322s] byte-compiling /root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-38.pyc
+[1.322s] running install_data
+[1.323s] creating /root/catkin_ws/install/sensor_msgs_py/share/ament_index
+[1.323s] creating /root/catkin_ws/install/sensor_msgs_py/share/ament_index/resource_index
+[1.323s] creating /root/catkin_ws/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[1.323s] copying resource/sensor_msgs_py -> /root/catkin_ws/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[1.323s] copying package.xml -> /root/catkin_ws/install/sensor_msgs_py/share/sensor_msgs_py
+[1.324s] running install_egg_info
+[1.325s] Copying ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py-2.0.5-py3.8.egg-info
+[1.327s] running install_scripts
+[1.348s] writing list of installed files to '/root/catkin_ws/build/sensor_msgs_py/install.log'
+[1.373s] Invoked command in '/root/catkin_ws/src/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/sensor_msgs:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/sensor_msgs:/root/catkin_ws/install/geometry_msgs:/root/catkin_ws/install/std_msgs:/root/catkin_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/sensor_msgs/lib:/root/catkin_ws/install/geometry_msgs/lib:/root/catkin_ws/install/std_msgs/lib:/root/catkin_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/sensor_msgs_py/prefix_override:/root/catkin_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/root/catkin_ws/install/sensor_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/geometry_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/std_msgs/lib/python3.8/site-packages:/root/catkin_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /root/catkin_ws/build/sensor_msgs_py/build install --record /root/catkin_ws/build/sensor_msgs_py/install.log --install-scripts $base/lib/sensor_msgs_py --single-version-externally-managed
