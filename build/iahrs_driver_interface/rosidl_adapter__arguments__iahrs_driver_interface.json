@@ -1,0 +1,6 @@
+{
+  "package_name": "iahrs_driver_interface",
+  "non_idl_tuples": [
+    "/root/catkin_ws/src/iAHRS_driver_ros2/iahrs_driver_interface:srv/Set.srv"
+  ]
+}

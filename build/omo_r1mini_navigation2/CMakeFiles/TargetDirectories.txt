@@ -1,0 +1,9 @@
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/install/strip.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/install.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/list_install_components.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/rebuild_cache.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/edit_cache.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/test.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/install/local.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/omo_r1mini_navigation2_uninstall.dir
+/root/catkin_ws/build/omo_r1mini_navigation2/CMakeFiles/uninstall.dir

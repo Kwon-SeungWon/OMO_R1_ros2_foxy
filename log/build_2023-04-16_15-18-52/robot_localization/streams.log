@@ -1,0 +1,281 @@
+[0.183s] Invoking command in '/root/catkin_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/robot_localization -- -j12 -l12
+[0.756s] [  2%] Built target gtest
+[0.756s] [  3%] Built target robot_localization__cpp
+[0.757s] [  4%] Built target gtest_main
+[0.757s] [ 11%] Built target robot_localization__rosidl_generator_c
+[0.757s] [ 18%] Built target robot_localization__rosidl_typesupport_cpp
+[0.757s] [ 25%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[0.757s] [ 32%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[0.757s] [ 39%] Built target robot_localization__rosidl_typesupport_c
+[0.757s] [ 46%] Built target robot_localization__rosidl_typesupport_introspection_c
+[0.758s] [ 53%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[0.758s] [ 53%] Built target robot_localization
+[0.758s] [ 54%] Built target robot_localization__py
+[0.758s] [ 66%] Built target robot_localization__python
+[0.759s] [ 69%] Built target rl_lib
+[0.759s] [ 72%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext
+[0.760s] [ 73%] Built target robot_localization__rosidl_typesupport_c__pyext
+[0.761s] [ 75%] Built target ukf_node
+[0.761s] [ 76%] Built target test_navsat_conversions
+[0.762s] [ 77%] Built target ekf_node
+[0.762s] [ 79%] Built target test_robot_localization_estimator
+[0.763s] [ 80%] Built target test_ros_robot_localization_listener_publisher
+[0.763s] [ 81%] Built target test_ekf
+[0.763s] [ 83%] Built target test_ros_robot_localization_listener
+[0.763s] [ 85%] Built target test_ukf
+[0.763s] [ 87%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext
+[0.763s] [ 89%] Built target test_navsat_transform
+[0.809s] [ 91%] Built target filter_base-test
+[0.828s] [ 93%] Built target navsat_transform_node
+[0.835s] [ 95%] Built target test_ukf_localization_node_interfaces
+[0.836s] [ 96%] Built target robot_localization_listener_node
+[0.837s] [ 98%] Built target test_ekf_localization_node_interfaces
+[0.844s] [100%] Built target test_filter_base_diagnostics_timestamps
+[0.939s] Invoked command in '/root/catkin_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/robot_localization -- -j12 -l12
+[1.495s] Invoking command in '/root/catkin_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/robot_localization
+[1.545s] -- Install configuration: "RelWithDebInfo"
+[1.546s] -- Execute custom install script
+[1.547s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/ament_index/resource_index/rosidl_interfaces/robot_localization
+[1.548s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/msg/rosidl_generator_c__visibility_control.h
+[1.548s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__functions.h
+[1.548s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.h
+[1.548s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.h
+[1.548s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__functions.h
+[1.548s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.h
+[1.548s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__functions.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__functions.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__functions.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.h
+[1.549s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__functions.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/from_ll.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/get_state.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/set_datum.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/set_pose.h
+[1.550s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/to_ll.h
+[1.551s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.h
+[1.551s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/library_path.sh
+[1.554s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/library_path.dsv
+[1.554s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.555s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_c.h
+[1.555s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[1.555s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_c.h
+[1.555s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[1.555s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_c.h
+[1.556s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_c.h
+[1.556s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_c.so
+[1.557s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.558s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[1.558s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.558s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_cpp.hpp
+[1.560s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.560s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_cpp.hpp
+[1.560s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_cpp.hpp
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_cpp.so
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_c.h
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_c.h
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_c.h
+[1.561s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_c.h
+[1.562s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__builder.hpp
+[1.562s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.hpp
+[1.562s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__traits.hpp
+[1.562s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__builder.hpp
+[1.562s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.hpp
+[1.562s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__traits.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__builder.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__traits.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__builder.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__traits.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__builder.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.hpp
+[1.563s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__traits.hpp
+[1.564s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__builder.hpp
+[1.564s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.hpp
+[1.564s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__traits.hpp
+[1.564s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/from_ll.hpp
+[1.564s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/get_state.hpp
+[1.564s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/set_datum.hpp
+[1.565s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/set_pose.hpp
+[1.565s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/to_ll.hpp
+[1.565s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.hpp
+[1.565s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_cpp.hpp
+[1.565s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_cpp.hpp
+[1.566s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/pythonpath.sh
+[1.566s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/pythonpath.dsv
+[1.566s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/__init__.py
+[1.566s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/__init__.py
+[1.566s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_from_ll.py
+[1.567s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_get_state.py
+[1.567s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_datum.py
+[1.567s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_pose.py
+[1.567s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_to_ll.py
+[1.567s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_toggle_filter_processing.py
+[1.567s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.567s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.568s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.568s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/librobot_localization__python.so
+[1.568s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/FromLL.idl
+[1.568s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/GetState.idl
+[1.568s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetDatum.idl
+[1.568s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetPose.idl
+[1.569s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.idl
+[1.569s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToLL.idl
+[1.569s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/FromLL.srv
+[1.569s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/FromLL_Request.msg
+[1.569s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/FromLL_Response.msg
+[1.569s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/GetState.srv
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/GetState_Request.msg
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/GetState_Response.msg
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetDatum.srv
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Request.msg
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Response.msg
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetPose.srv
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetPose_Request.msg
+[1.570s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/SetPose_Response.msg
+[1.571s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.srv
+[1.571s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Request.msg
+[1.571s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Response.msg
+[1.571s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToLL.srv
+[1.571s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToLL_Request.msg
+[1.571s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/srv/ToLL_Response.msg
+[1.571s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/filter_base-test
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_filter_base_diagnostics_timestamps
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_ekf
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_ekf_localization_node_interfaces
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_ukf
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_ukf_localization_node_interfaces
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_robot_localization_estimator
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_navsat_conversions
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_navsat_transform
+[1.572s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener_publisher
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/navsat_transform_node
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/ekf_node
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/ukf_node
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/robot_localization/robot_localization_listener_node
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/lib/librl_lib.so
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
+[1.573s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/path.sh
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/environment/path.dsv
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/local_setup.bash
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/local_setup.sh
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/local_setup.zsh
+[1.574s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/local_setup.dsv
+[1.575s] -- Symlinking: /root/catkin_ws/install/robot_localization/share/robot_localization/package.dsv
+[1.576s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/ament_index/resource_index/packages/robot_localization
+[1.576s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake-extras.cmake
+[1.576s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.576s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[1.577s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_targets-extras.cmake
+[1.577s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.577s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.577s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.577s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+[1.577s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+[1.577s] -- Up-to-date symlink: /root/catkin_ws/install/robot_localization/share/robot_localization/package.xml
+[1.577s] -- Up-to-date: /root/catkin_ws/install/robot_localization/lib/librobot_localization__rosidl_generator_c.so
+[1.578s] -- Up-to-date: /root/catkin_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_c.so
+[1.578s] -- Up-to-date: /root/catkin_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_c.so
+[1.578s] -- Up-to-date: /root/catkin_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_cpp.so
+[1.578s] -- Up-to-date: /root/catkin_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_cpp.so
+[1.678s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test
+[1.678s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_filter_base.cpp
+[1.678s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.launch.py
+[1.678s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_localization_node_bag_pose_tester.cpp
+[1.679s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf.cpp
+[1.679s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.launch.py
+[1.679s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_navsat_conversions.cpp
+[1.679s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.sh
+[1.679s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.sh
+[1.679s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.cpp
+[1.680s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.yaml
+[1.680s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.yaml
+[1.680s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test2.bag
+[1.680s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.cpp
+[1.680s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.cpp
+[1.680s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.yaml
+[1.680s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test1.bag
+[1.681s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.yaml
+[1.681s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test3.bag
+[1.681s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf.cpp
+[1.681s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.launch.py
+[1.681s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_navsat_transform.cpp
+[1.681s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.sh
+[1.681s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.yaml
+[1.682s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener_publisher.cpp
+[1.682s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.sh
+[1.682s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.launch.py
+[1.682s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.launch.py
+[1.682s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_navsat_transform.launch.py
+[1.682s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.cpp
+[1.682s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.launch.py
+[1.683s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.sh
+[1.683s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.launch.py
+[1.683s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.yaml
+[1.683s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.sh
+[1.683s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.launch.py
+[1.683s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.launch.py
+[1.683s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.yaml
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.cpp
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.yaml
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.launch.py
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.launch.py
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.yaml
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.yaml
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include
+[1.684s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/filter_state.hpp
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/navsat_conversions.hpp
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/robot_localization_estimator.hpp
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/filter_utilities.hpp
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/ros_filter_utilities.hpp
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/filter_common.hpp
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/ukf.hpp
+[1.685s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/filter_base.hpp
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/measurement.hpp
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/ros_robot_localization_listener.hpp
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/ekf.hpp
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/ros_filter_types.hpp
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/navsat_transform.hpp
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/include/robot_localization/ros_filter.hpp
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/params
+[1.686s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/params/ukf.yaml
+[1.687s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/params/ekf.yaml
+[1.687s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/params/dual_ekf_navsat_example.yaml
+[1.687s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/params/navsat_transform.yaml
+[1.687s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/launch
+[1.687s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/launch/ukf.launch.py
+[1.687s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/launch/navsat_transform.launch.py
+[1.687s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/launch/ekf.launch.py
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/launch/dual_ekf_navsat_example.launch.py
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport.cmake
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport-relwithdebinfo.cmake
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport.cmake
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport.cmake
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cppExport.cmake
+[1.688s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport.cmake
+[1.689s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[1.689s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport.cmake
+[1.689s] -- Up-to-date: /root/catkin_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[2.624s] Invoked command in '/root/catkin_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/robot_localization

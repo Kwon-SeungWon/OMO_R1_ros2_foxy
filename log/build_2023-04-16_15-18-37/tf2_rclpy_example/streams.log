@@ -1,0 +1,19 @@
+[4.477s] Invoking command in '/root/catkin_ws/build/tf2_rclpy_example': PYTHONPATH=/root/catkin_ws/build/tf2_rclpy_example/prefix_override:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/tf2_rclpy_example/build --no-deps install_data
+[5.100s] running develop
+[5.376s] running egg_info
+[5.376s] writing tf2_rclpy_example.egg-info/PKG-INFO
+[5.376s] writing dependency_links to tf2_rclpy_example.egg-info/dependency_links.txt
+[5.377s] writing entry points to tf2_rclpy_example.egg-info/entry_points.txt
+[5.377s] writing requirements to tf2_rclpy_example.egg-info/requires.txt
+[5.377s] writing top-level names to tf2_rclpy_example.egg-info/top_level.txt
+[5.481s] reading manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[5.482s] writing manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[5.568s] running build_ext
+[5.571s] Creating /root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages/tf2-rclpy-example.egg-link (link to .)
+[5.575s] Installing broadcaster script to /root/catkin_ws/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[5.576s] Installing listener script to /root/catkin_ws/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[5.577s] Installing static_broadcaster script to /root/catkin_ws/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[5.577s] 
+[5.578s] Installed /root/catkin_ws/build/tf2_rclpy_example
+[5.578s] running install_data
+[5.722s] Invoked command in '/root/catkin_ws/build/tf2_rclpy_example' returned '0': PYTHONPATH=/root/catkin_ws/build/tf2_rclpy_example/prefix_override:/root/catkin_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/tf2_rclpy_example/build --no-deps install_data

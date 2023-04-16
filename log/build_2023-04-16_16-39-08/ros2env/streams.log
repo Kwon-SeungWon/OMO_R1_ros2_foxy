@@ -1,0 +1,16 @@
+[2.528s] Invoking command in '/root/catkin_ws/build/ros2env': PYTHONPATH=/root/catkin_ws/build/ros2env/prefix_override:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/ros2env/build --no-deps install_data
+[3.061s] running develop
+[3.346s] running egg_info
+[3.346s] writing ros2env.egg-info/PKG-INFO
+[3.346s] writing dependency_links to ros2env.egg-info/dependency_links.txt
+[3.346s] writing entry points to ros2env.egg-info/entry_points.txt
+[3.346s] writing requirements to ros2env.egg-info/requires.txt
+[3.346s] writing top-level names to ros2env.egg-info/top_level.txt
+[3.410s] reading manifest file 'ros2env.egg-info/SOURCES.txt'
+[3.412s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[3.557s] running build_ext
+[3.558s] Creating /root/catkin_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+[3.559s] 
+[3.559s] Installed /root/catkin_ws/build/ros2env
+[3.560s] running install_data
+[4.194s] Invoked command in '/root/catkin_ws/build/ros2env' returned '0': PYTHONPATH=/root/catkin_ws/build/ros2env/prefix_override:/root/catkin_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/ros2env/build --no-deps install_data

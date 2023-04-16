@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/root/catkin_ws/build/micro_ros_agent/CMakeFiles/xrceagent
+/root/catkin_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/root/catkin_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule

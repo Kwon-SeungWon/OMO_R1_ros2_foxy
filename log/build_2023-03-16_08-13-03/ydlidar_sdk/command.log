@@ -1,0 +1,1 @@
+Invoking command in '/root/catkin_ws/build/ydlidar_sdk': /usr/bin/cmake --build /root/catkin_ws/build/ydlidar_sdk -- -j12 -l12

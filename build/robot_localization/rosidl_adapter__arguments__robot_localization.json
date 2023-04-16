@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/root/catkin_ws/src/robot_localization:srv/FromLL.srv",
+    "/root/catkin_ws/src/robot_localization:srv/GetState.srv",
+    "/root/catkin_ws/src/robot_localization:srv/SetDatum.srv",
+    "/root/catkin_ws/src/robot_localization:srv/SetPose.srv",
+    "/root/catkin_ws/src/robot_localization:srv/ToggleFilterProcessing.srv",
+    "/root/catkin_ws/src/robot_localization:srv/ToLL.srv"
+  ]
+}

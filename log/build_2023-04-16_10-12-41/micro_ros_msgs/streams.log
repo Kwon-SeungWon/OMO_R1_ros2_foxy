@@ -1,0 +1,16 @@
+[0.115s] Invoking command in '/root/catkin_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_msgs -- -j12 -l12
+[0.658s] [ 10%] Built target micro_ros_msgs__rosidl_generator_c
+[0.658s] [ 12%] Built target micro_ros_msgs__cpp
+[0.658s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.659s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.660s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.660s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.661s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.662s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.662s] [ 76%] Built target micro_ros_msgs
+[0.664s] [ 78%] Built target micro_ros_msgs__py
+[0.664s] [ 87%] Built target micro_ros_msgs__python
+[0.664s] [ 93%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[0.664s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.664s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[0.677s] Invoked command in '/root/catkin_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_msgs -- -j12 -l12

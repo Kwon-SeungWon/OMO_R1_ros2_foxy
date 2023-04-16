@@ -1,0 +1,135 @@
+[0.216s] Invoking command in '/root/catkin_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/drive_base_msgs -- -j12 -l12
+[0.971s] [ 10%] Built target drive_base_msgs__rosidl_generator_c
+[0.972s] [ 12%] Built target drive_base_msgs__cpp
+[0.972s] [ 23%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[0.972s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_c
+[0.972s] [ 45%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[0.972s] [ 56%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[0.972s] [ 67%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[0.972s] [ 78%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[0.973s] [ 78%] Built target drive_base_msgs
+[0.973s] [ 80%] Built target drive_base_msgs__py
+[0.973s] [ 89%] Built target drive_base_msgs__python
+[1.028s] [ 92%] Built target drive_base_msgs__rosidl_typesupport_c__pyext
+[1.065s] [ 98%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.065s] [100%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext
+[1.249s] Invoked command in '/root/catkin_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/drive_base_msgs -- -j12 -l12
+[2.268s] Invoking command in '/root/catkin_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/drive_base_msgs
+[2.326s] -- Install configuration: ""
+[2.326s] -- Execute custom install script
+[2.326s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[2.326s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.h
+[2.327s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.h
+[2.327s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.h
+[2.327s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__functions.h
+[2.327s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.h
+[2.327s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.h
+[2.327s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__functions.h
+[2.328s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.h
+[2.328s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.h
+[2.328s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__functions.h
+[2.328s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.h
+[2.329s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.h
+[2.329s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__functions.h
+[2.329s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.h
+[2.329s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.h
+[2.329s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.329s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.h
+[2.330s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[2.330s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[2.330s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[2.330s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[2.330s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[2.331s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[2.331s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.331s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[2.331s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.331s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[2.334s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.336s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.338s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.339s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.340s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[2.340s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[2.340s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[2.340s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[2.340s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.340s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.hpp
+[2.340s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__builder.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__traits.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__builder.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__traits.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__builder.hpp
+[2.341s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__traits.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[2.342s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[2.343s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[2.343s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[2.343s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[2.343s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/__init__.py
+[2.343s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/__init__.py
+[2.343s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_base_info.py
+[2.344s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_header.py
+[2.344s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_status.py
+[2.344s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_trv_command.py
+[2.344s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.344s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.345s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.345s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__python.so
+[2.345s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[2.345s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[2.345s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[2.346s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[2.346s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[2.346s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[2.346s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[2.347s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[2.347s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[2.347s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[2.347s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[2.347s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[2.348s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[2.348s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[2.348s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[2.348s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[2.349s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[2.349s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[2.350s] -- Symlinking: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[2.362s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[2.363s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[2.363s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.363s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.363s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.363s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.363s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.364s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.365s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[2.365s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[2.366s] -- Up-to-date symlink: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[2.367s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[2.369s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[2.370s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[2.371s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[2.372s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[2.640s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport.cmake
+[2.640s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.640s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.641s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.641s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[2.642s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.642s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cppExport.cmake
+[2.643s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.643s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.644s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[2.644s] -- Up-to-date: /root/catkin_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.692s] Invoked command in '/root/catkin_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/drive_base_msgs

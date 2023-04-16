@@ -1,0 +1,13 @@
+# Target labels
+ uagent
+# Source files and their labels
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/uagent
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/uagent.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/uagent-complete.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/uagent-install.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/uagent-mkdir.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/uagent-download.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/uagent-update.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/uagent-patch.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/uagent-configure.rule
+/root/catkin_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/src/uagent-stamp/uagent-build.rule

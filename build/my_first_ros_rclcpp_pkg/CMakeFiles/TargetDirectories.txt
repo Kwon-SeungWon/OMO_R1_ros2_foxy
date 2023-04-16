@@ -1,0 +1,11 @@
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/strip.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/install.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/list_install_components.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/rebuild_cache.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/edit_cache.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/test.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/helloworld_subscriber.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/local.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/helloworld_publisher.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir
+/root/catkin_ws/build/my_first_ros_rclcpp_pkg/CMakeFiles/uninstall.dir

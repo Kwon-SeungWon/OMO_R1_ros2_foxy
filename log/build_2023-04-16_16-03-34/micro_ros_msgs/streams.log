@@ -1,0 +1,120 @@
+[0.559s] Invoking command in '/root/catkin_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_msgs -- -j12 -l12
+[1.339s] [  2%] Built target micro_ros_msgs__cpp
+[1.339s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[1.339s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.339s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.339s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.339s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[1.339s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_c
+[1.339s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.340s] [ 76%] Built target micro_ros_msgs
+[1.340s] [ 78%] Built target micro_ros_msgs__py
+[1.340s] [ 87%] Built target micro_ros_msgs__python
+[1.407s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[1.452s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.504s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[1.732s] Invoked command in '/root/catkin_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/micro_ros_msgs -- -j12 -l12
+[2.664s] Invoking command in '/root/catkin_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_msgs
+[3.276s] -- Install configuration: ""
+[3.276s] -- Execute custom install script
+[3.276s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h
+[3.277s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h
+[3.278s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h
+[3.278s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h
+[3.278s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h
+[3.278s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h
+[3.278s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.278s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[3.278s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[3.279s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[3.280s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.280s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.280s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[3.280s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[3.280s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[3.280s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.280s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp
+[3.281s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp
+[3.282s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp
+[3.282s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp
+[3.282s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp
+[3.282s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[3.282s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[3.282s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[3.282s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[3.283s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[3.283s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py
+[3.283s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py
+[3.283s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py
+[3.283s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py
+[3.283s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py
+[3.283s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[3.284s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[3.285s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[3.285s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[3.285s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[3.285s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[3.285s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[3.285s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[3.285s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[3.286s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[3.286s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[3.286s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[3.286s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[3.287s] -- Symlinking: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.287s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.288s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[3.288s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[3.288s] -- Up-to-date symlink: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[3.288s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[3.288s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[3.288s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[3.288s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[3.288s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[3.288s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.289s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[3.290s] -- Up-to-date: /root/catkin_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.888s] Invoked command in '/root/catkin_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/micro_ros_msgs

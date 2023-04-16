@@ -1,0 +1,1 @@
+CMake Error: failed to create symbolic link '/root/catkin_ws/install/testbot_description/share/testbot_description/package.dsv': file already exists

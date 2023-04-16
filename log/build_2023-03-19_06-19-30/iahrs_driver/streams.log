@@ -1,0 +1,17 @@
+[1.627s] Invoking command in '/root/catkin_ws/build/iahrs_driver': PYTHONPATH=/root/catkin_ws/build/iahrs_driver/prefix_override:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/iahrs_driver/build --no-deps install_data
+[1.894s] running develop
+[2.021s] running egg_info
+[2.021s] writing iahrs_driver.egg-info/PKG-INFO
+[2.021s] writing dependency_links to iahrs_driver.egg-info/dependency_links.txt
+[2.021s] writing entry points to iahrs_driver.egg-info/entry_points.txt
+[2.021s] writing requirements to iahrs_driver.egg-info/requires.txt
+[2.021s] writing top-level names to iahrs_driver.egg-info/top_level.txt
+[2.051s] reading manifest file 'iahrs_driver.egg-info/SOURCES.txt'
+[2.051s] writing manifest file 'iahrs_driver.egg-info/SOURCES.txt'
+[2.086s] running build_ext
+[2.086s] Creating /root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages/iahrs-driver.egg-link (link to .)
+[2.087s] Installing driver script to /root/catkin_ws/install/iahrs_driver/lib/iahrs_driver
+[2.088s] 
+[2.088s] Installed /root/catkin_ws/build/iahrs_driver
+[2.088s] running install_data
+[2.576s] Invoked command in '/root/catkin_ws/build/iahrs_driver' returned '0': PYTHONPATH=/root/catkin_ws/build/iahrs_driver/prefix_override:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/iahrs_driver/build --no-deps install_data

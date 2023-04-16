@@ -1,0 +1,1 @@
+/root/catkin_ws/build/iahrs_driver_interface/ament_cmake_environment_hooks/local_setup.zsh

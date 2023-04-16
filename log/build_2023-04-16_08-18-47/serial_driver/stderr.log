@@ -1,0 +1,1 @@
+CMake Error: failed to create symbolic link '/root/catkin_ws/install/serial_driver/share/serial_driver/package.dsv': file already exists

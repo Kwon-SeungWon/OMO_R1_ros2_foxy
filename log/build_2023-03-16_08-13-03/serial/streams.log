@@ -1,0 +1,35 @@
+[0.675s] Invoking command in '/root/catkin_ws/build/serial': /usr/bin/cmake /root/catkin_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/serial
+[0.745s] -- The C compiler identification is GNU 9.4.0
+[0.874s] -- The CXX compiler identification is GNU 9.4.0
+[0.874s] -- Check for working C compiler: /usr/bin/cc
+[0.925s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.926s] -- Detecting C compiler ABI info
+[1.025s] -- Detecting C compiler ABI info - done
+[1.025s] -- Detecting C compile features
+[1.025s] -- Detecting C compile features - done
+[1.026s] -- Check for working CXX compiler: /usr/bin/c++
+[1.092s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.094s] -- Detecting CXX compiler ABI info
+[1.180s] -- Detecting CXX compiler ABI info - done
+[1.199s] -- Detecting CXX compile features
+[1.199s] -- Detecting CXX compile features - done
+[1.225s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.225s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.225s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.225s]   CMake did not find one.
+[1.225s] 
+[1.225s]   Could not find a package configuration file provided by "catkin" with any
+[1.226s]   of the following names:
+[1.226s] 
+[1.226s]     catkinConfig.cmake
+[1.226s]     catkin-config.cmake
+[1.227s] 
+[1.227s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.229s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.229s]   provides a separate development package or SDK, be sure it has been
+[1.230s]   installed.
+[1.230s] 
+[1.230s] 
+[1.231s] -- Configuring incomplete, errors occurred!
+[1.231s] See also "/root/catkin_ws/build/serial/CMakeFiles/CMakeOutput.log".
+[1.739s] Invoked command in '/root/catkin_ws/build/serial' returned '1': /usr/bin/cmake /root/catkin_ws/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install/serial

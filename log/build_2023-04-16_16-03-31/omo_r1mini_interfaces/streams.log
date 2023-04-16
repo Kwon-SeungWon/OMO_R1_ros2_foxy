@@ -1,0 +1,177 @@
+[0.244s] Invoking command in '/root/catkin_ws/build/omo_r1mini_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_interfaces -- -j12 -l12
+[0.961s] [  1%] Built target omo_r1mini_interfaces__cpp
+[0.961s] [ 12%] Built target omo_r1mini_interfaces__rosidl_generator_c
+[0.961s] [ 23%] Built target omo_r1mini_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.961s] [ 35%] Built target omo_r1mini_interfaces__rosidl_typesupport_cpp
+[0.961s] [ 46%] Built target omo_r1mini_interfaces__rosidl_typesupport_introspection_c
+[0.961s] [ 57%] Built target omo_r1mini_interfaces__rosidl_typesupport_introspection_cpp
+[0.962s] [ 69%] Built target omo_r1mini_interfaces__rosidl_typesupport_c
+[0.962s] [ 80%] Built target omo_r1mini_interfaces__rosidl_typesupport_fastrtps_c
+[0.962s] [ 80%] Built target omo_r1mini_interfaces
+[0.970s] [ 81%] Built target omo_r1mini_interfaces__py
+[1.063s] [ 91%] Built target omo_r1mini_interfaces__python
+[1.164s] [ 94%] Built target omo_r1mini_interfaces__rosidl_typesupport_c__pyext
+[1.207s] [ 97%] Built target omo_r1mini_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.213s] [100%] Built target omo_r1mini_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.401s] Invoked command in '/root/catkin_ws/build/omo_r1mini_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /root/catkin_ws/build/omo_r1mini_interfaces -- -j12 -l12
+[3.789s] Invoking command in '/root/catkin_ws/build/omo_r1mini_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_interfaces
+[3.950s] -- Install configuration: ""
+[3.950s] -- Execute custom install script
+[3.950s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/rosidl_interfaces/omo_r1mini_interfaces
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/battery.h
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/calg.h
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/color.h
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__functions.h
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__struct.h
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__type_support.h
+[3.951s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__functions.h
+[3.952s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__struct.h
+[3.952s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__type_support.h
+[3.952s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__functions.h
+[3.952s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__struct.h
+[3.952s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__type_support.h
+[3.964s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__functions.h
+[3.964s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__struct.h
+[3.965s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__type_support.h
+[3.965s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__functions.h
+[3.966s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__struct.h
+[3.966s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__type_support.h
+[3.967s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__functions.h
+[3.967s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__struct.h
+[3.967s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__type_support.h
+[3.968s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/onoff.h
+[3.969s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/reset_odom.h
+[3.969s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/save_color.h
+[3.969s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/library_path.sh
+[3.970s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/library_path.dsv
+[3.973s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.973s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_fastrtps_c.h
+[3.974s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_fastrtps_c.h
+[3.974s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_fastrtps_c.h
+[3.974s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_fastrtps_c.h
+[3.974s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_fastrtps_c.h
+[3.975s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_fastrtps_c.h
+[3.975s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.975s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.975s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_fastrtps_cpp.hpp
+[3.975s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.976s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[3.976s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_fastrtps_cpp.hpp
+[3.976s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_fastrtps_cpp.hpp
+[3.976s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_fastrtps_cpp.hpp
+[3.977s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.977s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.977s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_introspection_c.h
+[3.978s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_introspection_c.h
+[3.978s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_introspection_c.h
+[3.978s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_introspection_c.h
+[3.979s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_introspection_c.h
+[3.979s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_introspection_c.h
+[3.980s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/battery.hpp
+[3.996s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/calg.hpp
+[3.996s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/color.hpp
+[3.996s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__builder.hpp
+[3.996s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__struct.hpp
+[3.997s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__traits.hpp
+[3.997s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__builder.hpp
+[3.997s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__struct.hpp
+[3.997s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__traits.hpp
+[3.997s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__builder.hpp
+[3.997s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__struct.hpp
+[3.998s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__traits.hpp
+[3.998s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__builder.hpp
+[3.998s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__struct.hpp
+[3.998s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__traits.hpp
+[3.998s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__builder.hpp
+[3.999s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__struct.hpp
+[3.999s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__traits.hpp
+[3.999s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__builder.hpp
+[3.999s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__struct.hpp
+[3.999s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__traits.hpp
+[4.000s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/onoff.hpp
+[4.012s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/reset_odom.hpp
+[4.012s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/save_color.hpp
+[4.013s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_introspection_cpp.hpp
+[4.013s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_introspection_cpp.hpp
+[4.013s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[4.014s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_introspection_cpp.hpp
+[4.014s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_introspection_cpp.hpp
+[4.014s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_introspection_cpp.hpp
+[4.014s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/pythonpath.sh
+[4.015s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/pythonpath.dsv
+[4.015s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/__init__.py
+[4.015s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/__init__.py
+[4.015s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_battery.py
+[4.016s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_calg.py
+[4.016s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_color.py
+[4.016s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_onoff.py
+[4.016s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_reset_odom.py
+[4.017s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_save_color.py
+[4.017s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/omo_r1mini_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.017s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/omo_r1mini_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.017s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/omo_r1mini_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.018s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__python.so
+[4.018s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery.idl
+[4.018s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg.idl
+[4.018s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color.idl
+[4.019s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff.idl
+[4.019s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom.idl
+[4.019s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor.idl
+[4.020s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery.srv
+[4.020s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery_Request.msg
+[4.020s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery_Response.msg
+[4.020s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg.srv
+[4.021s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg_Request.msg
+[4.021s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg_Response.msg
+[4.022s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color.srv
+[4.023s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color_Request.msg
+[4.023s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color_Response.msg
+[4.023s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff.srv
+[4.036s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff_Request.msg
+[4.037s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff_Response.msg
+[4.037s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom.srv
+[4.038s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom_Request.msg
+[4.038s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom_Response.msg
+[4.038s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor.srv
+[4.042s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor_Request.msg
+[4.042s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor_Response.msg
+[4.042s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_interfaces
+[4.042s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_interfaces
+[4.042s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/ament_prefix_path.sh
+[4.042s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/ament_prefix_path.dsv
+[4.042s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/path.sh
+[4.043s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/path.dsv
+[4.043s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.bash
+[4.043s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.sh
+[4.043s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.zsh
+[4.043s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.dsv
+[4.043s] -- Symlinking: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/package.dsv
+[4.044s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/packages/omo_r1mini_interfaces
+[4.045s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.045s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.045s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.045s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.045s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.046s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.046s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.046s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfacesConfig.cmake
+[4.046s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfacesConfig-version.cmake
+[4.046s] -- Up-to-date symlink: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/package.xml
+[4.046s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_generator_c.so
+[4.046s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_introspection_c.so
+[4.046s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_c.so
+[4.046s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.047s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_cpp.so
+[4.114s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_generator_cExport.cmake
+[4.115s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.120s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.121s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.121s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cExport.cmake
+[4.121s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.121s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_generator_cppExport.cmake
+[4.121s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.121s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.121s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cppExport.cmake
+[4.122s] -- Up-to-date: /root/catkin_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.515s] Invoked command in '/root/catkin_ws/build/omo_r1mini_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/catkin_ws/install/topic_service_action_rclpy_example:/root/catkin_ws/install/time_rclpy_example:/root/catkin_ws/install/tf2_rclpy_example:/root/catkin_ws/install/ros2env:/root/catkin_ws/install/omo_r1mini_teleop:/root/catkin_ws/install/omo_r1mini_bringup:/root/catkin_ws/install/my_first_ros_rclpy_pkg:/root/catkin_ws/install/logging_rclpy_example:/root/catkin_ws/install/iahrs_driver:/root/install/topic_service_action_rclpy_example:/root/install/time_rclpy_example:/root/install/tf2_rclpy_example:/root/install/ros2env:/root/install/omo_r1mini_teleop:/root/install/omo_r1mini_bringup:/root/install/my_first_ros_rclpy_pkg:/root/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /root/catkin_ws/build/omo_r1mini_interfaces

@@ -1,0 +1,1 @@
+/root/catkin_ws/src/transport_drivers/serial_driver/launch/serial_driver_bridge_node.launch.py

@@ -1,0 +1,17 @@
+[3.664s] Invoking command in '/root/catkin_ws/build/logging_rclpy_example': PYTHONPATH=/root/catkin_ws/build/logging_rclpy_example/prefix_override:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/logging_rclpy_example/build --no-deps install_data
+[4.257s] running develop
+[4.735s] running egg_info
+[4.735s] writing logging_rclpy_example.egg-info/PKG-INFO
+[4.735s] writing dependency_links to logging_rclpy_example.egg-info/dependency_links.txt
+[4.735s] writing entry points to logging_rclpy_example.egg-info/entry_points.txt
+[4.735s] writing requirements to logging_rclpy_example.egg-info/requires.txt
+[4.735s] writing top-level names to logging_rclpy_example.egg-info/top_level.txt
+[4.809s] reading manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[4.811s] writing manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[4.890s] running build_ext
+[4.894s] Creating /root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging-rclpy-example.egg-link (link to .)
+[4.895s] Installing logging_example script to /root/catkin_ws/install/logging_rclpy_example/lib/logging_rclpy_example
+[4.895s] 
+[4.895s] Installed /root/catkin_ws/build/logging_rclpy_example
+[4.895s] running install_data
+[5.575s] Invoked command in '/root/catkin_ws/build/logging_rclpy_example' returned '0': PYTHONPATH=/root/catkin_ws/build/logging_rclpy_example/prefix_override:/root/catkin_ws/install/logging_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/logging_rclpy_example/build --no-deps install_data

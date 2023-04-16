@@ -1,0 +1,6 @@
+/root/catkin_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/FromLL.idl
+/root/catkin_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/GetState.idl
+/root/catkin_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/SetDatum.idl
+/root/catkin_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/SetPose.idl
+/root/catkin_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/ToggleFilterProcessing.idl
+/root/catkin_ws/build/robot_localization/rosidl_adapter/robot_localization:srv/ToLL.idl

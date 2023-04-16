@@ -1,0 +1,1 @@
+/root/catkin_ws/build/omo_r1mini_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

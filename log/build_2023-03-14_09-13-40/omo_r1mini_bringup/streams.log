@@ -1,0 +1,34 @@
+[0.728s] Invoking command in '/root/catkin_ws/build/omo_r1mini_bringup': AMENT_PREFIX_PATH=/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_description LD_LIBRARY_PATH=/root/catkin_ws/install/omo_r1mini_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/omo_r1mini_bringup/prefix_override:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/omo_r1mini_bringup/build --no-deps install_data
+[0.878s] running develop
+[0.958s] running egg_info
+[0.958s] creating omo_r1mini_bringup.egg-info
+[0.959s] writing omo_r1mini_bringup.egg-info/PKG-INFO
+[0.959s] writing dependency_links to omo_r1mini_bringup.egg-info/dependency_links.txt
+[0.959s] writing entry points to omo_r1mini_bringup.egg-info/entry_points.txt
+[0.959s] writing requirements to omo_r1mini_bringup.egg-info/requires.txt
+[0.959s] writing top-level names to omo_r1mini_bringup.egg-info/top_level.txt
+[0.966s] writing manifest file 'omo_r1mini_bringup.egg-info/SOURCES.txt'
+[0.990s] reading manifest file 'omo_r1mini_bringup.egg-info/SOURCES.txt'
+[0.990s] writing manifest file 'omo_r1mini_bringup.egg-info/SOURCES.txt'
+[1.016s] running build_ext
+[1.016s] Creating /root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/site.py
+[1.018s] Creating /root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo-r1mini-bringup.egg-link (link to .)
+[1.019s] Installing omo_r1mini_mcu_node script to /root/catkin_ws/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.019s] Installing omo_r1mini_motor_setting_node script to /root/catkin_ws/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[1.019s] 
+[1.019s] Installed /root/catkin_ws/build/omo_r1mini_bringup
+[1.019s] running install_data
+[1.020s] creating /root/catkin_ws/install/omo_r1mini_bringup/share/ament_index
+[1.020s] creating /root/catkin_ws/install/omo_r1mini_bringup/share/ament_index/resource_index
+[1.020s] creating /root/catkin_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/packages
+[1.020s] copying resource/omo_r1mini_bringup -> /root/catkin_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/packages
+[1.020s] copying package.xml -> /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup
+[1.020s] creating /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[1.020s] copying launch/omo_r1mini_bringup.launch.py -> /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[1.021s] copying launch/omo_r1mini_lidar.launch.py -> /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[1.021s] copying launch/omo_r1mini_mcu.launch.py -> /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[1.021s] copying launch/omo_r1mini_motor_setting.launch.py -> /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[1.021s] creating /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[1.021s] copying param/omo_r1mini_lidar.yaml -> /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[1.021s] copying param/omo_r1mini_mcu.yaml -> /root/catkin_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[1.052s] Invoked command in '/root/catkin_ws/build/omo_r1mini_bringup' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/omo_r1mini_interfaces:/root/catkin_ws/install/omo_r1mini_description LD_LIBRARY_PATH=/root/catkin_ws/install/omo_r1mini_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/omo_r1mini_bringup/prefix_override:/root/catkin_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/root/catkin_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/omo_r1mini_bringup/build --no-deps install_data

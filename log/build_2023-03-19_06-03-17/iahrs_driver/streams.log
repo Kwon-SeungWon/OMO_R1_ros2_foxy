@@ -1,0 +1,25 @@
+[1.696s] Invoking command in '/root/catkin_ws/build/iahrs_driver': PYTHONPATH=/root/catkin_ws/build/iahrs_driver/prefix_override:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/iahrs_driver/build --no-deps install_data
+[1.963s] running develop
+[2.107s] running egg_info
+[2.107s] creating iahrs_driver.egg-info
+[2.107s] writing iahrs_driver.egg-info/PKG-INFO
+[2.107s] writing dependency_links to iahrs_driver.egg-info/dependency_links.txt
+[2.108s] writing entry points to iahrs_driver.egg-info/entry_points.txt
+[2.108s] writing requirements to iahrs_driver.egg-info/requires.txt
+[2.108s] writing top-level names to iahrs_driver.egg-info/top_level.txt
+[2.110s] writing manifest file 'iahrs_driver.egg-info/SOURCES.txt'
+[2.147s] reading manifest file 'iahrs_driver.egg-info/SOURCES.txt'
+[2.147s] writing manifest file 'iahrs_driver.egg-info/SOURCES.txt'
+[2.181s] running build_ext
+[2.182s] Creating /root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages/site.py
+[2.184s] Creating /root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages/iahrs-driver.egg-link (link to .)
+[2.184s] Installing driver script to /root/catkin_ws/install/iahrs_driver/lib/iahrs_driver
+[2.185s] 
+[2.185s] Installed /root/catkin_ws/build/iahrs_driver
+[2.185s] running install_data
+[2.185s] creating /root/catkin_ws/install/iahrs_driver/share/ament_index
+[2.185s] creating /root/catkin_ws/install/iahrs_driver/share/ament_index/resource_index
+[2.185s] creating /root/catkin_ws/install/iahrs_driver/share/ament_index/resource_index/packages
+[2.185s] copying resource/iahrs_driver -> /root/catkin_ws/install/iahrs_driver/share/ament_index/resource_index/packages
+[2.186s] copying package.xml -> /root/catkin_ws/install/iahrs_driver/share/iahrs_driver
+[2.599s] Invoked command in '/root/catkin_ws/build/iahrs_driver' returned '0': PYTHONPATH=/root/catkin_ws/build/iahrs_driver/prefix_override:/root/catkin_ws/install/iahrs_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/iahrs_driver/build --no-deps install_data

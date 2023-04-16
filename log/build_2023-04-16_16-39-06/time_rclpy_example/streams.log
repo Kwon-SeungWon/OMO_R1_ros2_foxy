@@ -1,0 +1,17 @@
+[3.268s] Invoking command in '/root/catkin_ws/build/time_rclpy_example': PYTHONPATH=/root/catkin_ws/build/time_rclpy_example/prefix_override:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/time_rclpy_example/build --no-deps install_data
+[3.828s] running develop
+[4.045s] running egg_info
+[4.046s] writing time_rclpy_example.egg-info/PKG-INFO
+[4.046s] writing dependency_links to time_rclpy_example.egg-info/dependency_links.txt
+[4.047s] writing entry points to time_rclpy_example.egg-info/entry_points.txt
+[4.047s] writing requirements to time_rclpy_example.egg-info/requires.txt
+[4.047s] writing top-level names to time_rclpy_example.egg-info/top_level.txt
+[4.099s] reading manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[4.103s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[4.183s] running build_ext
+[4.184s] Creating /root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages/time-rclpy-example.egg-link (link to .)
+[4.191s] Installing time_example script to /root/catkin_ws/install/time_rclpy_example/lib/time_rclpy_example
+[4.191s] 
+[4.192s] Installed /root/catkin_ws/build/time_rclpy_example
+[4.192s] running install_data
+[4.273s] Invoked command in '/root/catkin_ws/build/time_rclpy_example' returned '0': PYTHONPATH=/root/catkin_ws/build/time_rclpy_example/prefix_override:/root/catkin_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/time_rclpy_example/build --no-deps install_data

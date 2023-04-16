@@ -1,0 +1,32 @@
+[0.532s] Invoking command in '/root/catkin_ws/build/topic_service_action_rclpy_example': AMENT_PREFIX_PATH=/root/catkin_ws/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/msg_srv_action_interface_example:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/topic_service_action_rclpy_example/prefix_override:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/topic_service_action_rclpy_example/build --no-deps install_data
+[0.706s] running develop
+[0.797s] running egg_info
+[0.797s] creating topic_service_action_rclpy_example.egg-info
+[0.798s] writing topic_service_action_rclpy_example.egg-info/PKG-INFO
+[0.798s] writing dependency_links to topic_service_action_rclpy_example.egg-info/dependency_links.txt
+[0.798s] writing entry points to topic_service_action_rclpy_example.egg-info/entry_points.txt
+[0.798s] writing requirements to topic_service_action_rclpy_example.egg-info/requires.txt
+[0.798s] writing top-level names to topic_service_action_rclpy_example.egg-info/top_level.txt
+[0.799s] writing manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[0.824s] reading manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[0.824s] writing manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[0.851s] running build_ext
+[0.851s] Creating /root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages/site.py
+[0.853s] Creating /root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages/topic-service-action-rclpy-example.egg-link (link to .)
+[0.853s] Installing argument script to /root/catkin_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.853s] Installing calculator script to /root/catkin_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.854s] Installing checker script to /root/catkin_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.854s] Installing operator script to /root/catkin_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.854s] 
+[0.854s] Installed /root/catkin_ws/build/topic_service_action_rclpy_example
+[0.854s] running install_data
+[0.854s] creating /root/catkin_ws/install/topic_service_action_rclpy_example/share/ament_index
+[0.854s] creating /root/catkin_ws/install/topic_service_action_rclpy_example/share/ament_index/resource_index
+[0.854s] creating /root/catkin_ws/install/topic_service_action_rclpy_example/share/ament_index/resource_index/packages
+[0.854s] copying resource/topic_service_action_rclpy_example -> /root/catkin_ws/install/topic_service_action_rclpy_example/share/ament_index/resource_index/packages
+[0.854s] copying package.xml -> /root/catkin_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example
+[0.854s] creating /root/catkin_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/launch
+[0.854s] copying launch/arithmetic.launch.py -> /root/catkin_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/launch
+[0.854s] creating /root/catkin_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/param
+[0.854s] copying param/arithmetic_config.yaml -> /root/catkin_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/param
+[0.875s] Invoked command in '/root/catkin_ws/build/topic_service_action_rclpy_example' returned '0': AMENT_PREFIX_PATH=/root/catkin_ws/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/catkin_ws/install/msg_srv_action_interface_example:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/catkin_ws/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/catkin_ws/build/topic_service_action_rclpy_example/prefix_override:/root/catkin_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/root/catkin_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/catkin_ws/build/topic_service_action_rclpy_example/build --no-deps install_data

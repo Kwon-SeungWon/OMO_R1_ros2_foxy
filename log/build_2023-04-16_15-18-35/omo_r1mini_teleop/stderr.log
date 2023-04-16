@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for tf2-rclpy-example [unknown version] (/root/catkin_ws/build/tf2_rclpy_example)
+  self.local_index = Environment(self.shadow_path + sys.path)
